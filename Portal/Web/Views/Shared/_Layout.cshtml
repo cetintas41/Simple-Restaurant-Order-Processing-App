@@ -1,0 +1,331 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Entities
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@model Web.Models.LayoutViewModel
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portal</title>
+
+    <!-- Bootstrap -->
+    <link href="~/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/gentelella/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="~/gentelella/build/css/custom.min.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="~/gentelella/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Toaster -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+   
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Portal</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="@Model.CurrentFirmLogo" alt="@Model.CurrentUser.Name" class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Hoş Geldiniz,</span>
+                            <h2>@Model.CurrentUser.Name</h2>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>Seçenekler</h3>
+                            <ul class="nav side-menu">
+
+                                @if (Model.CurrentUserRoles.Contains("Admin"))
+                                {
+                                    <li>
+                                        <a><i class="fa fa-home"></i> Admin <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="@Url.Action("Firms","Admin")"><i class="fa fa-briefcase"></i> Firma Kullanıcıları </a></li>
+                                        </ul>
+                                    </li>
+                                }
+                                @if (Model.CurrentUserRoles.Contains("Firm"))
+                                {
+                                    <li>
+                                        <a><i class="fa fa-home"></i> Firma <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="@Url.Action("Branches","Firm")"><i class="fa fa-th-large"></i> Şube Kullanıcıları</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a><i class="fa fa-area-chart"></i> İstatistik <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="@Url.Action("BranchStats","Branch")"><i class="fa fa-pie-chart"></i> Şube [soon]</a></li>
+                                        </ul>
+                                    </li>
+                                }
+
+                                @if (Model.CurrentUserRoles.Contains("Branch"))
+                                {
+                                    <li>
+                                        <a><i class="fa fa-home"></i> Şube <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="@Url.Action("Dashboard","Branch")"><i class="fa fa-dashboard"></i> Panel</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a><i class="fa fa-database"></i> Malzeme <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="@Url.Action("Waiters","Branch")"><i class="fa fa-users"></i> Garsonlar</a></li>
+                                            <li><a href="@Url.Action("Menus","Branch")"><i class="fa fa-cutlery"></i> Menüler</a></li>
+                                            <li><a href="@Url.Action("MenuTypes","Branch")"><i class="fa fa-tags"></i> Menü Tipleri</a></li>
+                                            <li><a href="@Url.Action("Tables","Branch")"><i class="fa fa-qrcode"></i> Masalar</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a><i class="fa fa-area-chart"></i> İstatistik <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="#" onclick="GetDropDownData(); $('#modal-select-waiter').modal();"><i class="fa fa-line-chart"></i> Garson</a></li>
+
+                                            <li><a href="@Url.Action("Stats","Branch")"><i class="fa fa-pie-chart"></i> Şube</a></li>
+                                        </ul>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="menu_section">
+
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav>
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="@Model.CurrentFirmLogo" alt="@Model.CurrentUser.Name">@Model.CurrentUser.Name
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="@Url.Action("Settings", "Home")"><i class="fa fa-gears pull-right"></i> Ayarlar</a></li>
+                                    <li><a href="@Url.Action("Logout", "Account")"><i class="fa fa-sign-out pull-right"></i> Çıkış</a></li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="@Model.CurrentFirmLogo" alt="@Model.CurrentUser.Name" /></span>
+                                            <span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                                Film festivals used to be do-or-die moments for movie makers. They were where~/gentelella.
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a>
+                                                <strong>See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+                @RenderBody()
+            </div>
+            <!-- /page content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/gentelella/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/gentelella/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/gentelella/vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="~/gentelella/vendors/iCheck/icheck.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="~/gentelella/build/js/custom.min.js"></script>
+    <!-- Toaster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+    <!-- jQuery Smart Wizard -->
+    <script src="~/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+    <!-- jquery.inputmask -->
+    <script src="~/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <!-- Modals -->
+    @if (Model.CurrentUserRoles.Contains("Branch"))
+    {
+        <div id="modal-select-waiter" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4><i class="fa fa-line-chart"></i> Garson İstatistikleri</h4>
+                    </div>
+                    <form asp-action="WaiterStats" asp-controller="Branch" method="post" id="demo-form121" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+
+                        <div class="modal-body">
+                            <p class="text-muted">Lütfen bir garson ve zaman dilimi seçiniz.</p>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="stats-filter-waiter">
+                                    Garson
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <select id="stats-filter-waiter" name="WaiterId" class="selectpicker form-control"> </select>
+                                    <script>
+                                        function GetDropDownData() {
+                                            $.ajax({
+                                                type: "GET",
+                                                url: "@Url.Action("GetWaiters","Branch")",
+                                                contentType: "application/json; charset=utf-8",
+                                                dataType: "json",
+                                                success: function (data) {
+                                                    $.each(data, function () {
+                                                        var options = "<option " + "value='" + this.ID + "'>" + this.NAME + "</option>";
+                                                        $("#stats-filter-waiter").append(options);
+                                                    });
+                                                    $('#stats-filter-waiter').selectpicker('refresh');
+                                                },
+                                                failure: function () {
+                                                    alert("Failed!");
+                                                }
+                                            });
+                                        }
+
+                                        $(function () {
+                                            $('#date-end').attr("disabled", true);
+                                            $('#toggle-event').change(function () {
+                                                if ($(this).prop('checked')) {
+                                                    // tarih
+                                                    $('#date-end').attr("disabled", true);
+                                                }
+                                                else {
+                                                    $('#date-end').removeAttr("disabled");
+
+                                                }
+
+                                            })
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="stats-filter-type">
+                                    Filtre türü
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input id="toggle-event" type="checkbox" checked data-toggle="toggle"
+                                           data-on="Tarih" data-off="Tarih aralığı"
+                                           data-width="100"
+                                           data-size="small" data-onstyle="default">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="stats-filter-type">
+                                    Başlangıç
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input  name="Start" type="text" class="form-control" data-inputmask="'mask': '99/99/9999'" placeholder="Gün/Ay/Yıl">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="stats-filter-type">
+                                    Bitiş
+                                </label>
+                                <div class="col col-md-6 col-sm-6 col-xs-12">
+                                    <input   name="End" id="date-end" type="text" class="form-control" data-inputmask="'mask': '99/99/9999'" placeholder="Gün/Ay/Yıl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i> Vazgeç</button>
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Seç</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    }
+</body>
+</html>

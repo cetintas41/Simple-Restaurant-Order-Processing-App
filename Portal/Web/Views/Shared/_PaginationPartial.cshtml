@@ -1,0 +1,34 @@
+﻿@model Web.Models.PaginationModel
+
+<ul class="pagination">
+    <li class="paginate_button previous @(Model.Page == 1 ? "disabled":"")" id="datatable-responsive_previous">
+        <a class="@(Model.Page == 1 ? "btn disabled":"btn")"
+           onclick="changePage(@Model.Page-1)"
+           href="#"
+           aria-controls="datatable-responsive"
+           data-dt-idx="0" tabindex="0">
+            <i class="fa fa-arrow-circle-left text-primary"></i>
+        </a>
+    </li>
+    @for (int i = 1; i <= Math.Ceiling((double)Model.Count / Model.Top); i++)
+    {
+        <li class="paginate_button @(Model.Page  == i ? "active" : "")">
+            <a class="btn" onclick="changePage(@i)"
+               href="#" aria-controls="datatable-responsive" data-dt-idx="@i" tabindex="@i">@i</a>
+        </li>
+
+    }
+    <li class="paginate_button next @(Model.Page == Math.Ceiling((double)Model.Count / Model.Top) ? "disabled":"")">
+        <a class="@(Model.Page == Math.Ceiling((double)Model.Count / Model.Top) ? "btn disabled":"btn")" 
+           onclick="changePage(@Model.Page+1)" 
+           href="#" 
+           aria-controls="datatable-responsive" data-dt-idx="7" tabindex="0"><i class="fa fa-arrow-circle-right text-primary"></i></a>
+    </li>
+</ul>
+
+@*<script>
+    function changePage(p) {
+        $('#p').val(p);
+        $('#search-paging-form').submit();
+    }
+</script>*@

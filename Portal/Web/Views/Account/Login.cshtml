@@ -1,0 +1,169 @@
+﻿@model Web.Models.LoginModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    Layout = null;
+    ViewData["Title"] = Localizer["AppName"];
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@Localizer["AppName"]</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="~/login/images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="~/login/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="~/login/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/login/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="~/login/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="~/login/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/login/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="~/login/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/login/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.5/css/bootstrap-select.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
+                <div class="float-right mb-4">
+                    <form method="post" asp-route-returnurl="@ViewData["ReturnUrl"]" id="form-change-language" asp-action="Language" asp-controller="Home">
+                        <select id="selectpicker-culture" class="selectpicker" data-width="fit">
+                            @if (System.Globalization.CultureInfo.CurrentCulture.Name == "tr")
+                            {
+                                <option value="tr" selected data-content='<span class="flag-icon flag-icon-tr"></span> Türkçe'>Türkçe</option>
+                                <option value="en" data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                            }
+                            else
+                            {
+                                <option value="tr" data-content='<span class="flag-icon flag-icon-tr"></span> Türkçe'>Türkçe</option>
+                                <option value="en" selected data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                            }
+                        </select>
+                        <input type="hidden" name="culture" id="input-culture" />
+                        <input type="hidden" name="returnUrl" id="input-returnurl" />
+                    </form>
+                </div>
+                <form id="form-login" method="post" asp-action="Login" asp-controller="Account" class="login100-form validate-form flex-sb flex-w">
+
+                    <span class="login100-form-title p-b-32" style="font-size:medium;">@Localizer["ConnectYourAccount"]</span>
+
+                    <span class="txt1 p-b-11">
+                       @Localizer["Email"]
+                    </span>
+                    <div class="wrap-input100 validate-input m-b-36" data-validate="E-posta zorunludur">
+                        <input class="input100" type="email" name="Email" id="login-email" required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <span class="txt1 p-b-11">
+                        @Localizer["Password"]
+                    </span>
+                    <div class="wrap-input100 validate-input m-b-12" data-validate="Şifre zorunludur">
+                        <span class="btn-show-pass">
+                            <i class="fa fa-eye"></i>
+                        </span>
+                        <input class="input100" type="password" name="Password" id="login-password" required>
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="flex-sb-m w-full p-b-48">
+                        <div class="contact100-form-checkbox">
+                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="RememberMe" value="true">
+                            <label class="label-checkbox100" for="ckb1">
+                               @Localizer["RememberMe"]
+                            </label>
+                        </div>
+
+                        <div>
+                            <a href="#" data-toggle="modal" data-target="#modal-forgot-password" class="txt3">
+                              @Localizer["ForgotPassword"]
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container-login100-form-btn justify-content-center mb-5">
+                        <button onclick="login(this)" type="submit" class="btn btn-dark btn-lg btn-block">@Localizer["Login"]</button>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <p style="color:red; font-weight:bold">@Html.ValidationMessage("LoginError")</p>
+                </div>
+                <hr />
+                <div class="container-login100-form-btn justify-content-center">
+                    <span style="font-size: 40px; color:#3b5998" class="mr-3">
+                        <i class="fab fa-facebook-square"></i>
+                    </span>
+                    <span style="font-size: 40px; color:#DB4437" class="ml-3">
+                        <i class="fab fa-google-plus-square"></i>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <form method="post" asp-action="Register" asp-controller="Account">
+                    <input type="hidden" name="Email" value="admin@admin.com" />
+                    <input type="hidden" name="Name" value="System Admin" />
+                    <input type="hidden" name="Password" value="Onur1841!" />
+                    <input type="hidden" name="PasswordConfirm" value="Onur1841!" />
+                    <input type="hidden" name="Phone" value="90-542-461-38-46" />
+                    <input type="hidden" name="Role" value="Admin" />
+                    <button type="submit">register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal-forgot-password" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6><i class="fa fa-location-arrow"></i> @Localizer["RecoverMyAccount"]</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span class="txt1 p-b-11">
+                        @Localizer["Email"]
+                    </span>
+                    <div class="wrap-input100 validate-input m-b-36" data-validate="@Localizer["EmailMust"]">
+                        <input class="input100" type="email" id="forgot-pass" placeholder="@Localizer["YourRegisteredEmail"]" required>
+                        <span class="focus-input100"></span>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <div class="col col-lg-6 text-center">
+                        <button type="button" class="btn btn-danger btn-xs btn-block" data-dismiss="modal"><i class="fa fa-close"></i> @Localizer["Cancel"]</button>
+                    </div>
+                    <div class="col col-lg-6 text-center">
+                        <button onclick="forgotPassword()" type="button" class="btn btn-dark btn-xs btn-block"><i class="fa fa-send"></i> @Localizer["Send"]</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dropDownSelect1"></div>
+    <script src="~/login/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/login/vendor/animsition/js/animsition.min.js"></script>
+    <script src="~/login/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/login/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/login/vendor/select2/select2.min.js"></script>
+    <script src="~/login/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/login/vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="~/login/vendor/countdowntime/countdowntime.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="~/login/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.5/js/bootstrap-select.min.js"></script>
+    <script src="~/js/account/@Localizer["JsPath"]"></script>
+</body>
+</html>

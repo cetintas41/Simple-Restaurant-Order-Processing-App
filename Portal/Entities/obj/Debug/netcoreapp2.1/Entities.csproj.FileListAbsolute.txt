@@ -1,0 +1,33 @@
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.pdb
+D:\StartupProject\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
+D:\StartupProject\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.dll
+D:\StartupProject\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
+D:\StartupProject\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
+D:\StartupProject\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+D:\StartupProject\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+D:\StartupProject\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.dll
+D:\StartupProject\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\Onur\Desktop\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
+C:\Users\Onur\Desktop\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Onur\Desktop\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\Onur\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+C:\Users\Onur\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Onur\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
+C:\Users\OCETINTAS\Desktop\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\OCETINTAS\Desktop\Portal\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.csprojAssemblyReference.cache
+C:\Users\OCETINTAS\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\OCETINTAS\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+C:\Users\OCETINTAS\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+C:\Users\OCETINTAS\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.dll
+C:\Users\OCETINTAS\Desktop\Portal\Entities\obj\Debug\netcoreapp2.1\Entities.pdb

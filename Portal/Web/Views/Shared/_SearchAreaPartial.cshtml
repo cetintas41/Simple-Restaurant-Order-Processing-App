@@ -1,0 +1,11 @@
+﻿@model string
+
+<div class="input-group">
+    <input type="text" class="form-control input-sm" id="search-user" value="" placeholder="@Model">
+    <span class="input-group-btn">
+        <button onclick="$('#kw').val($('#search-user').val()); $('#search-paging-form').submit();"
+                type="button" class="btn btn-sm btn-primary">
+            <i class="fa fa-search"></i> Ara
+        </button>
+    </span>
+</div>

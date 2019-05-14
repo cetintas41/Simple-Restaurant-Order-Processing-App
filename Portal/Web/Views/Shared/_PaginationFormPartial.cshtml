@@ -1,0 +1,8 @@
+﻿@model Web.Models.PaginationPartialModel
+
+<form id="search-paging-form" method="get" action="@Model.Url">
+    <input type="hidden" name="kw" id="kw" value="@Model.Pagination.Keyword" />
+    <input type="hidden" name="p" id="p" value="@Model.Pagination.Page" />
+    <input type="hidden" name="t" id="t" value="@Model.Pagination.Top" />
+    <input type="hidden" name="s" id="s" value="@Model.Pagination.SortBy" />
+</form>

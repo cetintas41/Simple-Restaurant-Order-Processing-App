@@ -1,0 +1,1103 @@
+2019-04-04 13:50:36.998 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 13:50:38.093 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 13:50:38.236 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:50:39.025 +03:00 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 13:50:40.494 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 13:50:40.933 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 13:50:40.990 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 13:50:41.054 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:50:41.063 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 66.72120000000001ms.
+2019-04-04 13:50:41.075 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 13:50:41.081 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 143.7116ms
+2019-04-04 13:50:41.138 +03:00 [INF] Request finished in 645.6732ms 302 
+2019-04-04 13:50:41.139 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 13:50:41.172 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 13:50:41.192 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 13:50:41.204 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 13:50:41.205 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.049700000000001ms.
+2019-04-04 13:50:41.254 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 13:50:41.408 +03:00 [INF] Executed ViewResult - view Login executed in 200.1985ms.
+2019-04-04 13:50:41.408 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 235.8725ms
+2019-04-04 13:50:41.413 +03:00 [INF] Request finished in 274.253ms 200 text/html; charset=utf-8
+2019-04-04 13:50:41.480 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/~/js/account/login-en.js  
+2019-04-04 13:50:41.483 +03:00 [INF] Request finished in 3.5941ms 404 
+2019-04-04 13:50:41.985 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/~/js/account/login-en.js  
+2019-04-04 13:50:41.986 +03:00 [INF] Request finished in 1.8244ms 404 
+2019-04-04 13:50:53.081 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 13:50:53.081 +03:00 [INF] Request finished in 0.8356ms 404 
+2019-04-04 13:53:42.901 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 13:53:43.569 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 13:53:43.621 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:53:43.897 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 13:53:45.712 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 13:53:45.967 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 13:53:45.985 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 13:53:45.991 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:53:45.999 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 8.3372000000000011ms.
+2019-04-04 13:53:46.013 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 13:53:46.019 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 47.3115ms
+2019-04-04 13:53:46.048 +03:00 [INF] Request finished in 337.5854ms 302 
+2019-04-04 13:53:46.059 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 13:53:46.092 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 13:53:46.112 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 13:53:46.123 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 13:53:46.124 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.1074ms.
+2019-04-04 13:53:46.150 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 13:53:46.282 +03:00 [INF] Executed ViewResult - view Login executed in 156.00730000000001ms.
+2019-04-04 13:53:46.283 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 190.0395ms
+2019-04-04 13:53:46.287 +03:00 [INF] Request finished in 228.2989ms 200 text/html; charset=utf-8
+2019-04-04 13:53:46.350 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/~/js/account/login-en.js  
+2019-04-04 13:53:46.358 +03:00 [INF] Request finished in 7.6947ms 404 
+2019-04-04 13:53:46.662 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/~/js/account/login-en.js  
+2019-04-04 13:53:46.664 +03:00 [INF] Request finished in 1.851ms 404 
+2019-04-04 13:56:39.960 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 13:56:39.961 +03:00 [INF] Request finished in 0.785ms 404 
+2019-04-04 13:58:27.992 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 13:58:28.678 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 13:58:28.735 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:58:29.107 +03:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 13:58:30.580 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 13:58:30.923 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 13:58:30.949 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 13:58:30.954 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:58:30.962 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 7.7606ms.
+2019-04-04 13:58:30.977 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 13:58:30.984 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 54.5852ms
+2019-04-04 13:58:31.018 +03:00 [INF] Request finished in 438.2276ms 302 
+2019-04-04 13:58:31.028 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 13:58:31.074 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 13:58:31.131 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 13:58:31.154 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 13:58:31.154 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 22.4557ms.
+2019-04-04 13:58:31.206 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 13:58:31.416 +03:00 [INF] Executed ViewResult - view Login executed in 257.3859ms.
+2019-04-04 13:58:31.417 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 341.6599ms
+2019-04-04 13:58:31.423 +03:00 [INF] Request finished in 395.7188ms 200 text/html; charset=utf-8
+2019-04-04 13:58:31.483 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/loginjs  
+2019-04-04 13:58:31.492 +03:00 [INF] Request finished in 8.7165ms 404 
+2019-04-04 13:58:31.916 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/loginjs  
+2019-04-04 13:58:31.918 +03:00 [INF] Request finished in 2.5354ms 404 
+2019-04-04 13:58:39.383 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 13:58:39.389 +03:00 [INF] Request finished in 5.6672ms 404 
+2019-04-04 13:59:17.633 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 13:59:18.269 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 13:59:18.322 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:59:18.624 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 13:59:20.377 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 13:59:20.669 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 13:59:20.694 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 13:59:20.699 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 13:59:20.711 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 8.1902ms.
+2019-04-04 13:59:20.725 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 13:59:20.732 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 56.9703ms
+2019-04-04 13:59:20.760 +03:00 [INF] Request finished in 384.8676ms 302 
+2019-04-04 13:59:20.770 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 13:59:20.803 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 13:59:20.842 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 13:59:20.861 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 13:59:20.864 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 20.5184ms.
+2019-04-04 13:59:20.905 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 13:59:21.075 +03:00 [INF] Executed ViewResult - view Login executed in 205.7314ms.
+2019-04-04 13:59:21.075 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 271.5099ms
+2019-04-04 13:59:21.083 +03:00 [INF] Request finished in 312.6136ms 200 text/html; charset=utf-8
+2019-04-04 13:59:21.152 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/loginjs  
+2019-04-04 13:59:21.154 +03:00 [INF] Request finished in 1.5232ms 404 
+2019-04-04 13:59:21.581 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/loginjs  
+2019-04-04 13:59:21.582 +03:00 [INF] Request finished in 0.9285ms 404 
+2019-04-04 13:59:30.504 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 13:59:30.509 +03:00 [INF] Request finished in 4.6047ms 404 
+2019-04-04 14:00:42.501 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 14:00:43.208 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 14:00:43.261 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:00:43.561 +03:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 14:00:45.256 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 14:00:45.545 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 14:00:45.573 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 14:00:45.581 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:00:45.589 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 11.3804ms.
+2019-04-04 14:00:45.601 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 14:00:45.606 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 57.0612ms
+2019-04-04 14:00:45.636 +03:00 [INF] Request finished in 381.8705ms 302 
+2019-04-04 14:00:45.647 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:00:45.687 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:00:45.730 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:00:45.750 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:00:45.750 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.948700000000002ms.
+2019-04-04 14:00:45.789 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:00:45.958 +03:00 [INF] Executed ViewResult - view Login executed in 204.72390000000001ms.
+2019-04-04 14:00:45.959 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 271.4071ms
+2019-04-04 14:00:45.967 +03:00 [INF] Request finished in 320.2285ms 200 text/html; charset=utf-8
+2019-04-04 14:00:46.028 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login-en.js  
+2019-04-04 14:00:46.055 +03:00 [INF] Sending file. Request path: '/js/account/login-en.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\js\account\login-en.js'
+2019-04-04 14:00:46.063 +03:00 [INF] Request finished in 34.407ms 200 application/javascript
+2019-04-04 14:00:51.238 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 14:00:51.240 +03:00 [INF] Request finished in 1.3651ms 404 
+2019-04-04 14:00:57.323 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:00:57.343 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:00:57.417 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:01:05.394 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 7977.1556ms.
+2019-04-04 14:01:05.396 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:01:05.396 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 8052.5958ms
+2019-04-04 14:01:05.398 +03:00 [INF] Request finished in 8074.548ms 302 
+2019-04-04 14:01:05.410 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:01:05.411 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:01:05.413 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:01:05.414 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:01:05.415 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1428ms.
+2019-04-04 14:01:05.416 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:01:05.423 +03:00 [INF] Executed ViewResult - view Login executed in 7.9459ms.
+2019-04-04 14:01:05.424 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 11.9642ms
+2019-04-04 14:01:05.425 +03:00 [INF] Request finished in 14.6234ms 200 text/html; charset=utf-8
+2019-04-04 14:01:13.291 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:01:13.292 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:01:13.294 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:01:24.642 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 11347.6937ms.
+2019-04-04 14:01:24.643 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:01:24.643 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 11350.0408ms
+2019-04-04 14:01:24.643 +03:00 [INF] Request finished in 11352.5306ms 302 
+2019-04-04 14:01:24.662 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:01:24.662 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:01:24.663 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:01:24.663 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:01:24.663 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.199ms.
+2019-04-04 14:01:24.665 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:01:24.692 +03:00 [INF] Executed ViewResult - view Login executed in 29.291ms.
+2019-04-04 14:01:24.693 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 30.279700000000002ms
+2019-04-04 14:01:24.693 +03:00 [INF] Request finished in 31.3157ms 200 text/html; charset=utf-8
+2019-04-04 14:01:32.157 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:01:32.157 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:01:32.158 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:01:35.375 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 3214.311ms.
+2019-04-04 14:01:35.378 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:01:35.378 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 3220.6743ms
+2019-04-04 14:01:35.378 +03:00 [INF] Request finished in 3221.7029ms 302 
+2019-04-04 14:01:35.388 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:01:35.388 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:01:35.388 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:01:35.388 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:01:35.388 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1369ms.
+2019-04-04 14:01:35.389 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:01:35.389 +03:00 [INF] Executed ViewResult - view Login executed in 0.9323ms.
+2019-04-04 14:01:35.389 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 1.5378ms
+2019-04-04 14:01:35.390 +03:00 [INF] Request finished in 2.1532ms 200 text/html; charset=utf-8
+2019-04-04 14:10:17.785 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 14:10:18.501 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 14:10:18.554 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:10:18.842 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 14:10:20.736 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 14:10:21.042 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 14:10:21.068 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 14:10:21.076 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:10:21.085 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 12.522ms.
+2019-04-04 14:10:21.099 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 14:10:21.104 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 57.2547ms
+2019-04-04 14:10:21.136 +03:00 [INF] Request finished in 401.2707ms 302 
+2019-04-04 14:10:21.154 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:10:21.186 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:10:21.210 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:10:21.222 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:10:21.223 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.402600000000001ms.
+2019-04-04 14:10:21.268 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:10:21.434 +03:00 [INF] Executed ViewResult - view Login executed in 204.89610000000002ms.
+2019-04-04 14:10:21.434 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 247.4558ms
+2019-04-04 14:10:21.439 +03:00 [INF] Request finished in 285.4339ms 200 text/html; charset=utf-8
+2019-04-04 14:10:27.265 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:10:27.270 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:10:27.302 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["tr","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:10:31.150 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 3847.5094000000004ms.
+2019-04-04 14:10:31.151 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:10:31.151 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 3881.0654000000004ms
+2019-04-04 14:10:31.152 +03:00 [INF] Request finished in 3886.3074ms 302 
+2019-04-04 14:10:31.171 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:10:31.172 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:10:31.173 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:10:31.173 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:10:31.174 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7638ms.
+2019-04-04 14:10:31.182 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:10:31.207 +03:00 [INF] Executed ViewResult - view Login executed in 31.9142ms.
+2019-04-04 14:10:31.207 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 35.110800000000005ms
+2019-04-04 14:10:31.207 +03:00 [INF] Request finished in 36.3352ms 200 text/html; charset=utf-8
+2019-04-04 14:10:46.192 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:10:46.200 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:10:46.202 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:10:46.202 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.0784ms.
+2019-04-04 14:10:46.242 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:10:46.242 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 42.3954ms
+2019-04-04 14:10:46.243 +03:00 [INF] Request finished in 51.0269ms 302 
+2019-04-04 14:10:46.251 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:10:46.252 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:10:46.252 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:10:46.252 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:10:46.252 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.12090000000000001ms.
+2019-04-04 14:10:46.252 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:10:46.253 +03:00 [INF] Executed ViewResult - view Login executed in 1.1383ms.
+2019-04-04 14:10:46.253 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 1.7184000000000001ms
+2019-04-04 14:10:46.254 +03:00 [INF] Request finished in 2.2754ms 200 text/html; charset=utf-8
+2019-04-04 14:10:50.239 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:10:50.239 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:10:50.240 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["tr","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:10:50.240 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.0366ms.
+2019-04-04 14:10:50.240 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:10:50.240 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 0.90070000000000006ms
+2019-04-04 14:10:50.240 +03:00 [INF] Request finished in 1.6782ms 302 
+2019-04-04 14:10:50.246 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:10:50.247 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:10:50.247 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:10:50.247 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:10:50.247 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1363ms.
+2019-04-04 14:10:50.247 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:10:50.248 +03:00 [INF] Executed ViewResult - view Login executed in 0.8847ms.
+2019-04-04 14:10:50.248 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 1.4671ms
+2019-04-04 14:10:50.248 +03:00 [INF] Request finished in 2.9286ms 200 text/html; charset=utf-8
+2019-04-04 14:10:56.786 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:10:56.787 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:10:56.789 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:10:56.789 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.0673ms.
+2019-04-04 14:10:56.789 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:10:56.789 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 1.4559ms
+2019-04-04 14:10:56.789 +03:00 [INF] Request finished in 3.7214ms 302 
+2019-04-04 14:10:56.822 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:10:56.822 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:10:56.823 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:10:56.823 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:10:56.823 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.12440000000000001ms.
+2019-04-04 14:10:56.823 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:10:56.824 +03:00 [INF] Executed ViewResult - view Login executed in 0.9719000000000001ms.
+2019-04-04 14:10:56.824 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 1.5402ms
+2019-04-04 14:10:56.824 +03:00 [INF] Request finished in 2.0381ms 200 text/html; charset=utf-8
+2019-04-04 14:11:00.735 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:11:00.736 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:11:00.736 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["tr","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:11:00.737 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.0456ms.
+2019-04-04 14:11:00.737 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:11:00.737 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 0.9452ms
+2019-04-04 14:11:00.737 +03:00 [INF] Request finished in 1.9555ms 302 
+2019-04-04 14:11:00.742 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:11:00.743 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:11:00.743 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:11:00.743 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:11:00.744 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.21530000000000002ms.
+2019-04-04 14:11:00.744 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:11:00.745 +03:00 [INF] Executed ViewResult - view Login executed in 1.2739ms.
+2019-04-04 14:11:00.745 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 2.2109ms
+2019-04-04 14:11:00.745 +03:00 [INF] Request finished in 3.5795ms 200 text/html; charset=utf-8
+2019-04-04 14:11:44.007 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 14:11:44.012 +03:00 [INF] Request finished in 6.0052ms 404 
+2019-04-04 14:11:49.469 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:11:49.470 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:11:49.471 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:11:49.472 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.48950000000000005ms.
+2019-04-04 14:11:49.473 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:11:49.473 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 3.0967000000000002ms
+2019-04-04 14:11:49.473 +03:00 [INF] Request finished in 4.2206ms 302 
+2019-04-04 14:11:49.480 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:11:49.481 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:11:49.482 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:11:49.483 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:11:49.483 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2864ms.
+2019-04-04 14:11:49.485 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:11:49.491 +03:00 [INF] Executed ViewResult - view Login executed in 7.8405000000000005ms.
+2019-04-04 14:11:49.491 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 9.7436ms
+2019-04-04 14:11:49.491 +03:00 [INF] Request finished in 10.8289ms 200 text/html; charset=utf-8
+2019-04-04 14:11:49.768 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 14:11:49.769 +03:00 [INF] Request finished in 0.7512ms 404 
+2019-04-04 14:11:53.203 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:11:53.203 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:11:53.204 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["tr","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:11:53.204 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.045700000000000005ms.
+2019-04-04 14:11:53.204 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:11:53.205 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 0.95700000000000007ms
+2019-04-04 14:11:53.205 +03:00 [INF] Request finished in 1.9113ms 302 
+2019-04-04 14:11:53.233 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:11:53.234 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:11:53.234 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:11:53.235 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:11:53.235 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1565ms.
+2019-04-04 14:11:53.235 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:11:53.236 +03:00 [INF] Executed ViewResult - view Login executed in 1.461ms.
+2019-04-04 14:11:53.236 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 2.3599ms
+2019-04-04 14:11:53.237 +03:00 [INF] Request finished in 3.1444ms 200 text/html; charset=utf-8
+2019-04-04 14:11:53.574 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 14:11:53.575 +03:00 [INF] Request finished in 0.906ms 404 
+2019-04-04 14:12:07.715 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:12:07.715 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:12:07.716 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:12:07.716 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:12:07.716 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1784ms.
+2019-04-04 14:12:07.716 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:12:07.717 +03:00 [INF] Executed ViewResult - view Login executed in 1.3684ms.
+2019-04-04 14:12:07.718 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 2.1967000000000003ms
+2019-04-04 14:12:07.718 +03:00 [INF] Request finished in 3.0746ms 200 text/html; charset=utf-8
+2019-04-04 14:12:07.775 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/css/bootstrap.min.css  
+2019-04-04 14:12:07.777 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css  
+2019-04-04 14:12:07.852 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css  
+2019-04-04 14:12:07.860 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animate/animate.css  
+2019-04-04 14:12:07.860 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/css-hamburgers/hamburgers.min.css  
+2019-04-04 14:12:07.860 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animsition/css/animsition.min.css  
+2019-04-04 14:12:08.227 +03:00 [INF] Sending file. Request path: '/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\Linearicons-Free-v1.0.0\icon-font.min.css'
+2019-04-04 14:12:08.233 +03:00 [INF] Request finished in 382.2822ms 200 text/css
+2019-04-04 14:12:08.239 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\css\bootstrap.min.css'
+2019-04-04 14:12:08.240 +03:00 [INF] Request finished in 464.3343ms 200 text/css
+2019-04-04 14:12:08.331 +03:00 [INF] Sending file. Request path: '/login/vendor/css-hamburgers/hamburgers.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\css-hamburgers\hamburgers.min.css'
+2019-04-04 14:12:08.331 +03:00 [INF] Request finished in 471.2643ms 200 text/css
+2019-04-04 14:12:08.341 +03:00 [INF] Sending file. Request path: '/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\font-awesome-4.7.0\css\font-awesome.min.css'
+2019-04-04 14:12:08.342 +03:00 [INF] Request finished in 565.0244ms 200 text/css
+2019-04-04 14:12:08.348 +03:00 [INF] Sending file. Request path: '/login/vendor/animate/animate.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\animate\animate.css'
+2019-04-04 14:12:08.348 +03:00 [INF] Request finished in 489.0932ms 200 text/css
+2019-04-04 14:12:08.357 +03:00 [INF] Sending file. Request path: '/login/vendor/animsition/css/animsition.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\animsition\css\animsition.min.css'
+2019-04-04 14:12:08.358 +03:00 [INF] Request finished in 497.5296ms 200 text/css
+2019-04-04 14:12:08.501 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/select2/select2.min.css  
+2019-04-04 14:12:09.076 +03:00 [INF] Sending file. Request path: '/login/vendor/select2/select2.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\select2\select2.min.css'
+2019-04-04 14:12:09.077 +03:00 [INF] Request finished in 575.7499ms 200 text/css
+2019-04-04 14:12:09.086 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/daterangepicker.css  
+2019-04-04 14:12:09.086 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/css/util.css  
+2019-04-04 14:12:09.086 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/css/main.css  
+2019-04-04 14:12:09.087 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/jquery/jquery-3.2.1.min.js  
+2019-04-04 14:12:09.199 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\daterangepicker\daterangepicker.css'
+2019-04-04 14:12:09.199 +03:00 [INF] Sending file. Request path: '/login/css/main.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\css\main.css'
+2019-04-04 14:12:09.199 +03:00 [INF] Request finished in 112.9972ms 200 text/css
+2019-04-04 14:12:09.199 +03:00 [INF] Request finished in 113.9856ms 200 text/css
+2019-04-04 14:12:09.206 +03:00 [INF] Sending file. Request path: '/login/vendor/jquery/jquery-3.2.1.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\jquery\jquery-3.2.1.min.js'
+2019-04-04 14:12:09.206 +03:00 [INF] Request finished in 119.173ms 200 application/javascript
+2019-04-04 14:12:09.206 +03:00 [INF] Sending file. Request path: '/login/css/util.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\css\util.css'
+2019-04-04 14:12:09.207 +03:00 [INF] Request finished in 120.4935ms 200 text/css
+2019-04-04 14:12:09.211 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animsition/js/animsition.min.js  
+2019-04-04 14:12:09.215 +03:00 [INF] Sending file. Request path: '/login/vendor/animsition/js/animsition.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\animsition\js\animsition.min.js'
+2019-04-04 14:12:09.215 +03:00 [INF] Request finished in 4.5151ms 200 application/javascript
+2019-04-04 14:12:09.406 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/bootstrap.min.js  
+2019-04-04 14:12:09.408 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/daterangepicker.js  
+2019-04-04 14:12:09.408 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/moment.min.js  
+2019-04-04 14:12:09.408 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js  
+2019-04-04 14:12:09.414 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/select2/select2.min.js  
+2019-04-04 14:12:09.421 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/js/popper.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\js\popper.js'
+2019-04-04 14:12:09.421 +03:00 [INF] Request finished in 15.3406ms 200 application/javascript
+2019-04-04 14:12:09.469 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/js/bootstrap.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\js\bootstrap.min.js'
+2019-04-04 14:12:09.470 +03:00 [INF] Request finished in 64.003ms 200 application/javascript
+2019-04-04 14:12:09.474 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/moment.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\daterangepicker\moment.min.js'
+2019-04-04 14:12:09.474 +03:00 [INF] Request finished in 65.6245ms 200 application/javascript
+2019-04-04 14:12:09.496 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\daterangepicker\daterangepicker.js'
+2019-04-04 14:12:09.496 +03:00 [INF] Request finished in 88.0968ms 200 application/javascript
+2019-04-04 14:12:09.523 +03:00 [INF] Sending file. Request path: '/login/vendor/select2/select2.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\select2\select2.min.js'
+2019-04-04 14:12:09.523 +03:00 [INF] Request finished in 110.8379ms 200 application/javascript
+2019-04-04 14:12:09.584 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/countdowntime/countdowntime.js  
+2019-04-04 14:12:09.587 +03:00 [INF] Sending file. Request path: '/login/vendor/countdowntime/countdowntime.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\countdowntime\countdowntime.js'
+2019-04-04 14:12:09.587 +03:00 [INF] Request finished in 3.7151ms 200 application/javascript
+2019-04-04 14:12:09.704 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-Regular.ttf  
+2019-04-04 14:12:09.707 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-Medium.ttf  
+2019-04-04 14:12:09.709 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-SemiBold.ttf  
+2019-04-04 14:12:09.710 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2019-04-04 14:12:09.710 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login-en.js  
+2019-04-04 14:12:09.710 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/js/main.js  
+2019-04-04 14:12:09.713 +03:00 [INF] Sending file. Request path: '/js/account/login-en.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\js\account\login-en.js'
+2019-04-04 14:12:09.713 +03:00 [INF] Sending file. Request path: '/login/js/main.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\js\main.js'
+2019-04-04 14:12:09.713 +03:00 [INF] Request finished in 3.2097ms 200 application/javascript
+2019-04-04 14:12:09.713 +03:00 [INF] Request finished in 4.0531ms 200 application/javascript
+2019-04-04 14:12:09.790 +03:00 [INF] Sending file. Request path: '/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2'
+2019-04-04 14:12:09.790 +03:00 [INF] Request finished in 80.9745ms 200 font/woff2
+2019-04-04 14:12:09.790 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-Regular.ttf'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\raleway\Raleway-Regular.ttf'
+2019-04-04 14:12:09.790 +03:00 [INF] Request finished in 86.5123ms 200 application/x-font-ttf
+2019-04-04 14:12:09.806 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-Medium.ttf'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\raleway\Raleway-Medium.ttf'
+2019-04-04 14:12:09.806 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-SemiBold.ttf'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\raleway\Raleway-SemiBold.ttf'
+2019-04-04 14:12:09.807 +03:00 [INF] Request finished in 97.6482ms 200 application/x-font-ttf
+2019-04-04 14:12:09.807 +03:00 [INF] Request finished in 99.5976ms 200 application/x-font-ttf
+2019-04-04 14:12:09.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/css/bootstrap.min.css.map  
+2019-04-04 14:12:09.942 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-04 14:12:09.942 +03:00 [INF] Request finished in 1.0442ms 404 
+2019-04-04 14:12:10.033 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/css/bootstrap.min.css.map'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\css\bootstrap.min.css.map'
+2019-04-04 14:12:10.033 +03:00 [INF] Request finished in 96.1578ms 200 text/plain
+2019-04-04 14:12:10.347 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/images/icons/favicon.ico  
+2019-04-04 14:12:10.365 +03:00 [INF] Sending file. Request path: '/login/images/icons/favicon.ico'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\images\icons\favicon.ico'
+2019-04-04 14:12:10.366 +03:00 [INF] Request finished in 19.1681ms 200 image/x-icon
+2019-04-04 14:12:42.163 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 14:12:42.833 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 14:12:42.889 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:12:43.183 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 14:12:44.967 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 14:12:45.271 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 14:12:45.307 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 14:12:45.318 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:12:45.332 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 13.412700000000001ms.
+2019-04-04 14:12:45.351 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 14:12:45.360 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 81.0909ms
+2019-04-04 14:12:45.400 +03:00 [INF] Request finished in 434.8285ms 302 
+2019-04-04 14:12:45.420 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:12:45.477 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:12:45.513 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:12:45.526 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:12:45.527 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.8961ms.
+2019-04-04 14:12:45.561 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:12:45.740 +03:00 [INF] Executed ViewResult - view Login executed in 208.0971ms.
+2019-04-04 14:12:45.740 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 262.80760000000004ms
+2019-04-04 14:12:45.748 +03:00 [INF] Request finished in 328.0714ms 200 text/html; charset=utf-8
+2019-04-04 14:12:45.815 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login-tr.js  
+2019-04-04 14:12:45.831 +03:00 [INF] Sending file. Request path: '/js/account/login-tr.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\js\account\login-tr.js'
+2019-04-04 14:12:45.831 +03:00 [INF] Request finished in 16.1011ms 200 application/javascript
+2019-04-04 14:13:13.085 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:13:13.166 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:13:13.192 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:13:13.193 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 1.0975000000000001ms.
+2019-04-04 14:13:13.193 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:13:13.194 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 27.9281ms
+2019-04-04 14:13:13.194 +03:00 [INF] Request finished in 109.4335ms 302 
+2019-04-04 14:13:13.199 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:13:13.199 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:13:13.200 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:13:13.200 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:13:13.200 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3654ms.
+2019-04-04 14:13:13.202 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:13:13.216 +03:00 [INF] Executed ViewResult - view Login executed in 16.2237ms.
+2019-04-04 14:13:13.217 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 17.5088ms
+2019-04-04 14:13:13.217 +03:00 [INF] Request finished in 18.3586ms 200 text/html; charset=utf-8
+2019-04-04 14:13:18.976 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:13:18.977 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:13:18.979 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["tr","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:13:18.979 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.1012ms.
+2019-04-04 14:13:18.980 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:13:18.980 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 2.8798000000000004ms
+2019-04-04 14:13:18.980 +03:00 [INF] Request finished in 4.2683ms 302 
+2019-04-04 14:13:18.986 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:13:18.987 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:13:18.987 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:13:18.987 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:13:18.987 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1821ms.
+2019-04-04 14:13:18.988 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:13:18.989 +03:00 [INF] Executed ViewResult - view Login executed in 1.3424ms.
+2019-04-04 14:13:18.989 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 2.1532ms
+2019-04-04 14:13:18.989 +03:00 [INF] Request finished in 2.7861ms 200 text/html; charset=utf-8
+2019-04-04 14:13:48.951 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 14:13:49.592 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 14:13:49.644 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:13:49.891 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 14:13:51.010 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 14:13:51.262 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 14:13:51.281 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 14:13:51.286 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:13:51.296 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 7.7629ms.
+2019-04-04 14:13:51.305 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 14:13:51.309 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 44.1497ms
+2019-04-04 14:13:51.331 +03:00 [INF] Request finished in 321.5371ms 302 
+2019-04-04 14:13:51.338 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:13:51.362 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:13:51.385 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:13:51.394 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:13:51.395 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.7741ms.
+2019-04-04 14:13:51.429 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:13:51.576 +03:00 [INF] Executed ViewResult - view Login executed in 177.3683ms.
+2019-04-04 14:13:51.577 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 214.26500000000001ms
+2019-04-04 14:13:51.582 +03:00 [INF] Request finished in 244.5271ms 200 text/html; charset=utf-8
+2019-04-04 14:13:55.298 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 307
+2019-04-04 14:13:55.351 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing action Web.Controllers.AccountController.Register (Web)
+2019-04-04 14:13:55.403 +03:00 [INF] Executing action method Web.Controllers.AccountController.Register (Web) with arguments (["Web.Models.RegisterModel",""]) - Validation state: "Valid"
+2019-04-04 14:13:55.406 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:13:55.837 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__model_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Email] = @__model_Email_0
+2019-04-04 14:13:56.707 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[BranchId], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[Email], [u].[EmailConfirmed], [u].[ImagePath], [u].[IsActive], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[Name], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2019-04-04 14:13:57.032 +03:00 [INF] Executed DbCommand (98ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 256), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTimeOffset), @p11='?' (Size = 4000), @p12='?' (Size = 256), @p13='?' (Size = 256), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [BranchId], [ConcurrencyStamp], [DateCreated], [Email], [EmailConfirmed], [ImagePath], [IsActive], [LockoutEnabled], [LockoutEnd], [Name], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);
+2019-04-04 14:13:57.154 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:13:57.203 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-04-04 14:13:57.219 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:13:57.237 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[BranchId], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[Email], [u].[EmailConfirmed], [u].[ImagePath], [u].[IsActive], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[Name], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2019-04-04 14:13:57.277 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([UserId], [RoleId])
+VALUES (@p0, @p1);
+2019-04-04 14:13:57.305 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@p19='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p20='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 4000), @p11='?' (Size = 256), @p12='?' (Size = 256), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [BranchId] = @p1, [ConcurrencyStamp] = @p2, [DateCreated] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [ImagePath] = @p6, [IsActive] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [Name] = @p10, [NormalizedEmail] = @p11, [NormalizedUserName] = @p12, [PasswordHash] = @p13, [PhoneNumber] = @p14, [PhoneNumberConfirmed] = @p15, [SecurityStamp] = @p16, [TwoFactorEnabled] = @p17, [UserName] = @p18
+WHERE [Id] = @p19 AND [ConcurrencyStamp] = @p20;
+SELECT @@ROWCOUNT;
+2019-04-04 14:13:57.330 +03:00 [INF] admin@admin.com kullanıcısı Onur1841! şifresi ile sisteme kayıt oldu. Tarih: 4.04.2019 14:13:57
+2019-04-04 14:13:57.344 +03:00 [INF] Executed action method Web.Controllers.AccountController.Register (Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1941.2211000000002ms.
+2019-04-04 14:13:57.365 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-04-04 14:13:57.375 +03:00 [INF] Executed action Web.Controllers.AccountController.Register (Web) in 2024.2531000000001ms
+2019-04-04 14:13:57.386 +03:00 [INF] Request finished in 2088.0822ms 200 text/plain; charset=utf-8
+2019-04-04 14:13:57.479 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-04-04 14:13:57.509 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\favicon.ico'
+2019-04-04 14:13:57.509 +03:00 [INF] Request finished in 30.6999ms 200 image/x-icon
+2019-04-04 14:14:00.124 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 14:14:00.125 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 14:14:00.126 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 14:14:00.126 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:14:00.127 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.8516ms.
+2019-04-04 14:14:00.127 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 14:14:00.127 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 2.121ms
+2019-04-04 14:14:00.128 +03:00 [INF] Request finished in 3.3054ms 302 
+2019-04-04 14:14:00.137 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:14:00.138 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:14:00.139 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:14:00.140 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:14:00.141 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.9285ms.
+2019-04-04 14:14:00.141 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:14:00.144 +03:00 [INF] Executed ViewResult - view Login executed in 2.906ms.
+2019-04-04 14:14:00.144 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 6.0073ms
+2019-04-04 14:14:00.144 +03:00 [INF] Request finished in 7.2249ms 200 text/html; charset=utf-8
+2019-04-04 14:14:26.938 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 243
+2019-04-04 14:14:26.980 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:14:26.984 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments (["Web.Models.LoginModel",""]) - Validation state: "Valid"
+2019-04-04 14:14:26.989 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:14:27.129 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__model_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName], [i.Branch].[Id], [i.Branch].[CityId], [i.Branch].[DateCreated], [i.Branch].[FirmId], [i.Branch].[IsActive], [i.Branch].[Name], [i.Branch.Firm].[Id], [i.Branch.Firm].[CityId], [i.Branch.Firm].[DateCreated], [i.Branch.Firm].[IsActive], [i.Branch.Firm].[LogoPath], [i.Branch.Firm].[Name], [i.Branch.Firm].[UserId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+LEFT JOIN [Firms] AS [i.Branch.Firm] ON [i.Branch].[FirmId] = [i.Branch.Firm].[Id]
+WHERE ([i].[IsActive] = 1) AND ([i].[Email] = @__model_Email_0)
+2019-04-04 14:14:27.161 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:14:27.164 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-04-04 14:14:27.260 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2019-04-04 14:14:27.318 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:14:27.333 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedName_0)
+2019-04-04 14:14:27.348 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2019-04-04 14:14:27.371 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-04 14:14:27.374 +03:00 [INF] admin@admin.com kullanıcısı Onur1841! şifresi ile sisteme giriş yaptı. Tarih: 4.04.2019 14:14:27
+2019-04-04 14:14:27.408 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[BranchId], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[Email], [u].[EmailConfirmed], [u].[ImagePath], [u].[IsActive], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[Name], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2019-04-04 14:14:27.415 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserClaims] ([ClaimType], [ClaimValue], [UserId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetUserClaims]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-04-04 14:14:27.423 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p19='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p20='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 4000), @p11='?' (Size = 256), @p12='?' (Size = 256), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [BranchId] = @p1, [ConcurrencyStamp] = @p2, [DateCreated] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [ImagePath] = @p6, [IsActive] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [Name] = @p10, [NormalizedEmail] = @p11, [NormalizedUserName] = @p12, [PasswordHash] = @p13, [PhoneNumber] = @p14, [PhoneNumberConfirmed] = @p15, [SecurityStamp] = @p16, [TwoFactorEnabled] = @p17, [UserName] = @p18
+WHERE [Id] = @p19 AND [ConcurrencyStamp] = @p20;
+SELECT @@ROWCOUNT;
+2019-04-04 14:14:27.430 +03:00 [INF] admin@admin.com user logged on 4.04.2019 14:14:27
+2019-04-04 14:14:27.433 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:14:27.436 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-04-04 14:14:27.437 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 452.37350000000004ms.
+2019-04-04 14:14:27.437 +03:00 [INF] Executing RedirectResult, redirecting to /Admin/Firms.
+2019-04-04 14:14:27.437 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 457.1857ms
+2019-04-04 14:14:27.438 +03:00 [INF] Request finished in 500.1382ms 302 
+2019-04-04 14:14:27.442 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Firms  
+2019-04-04 14:14:27.467 +03:00 [INF] Route matched with {action = "Firms", controller = "Admin"}. Executing action Web.Controllers.AdminController.Firms (Web)
+2019-04-04 14:14:27.490 +03:00 [INF] Authorization was successful.
+2019-04-04 14:14:27.492 +03:00 [INF] Executing action method Web.Controllers.AdminController.Firms (Web) with arguments (["","","1","25"]) - Validation state: "Valid"
+2019-04-04 14:14:27.503 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:14:27.505 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:14:27.526 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:14:27.540 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:14:27.542 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:14:27.554 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:14:27.556 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:14:27.565 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-04-04 14:14:27.598 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:14:27.643 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:14:27.647 +03:00 [INF] Executed action method Web.Controllers.AdminController.Firms (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 155.3847ms.
+2019-04-04 14:14:27.665 +03:00 [INF] Executing ViewResult, running view Firms.
+2019-04-04 14:14:27.803 +03:00 [INF] Executed ViewResult - view Firms executed in 155.4608ms.
+2019-04-04 14:14:27.803 +03:00 [INF] Executed action Web.Controllers.AdminController.Firms (Web) in 335.9091ms
+2019-04-04 14:14:27.803 +03:00 [INF] Request finished in 361.3779ms 200 text/html; charset=utf-8
+2019-04-04 14:14:27.859 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-04-04 14:14:27.859 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-04-04 14:14:27.860 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-04-04 14:14:27.861 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-04-04 14:14:27.862 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-04-04 14:14:27.862 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/admin/admin.png  
+2019-04-04 14:14:27.888 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-04-04 14:14:27.888 +03:00 [INF] Request finished in 28.4437ms 200 text/css
+2019-04-04 14:14:27.895 +03:00 [INF] Sending file. Request path: '/files/admin/admin.png'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\files\admin\admin.png'
+2019-04-04 14:14:27.896 +03:00 [INF] Request finished in 33.5598ms 200 image/png
+2019-04-04 14:14:27.910 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-04-04 14:14:27.910 +03:00 [INF] Request finished in 48.2957ms 200 text/css
+2019-04-04 14:14:27.910 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-04-04 14:14:27.910 +03:00 [INF] Request finished in 51.2389ms 200 text/css
+2019-04-04 14:14:27.918 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-04-04 14:14:27.919 +03:00 [INF] Request finished in 57.9816ms 200 text/css
+2019-04-04 14:14:27.948 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-04-04 14:14:27.948 +03:00 [INF] Request finished in 89.4628ms 200 text/css
+2019-04-04 14:14:27.949 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-04-04 14:14:27.994 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-04-04 14:14:27.995 +03:00 [INF] Request finished in 45.9814ms 200 application/javascript
+2019-04-04 14:14:28.040 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-04-04 14:14:28.060 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-04-04 14:14:28.060 +03:00 [INF] Request finished in 20.2433ms 200 application/javascript
+2019-04-04 14:14:28.079 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-04-04 14:14:28.080 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-04-04 14:14:28.080 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-04-04 14:14:28.083 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-04-04 14:14:28.083 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-04-04 14:14:28.084 +03:00 [INF] Request finished in 4.1308ms 200 application/javascript
+2019-04-04 14:14:28.085 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-04-04 14:14:28.085 +03:00 [INF] Request finished in 5.5686ms 200 application/javascript
+2019-04-04 14:14:28.103 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-04-04 14:14:28.104 +03:00 [INF] Request finished in 24.5625ms 200 application/javascript
+2019-04-04 14:14:28.138 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-04-04 14:14:28.138 +03:00 [INF] Request finished in 54.861ms 200 application/javascript
+2019-04-04 14:14:28.142 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-04-04 14:14:28.142 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-04-04 14:14:28.144 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-04-04 14:14:28.144 +03:00 [INF] Request finished in 2.5986ms 200 application/javascript
+2019-04-04 14:14:28.171 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-04-04 14:14:28.171 +03:00 [INF] Request finished in 28.7971ms 200 application/javascript
+2019-04-04 14:14:28.241 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-04-04 14:14:28.286 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-04-04 14:14:28.286 +03:00 [INF] Request finished in 46.019ms 200 font/woff2
+2019-04-04 14:14:38.911 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css.map  
+2019-04-04 14:14:38.940 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css.map'
+2019-04-04 14:14:38.941 +03:00 [INF] Request finished in 29.5727ms 200 text/plain
+2019-04-04 14:49:47.179 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-04 14:49:47.838 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-04 14:49:47.891 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:49:48.255 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-04 14:49:49.708 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-04 14:49:49.865 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:49:50.107 +03:00 [INF] Executed DbCommand (49ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-04-04 14:49:50.305 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2019-04-04 14:49:50.383 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:49:50.408 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedName_0)
+2019-04-04 14:49:50.440 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2019-04-04 14:49:50.654 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-04 14:49:50.671 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-04 14:49:50.689 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:49:50.709 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-04-04 14:49:50.725 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 50.2424ms.
+2019-04-04 14:49:50.735 +03:00 [INF] Executing RedirectResult, redirecting to /Admin/Firms.
+2019-04-04 14:49:50.739 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 81.4601ms
+2019-04-04 14:49:50.766 +03:00 [INF] Request finished in 1060.8227ms 302 
+2019-04-04 14:49:50.771 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Firms  
+2019-04-04 14:49:50.796 +03:00 [INF] Route matched with {action = "Firms", controller = "Admin"}. Executing action Web.Controllers.AdminController.Firms (Web)
+2019-04-04 14:49:50.807 +03:00 [INF] Authorization was successful.
+2019-04-04 14:49:50.839 +03:00 [INF] Executing action method Web.Controllers.AdminController.Firms (Web) with arguments (["","","1","25"]) - Validation state: "Valid"
+2019-04-04 14:49:50.853 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:49:50.856 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:49:50.951 +03:00 [INF] Executed DbCommand (67ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:49:50.962 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:49:50.964 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:49:50.983 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:49:50.988 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:49:51.006 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-04-04 14:49:51.039 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:49:51.063 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:49:51.067 +03:00 [INF] Executed action method Web.Controllers.AdminController.Firms (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 226.53560000000002ms.
+2019-04-04 14:49:51.090 +03:00 [INF] Executing ViewResult, running view Firms.
+2019-04-04 14:49:51.322 +03:00 [INF] Executed ViewResult - view Firms executed in 251.7586ms.
+2019-04-04 14:49:51.322 +03:00 [INF] Executed action Web.Controllers.AdminController.Firms (Web) in 526.5748ms
+2019-04-04 14:49:51.329 +03:00 [INF] Request finished in 558.1978ms 200 text/html; charset=utf-8
+2019-04-04 14:49:51.428 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/admin/firms-tr.js  
+2019-04-04 14:49:51.444 +03:00 [INF] Sending file. Request path: '/js/admin/firms-tr.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\js\admin\firms-tr.js'
+2019-04-04 14:49:51.444 +03:00 [INF] Request finished in 16.1571ms 200 application/javascript
+2019-04-04 14:51:02.352 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Firms  
+2019-04-04 14:51:02.358 +03:00 [INF] Route matched with {action = "Firms", controller = "Admin"}. Executing action Web.Controllers.AdminController.Firms (Web)
+2019-04-04 14:51:02.363 +03:00 [INF] Authorization was successful.
+2019-04-04 14:51:02.363 +03:00 [INF] Executing action method Web.Controllers.AdminController.Firms (Web) with arguments (["","","1","25"]) - Validation state: "Valid"
+2019-04-04 14:51:02.364 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:51:02.371 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:51:02.376 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:51:02.379 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:51:02.380 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:51:02.382 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:51:02.388 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:51:02.393 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:51:02.398 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:51:02.403 +03:00 [INF] Executed action method Web.Controllers.AdminController.Firms (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 39.118500000000004ms.
+2019-04-04 14:51:05.458 +03:00 [INF] Executing ViewResult, running view Firms.
+2019-04-04 14:51:05.479 +03:00 [INF] Executed ViewResult - view Firms executed in 3076.1479ms.
+2019-04-04 14:51:05.479 +03:00 [INF] Executed action Web.Controllers.AdminController.Firms (Web) in 3117.6798000000003ms
+2019-04-04 14:51:05.480 +03:00 [INF] Request finished in 3127.9795ms 200 text/html; charset=utf-8
+2019-04-04 14:52:46.316 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Firms  
+2019-04-04 14:52:46.318 +03:00 [INF] Route matched with {action = "Firms", controller = "Admin"}. Executing action Web.Controllers.AdminController.Firms (Web)
+2019-04-04 14:52:46.318 +03:00 [INF] Authorization was successful.
+2019-04-04 14:52:46.318 +03:00 [INF] Executing action method Web.Controllers.AdminController.Firms (Web) with arguments (["","","1","25"]) - Validation state: "Valid"
+2019-04-04 14:52:46.319 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:52:46.326 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:52:46.333 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:52:46.338 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:52:46.340 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:52:46.342 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:52:46.347 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:52:46.351 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:52:46.355 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:52:46.358 +03:00 [INF] Executed action method Web.Controllers.AdminController.Firms (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 39.8932ms.
+2019-04-04 14:52:46.358 +03:00 [INF] Executing ViewResult, running view Firms.
+2019-04-04 14:52:46.589 +03:00 [INF] Executed ViewResult - view Firms executed in 230.5805ms.
+2019-04-04 14:52:46.589 +03:00 [INF] Executed action Web.Controllers.AdminController.Firms (Web) in 271.1678ms
+2019-04-04 14:52:46.589 +03:00 [INF] Request finished in 273.5408ms 200 text/html; charset=utf-8
+2019-04-04 14:52:46.668 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/admin/firms-tr.js  
+2019-04-04 14:52:46.687 +03:00 [INF] The file /js/admin/firms-tr.js was not modified
+2019-04-04 14:52:46.688 +03:00 [INF] Request finished in 20.6862ms 304 application/javascript
+2019-04-04 14:52:46.897 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-04-04 14:52:46.906 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\favicon.ico'
+2019-04-04 14:52:46.906 +03:00 [INF] Request finished in 10.4034ms 200 image/x-icon
+2019-04-04 14:52:54.686 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Logout  
+2019-04-04 14:52:54.696 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing action Web.Controllers.AccountController.Logout (Web)
+2019-04-04 14:52:54.697 +03:00 [INF] Executing action method Web.Controllers.AccountController.Logout (Web) - Validation state: "Valid"
+2019-04-04 14:52:54.712 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2019-04-04 14:52:54.714 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:52:54.715 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2019-04-04 14:52:54.715 +03:00 [INF] Executed action method Web.Controllers.AccountController.Logout (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 17.4297ms.
+2019-04-04 14:52:54.715 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-04 14:52:54.716 +03:00 [INF] Executed action Web.Controllers.AccountController.Logout (Web) in 19.1182ms
+2019-04-04 14:52:54.716 +03:00 [INF] Request finished in 29.8757ms 302 
+2019-04-04 14:52:54.722 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:52:54.734 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:52:54.734 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:52:54.735 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:52:54.736 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3103ms.
+2019-04-04 14:52:54.740 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:52:54.789 +03:00 [INF] Executed ViewResult - view Login executed in 53.669000000000004ms.
+2019-04-04 14:52:54.789 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 55.6739ms
+2019-04-04 14:52:54.790 +03:00 [INF] Request finished in 67.2073ms 200 text/html; charset=utf-8
+2019-04-04 14:52:54.852 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login-tr.js  
+2019-04-04 14:52:54.853 +03:00 [INF] The file /js/account/login-tr.js was not modified
+2019-04-04 14:52:54.854 +03:00 [INF] Request finished in 1.6976ms 304 application/javascript
+2019-04-04 14:52:56.724 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-04 14:52:56.728 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-04 14:52:56.755 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-04 14:52:56.756 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 1.185ms.
+2019-04-04 14:52:56.757 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-04 14:52:56.757 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 29.271600000000003ms
+2019-04-04 14:52:56.757 +03:00 [INF] Request finished in 33.7281ms 302 
+2019-04-04 14:52:56.762 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-04 14:52:56.765 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:52:56.766 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-04 14:52:56.766 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-04 14:52:56.767 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4314ms.
+2019-04-04 14:52:56.769 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-04 14:52:56.781 +03:00 [INF] Executed ViewResult - view Login executed in 14.2066ms.
+2019-04-04 14:52:56.781 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 15.6416ms
+2019-04-04 14:52:56.781 +03:00 [INF] Request finished in 19.5019ms 200 text/html; charset=utf-8
+2019-04-04 14:52:56.830 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login-en.js  
+2019-04-04 14:52:56.831 +03:00 [INF] The file /js/account/login-en.js was not modified
+2019-04-04 14:52:56.831 +03:00 [INF] Request finished in 0.8245ms 304 application/javascript
+2019-04-04 14:53:04.484 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 243
+2019-04-04 14:53:04.499 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-04 14:53:04.512 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments (["Web.Models.LoginModel",""]) - Validation state: "Valid"
+2019-04-04 14:53:04.516 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:53:04.590 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__model_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName], [i.Branch].[Id], [i.Branch].[CityId], [i.Branch].[DateCreated], [i.Branch].[FirmId], [i.Branch].[IsActive], [i.Branch].[Name], [i.Branch.Firm].[Id], [i.Branch.Firm].[CityId], [i.Branch.Firm].[DateCreated], [i.Branch.Firm].[IsActive], [i.Branch.Firm].[LogoPath], [i.Branch.Firm].[Name], [i.Branch.Firm].[UserId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+LEFT JOIN [Firms] AS [i.Branch.Firm] ON [i.Branch].[FirmId] = [i.Branch.Firm].[Id]
+WHERE ([i].[IsActive] = 1) AND ([i].[Email] = @__model_Email_0)
+2019-04-04 14:53:04.624 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:53:04.627 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-04-04 14:53:04.668 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2019-04-04 14:53:04.670 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:53:04.674 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedName_0)
+2019-04-04 14:53:04.676 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2019-04-04 14:53:04.681 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-04 14:53:04.684 +03:00 [INF] admin@admin.com kullanıcısı Onur1841! şifresi ile sisteme giriş yaptı. Tarih: 4/4/2019 2:53:04 PM
+2019-04-04 14:53:04.720 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[BranchId], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[Email], [u].[EmailConfirmed], [u].[ImagePath], [u].[IsActive], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[Name], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2019-04-04 14:53:04.809 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserClaims] ([ClaimType], [ClaimValue], [UserId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetUserClaims]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-04-04 14:53:04.844 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p19='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p20='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 4000), @p11='?' (Size = 256), @p12='?' (Size = 256), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [BranchId] = @p1, [ConcurrencyStamp] = @p2, [DateCreated] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [ImagePath] = @p6, [IsActive] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [Name] = @p10, [NormalizedEmail] = @p11, [NormalizedUserName] = @p12, [PasswordHash] = @p13, [PhoneNumber] = @p14, [PhoneNumberConfirmed] = @p15, [SecurityStamp] = @p16, [TwoFactorEnabled] = @p17, [UserName] = @p18
+WHERE [Id] = @p19 AND [ConcurrencyStamp] = @p20;
+SELECT @@ROWCOUNT;
+2019-04-04 14:53:04.858 +03:00 [INF] admin@admin.com user logged on 4/4/2019 2:53:04 PM
+2019-04-04 14:53:04.860 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:53:04.862 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-04-04 14:53:04.865 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 353.1555ms.
+2019-04-04 14:53:04.871 +03:00 [INF] Executing RedirectResult, redirecting to /Admin/Firms.
+2019-04-04 14:53:04.873 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 373.95300000000003ms
+2019-04-04 14:53:04.874 +03:00 [INF] Request finished in 389.9614ms 302 
+2019-04-04 14:53:04.878 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Firms  
+2019-04-04 14:53:04.879 +03:00 [INF] Route matched with {action = "Firms", controller = "Admin"}. Executing action Web.Controllers.AdminController.Firms (Web)
+2019-04-04 14:53:04.879 +03:00 [INF] Authorization was successful.
+2019-04-04 14:53:04.879 +03:00 [INF] Executing action method Web.Controllers.AdminController.Firms (Web) with arguments (["","","1","25"]) - Validation state: "Valid"
+2019-04-04 14:53:04.879 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-04 14:53:04.881 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:53:04.882 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:53:04.885 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-04-04 14:53:04.887 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [user].[Id], [user].[AccessFailedCount], [user].[BranchId], [user].[ConcurrencyStamp], [user].[DateCreated], [user].[Email], [user].[EmailConfirmed], [user].[ImagePath], [user].[IsActive], [user].[LockoutEnabled], [user].[LockoutEnd], [user].[Name], [user].[NormalizedEmail], [user].[NormalizedUserName], [user].[PasswordHash], [user].[PhoneNumber], [user].[PhoneNumberConfirmed], [user].[SecurityStamp], [user].[TwoFactorEnabled], [user].[UserName]
+FROM [AspNetUserRoles] AS [userrole]
+INNER JOIN [AspNetUsers] AS [user] ON [userrole].[UserId] = [user].[Id]
+WHERE [userrole].[RoleId] = @__role_Id_0
+2019-04-04 14:53:04.888 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:53:04.890 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-04-04 14:53:04.891 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:53:04.895 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-04-04 14:53:04.898 +03:00 [INF] Executed action method Web.Controllers.AdminController.Firms (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.6039ms.
+2019-04-04 14:53:04.899 +03:00 [INF] Executing ViewResult, running view Firms.
+2019-04-04 14:53:04.903 +03:00 [INF] Executed ViewResult - view Firms executed in 4.9677000000000007ms.
+2019-04-04 14:53:04.903 +03:00 [INF] Executed action Web.Controllers.AdminController.Firms (Web) in 24.2679ms
+2019-04-04 14:53:04.903 +03:00 [INF] Request finished in 25.2185ms 200 text/html; charset=utf-8
+2019-04-04 14:53:04.977 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/admin/firms-en.js  
+2019-04-04 14:53:04.979 +03:00 [INF] Sending file. Request path: '/js/admin/firms-en.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\js\admin\firms-en.js'
+2019-04-04 14:53:04.979 +03:00 [INF] Request finished in 1.797ms 200 application/javascript

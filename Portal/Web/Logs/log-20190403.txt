@@ -1,0 +1,452 @@
+2019-04-03 14:40:33.166 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-03 14:40:34.120 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-03 14:40:34.179 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-03 14:40:45.089 +03:00 [INF] Executed DbCommand (768ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Portal-Dev];
+2019-04-03 14:40:45.395 +03:00 [INF] Executed DbCommand (300ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Portal-Dev] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2019-04-03 14:40:45.632 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [Discriminator] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2019-04-03 14:40:45.636 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Countries] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Currency] nvarchar(max) NULL,
+    CONSTRAINT [PK_Countries] PRIMARY KEY ([Id])
+);
+2019-04-03 14:40:45.640 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Customers] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [TableCode] nvarchar(max) NULL,
+    CONSTRAINT [PK_Customers] PRIMARY KEY ([Id])
+);
+2019-04-03 14:40:45.644 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Languages] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Code] nvarchar(max) NULL,
+    CONSTRAINT [PK_Languages] PRIMARY KEY ([Id])
+);
+2019-04-03 14:40:45.647 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.650 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [CountryId] int NOT NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Cities_Countries_CountryId] FOREIGN KEY ([CountryId]) REFERENCES [Countries] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.654 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [CountryTranslations] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [CountryId] int NOT NULL,
+    [LanguageId] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_CountryTranslations] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_CountryTranslations_Countries_CountryId] FOREIGN KEY ([CountryId]) REFERENCES [Countries] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_CountryTranslations_Languages_LanguageId] FOREIGN KEY ([LanguageId]) REFERENCES [Languages] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.658 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.661 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id])
+);
+2019-04-03 14:40:45.662 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey])
+);
+2019-04-03 14:40:45.672 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name])
+);
+2019-04-03 14:40:45.673 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Firms] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [IsActive] bit NOT NULL,
+    [LogoPath] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NULL,
+    [CityId] int NULL,
+    CONSTRAINT [PK_Firms] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Firms_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE NO ACTION
+);
+2019-04-03 14:40:45.675 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Branches] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [FirmId] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [IsActive] bit NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_Branches] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Branches_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Branches_Firms_FirmId] FOREIGN KEY ([FirmId]) REFERENCES [Firms] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.677 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [IsActive] bit NOT NULL,
+    [DateCreated] datetime2 NOT NULL,
+    [ImagePath] nvarchar(max) NULL,
+    [BranchId] int NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUsers_Branches_BranchId] FOREIGN KEY ([BranchId]) REFERENCES [Branches] ([Id]) ON DELETE NO ACTION
+);
+2019-04-03 14:40:45.678 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MenuTypes] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [BranchId] int NOT NULL,
+    CONSTRAINT [PK_MenuTypes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MenuTypes_Branches_BranchId] FOREIGN KEY ([BranchId]) REFERENCES [Branches] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.683 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tables] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [IsClosed] bit NOT NULL,
+    [Code] nvarchar(max) NULL,
+    [BranchId] int NOT NULL,
+    CONSTRAINT [PK_Tables] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Tables_Branches_BranchId] FOREIGN KEY ([BranchId]) REFERENCES [Branches] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.684 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Menus] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Price] decimal(18, 2) NOT NULL,
+    [ImagePath] nvarchar(max) NULL,
+    [MenuTypeId] int NOT NULL,
+    CONSTRAINT [PK_Menus] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Menus_MenuTypes_MenuTypeId] FOREIGN KEY ([MenuTypeId]) REFERENCES [MenuTypes] ([Id]) ON DELETE CASCADE
+);
+2019-04-03 14:40:45.686 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] int NOT NULL IDENTITY,
+    [DateCreated] datetime2 NOT NULL,
+    [MenuId] int NOT NULL,
+    [CustomerId] int NOT NULL,
+    [WaiterId] nvarchar(450) NULL,
+    [Status] int NOT NULL,
+    [Note] nvarchar(max) NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Customers_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [Customers] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_Menus_MenuId] FOREIGN KEY ([MenuId]) REFERENCES [Menus] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_WaiterId] FOREIGN KEY ([WaiterId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE SET NULL
+);
+2019-04-03 14:40:45.708 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Discriminator', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Discriminator], [Name], [NormalizedName])
+VALUES (N'1cce1d2a-7f96-422a-a743-95ad1be71512', N'a8d53fca-f0cb-465b-9b84-8ea4946d5ff7', N'ApplicationRole', N'Firm', N'FIRM'),
+(N'300ec059-1c06-498b-a2b4-b9248feb05ed', N'f5b7f778-9bf8-4b12-88a2-82e37c663bae', N'ApplicationRole', N'Admin', N'ADMIN'),
+(N'540b569f-096c-49cb-9921-2a6c3b392c7b', N'98ade3c8-66fb-450a-816b-708772c852d9', N'ApplicationRole', N'Branch', N'BRANCH'),
+(N'7a980e68-79af-4bd0-ad6c-fe437fabe30a', N'087a6444-9e79-4dd0-8e8f-973058f0b8c7', N'ApplicationRole', N'Waiter', N'WAITER');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Discriminator', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2019-04-03 14:40:45.726 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Currency', N'DateCreated') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] ON;
+INSERT INTO [Countries] ([Id], [Currency], [DateCreated])
+VALUES (1, N'TL', '2019-04-03T14:40:33.9710248+03:00'),
+(2, N'USD', '2019-04-03T14:40:33.9713900+03:00');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Currency', N'DateCreated') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] OFF;
+2019-04-03 14:40:45.735 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Code', N'DateCreated') AND [object_id] = OBJECT_ID(N'[Languages]'))
+    SET IDENTITY_INSERT [Languages] ON;
+INSERT INTO [Languages] ([Id], [Code], [DateCreated])
+VALUES (1, N'tr', '2019-04-03T14:40:33.9715561+03:00'),
+(2, N'en', '2019-04-03T14:40:33.9717458+03:00');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Code', N'DateCreated') AND [object_id] = OBJECT_ID(N'[Languages]'))
+    SET IDENTITY_INSERT [Languages] OFF;
+2019-04-03 14:40:45.746 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CountryId', N'DateCreated', N'Name') AND [object_id] = OBJECT_ID(N'[Cities]'))
+    SET IDENTITY_INSERT [Cities] ON;
+INSERT INTO [Cities] ([Id], [CountryId], [DateCreated], [Name])
+VALUES (1, 1, '2019-04-03T14:40:33.9727844+03:00', N'Istanbul'),
+(2, 1, '2019-04-03T14:40:33.9728268+03:00', N'Ankara'),
+(3, 2, '2019-04-03T14:40:33.9728355+03:00', N'New York'),
+(4, 2, '2019-04-03T14:40:33.9728437+03:00', N'Washington');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CountryId', N'DateCreated', N'Name') AND [object_id] = OBJECT_ID(N'[Cities]'))
+    SET IDENTITY_INSERT [Cities] OFF;
+2019-04-03 14:40:45.757 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CountryId', N'DateCreated', N'LanguageId', N'Name') AND [object_id] = OBJECT_ID(N'[CountryTranslations]'))
+    SET IDENTITY_INSERT [CountryTranslations] ON;
+INSERT INTO [CountryTranslations] ([Id], [CountryId], [DateCreated], [LanguageId], [Name])
+VALUES (1, 1, '0001-01-01T00:00:00.0000000', 1, N'Türkiye'),
+(3, 2, '0001-01-01T00:00:00.0000000', 1, N'ABD'),
+(2, 1, '0001-01-01T00:00:00.0000000', 2, N'Turkey'),
+(4, 2, '0001-01-01T00:00:00.0000000', 2, N'USA');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CountryId', N'DateCreated', N'LanguageId', N'Name') AND [object_id] = OBJECT_ID(N'[CountryTranslations]'))
+    SET IDENTITY_INSERT [CountryTranslations] OFF;
+2019-04-03 14:40:45.758 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2019-04-03 14:40:45.793 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2019-04-03 14:40:45.793 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2019-04-03 14:40:45.794 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2019-04-03 14:40:45.795 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2019-04-03 14:40:45.795 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUsers_BranchId] ON [AspNetUsers] ([BranchId]);
+2019-04-03 14:40:45.808 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2019-04-03 14:40:45.809 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2019-04-03 14:40:45.810 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Branches_CityId] ON [Branches] ([CityId]);
+2019-04-03 14:40:45.810 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Branches_FirmId] ON [Branches] ([FirmId]);
+2019-04-03 14:40:45.812 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Cities_CountryId] ON [Cities] ([CountryId]);
+2019-04-03 14:40:45.814 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_CountryTranslations_CountryId] ON [CountryTranslations] ([CountryId]);
+2019-04-03 14:40:45.816 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_CountryTranslations_LanguageId] ON [CountryTranslations] ([LanguageId]);
+2019-04-03 14:40:45.817 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Firms_CityId] ON [Firms] ([CityId]);
+2019-04-03 14:40:45.817 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Firms_UserId] ON [Firms] ([UserId]) WHERE [UserId] IS NOT NULL;
+2019-04-03 14:40:45.818 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Menus_MenuTypeId] ON [Menus] ([MenuTypeId]);
+2019-04-03 14:40:45.819 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MenuTypes_BranchId] ON [MenuTypes] ([BranchId]);
+2019-04-03 14:40:45.819 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_CustomerId] ON [Orders] ([CustomerId]);
+2019-04-03 14:40:45.820 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_MenuId] ON [Orders] ([MenuId]);
+2019-04-03 14:40:45.821 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_WaiterId] ON [Orders] ([WaiterId]);
+2019-04-03 14:40:45.821 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Tables_BranchId] ON [Tables] ([BranchId]);
+2019-04-03 14:40:45.823 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AspNetUserRoles] ADD CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE;
+2019-04-03 14:40:45.824 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AspNetUserClaims] ADD CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE;
+2019-04-03 14:40:45.825 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AspNetUserLogins] ADD CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE;
+2019-04-03 14:40:45.826 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AspNetUserTokens] ADD CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE;
+2019-04-03 14:40:45.827 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Firms] ADD CONSTRAINT [FK_Firms_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE SET NULL;
+2019-04-03 14:40:50.151 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-03 14:40:50.470 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-03 14:40:50.505 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-03 14:40:50.534 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-03 14:40:50.544 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 31.9634ms.
+2019-04-03 14:40:50.569 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-03 14:40:50.578 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 101.99080000000001ms
+2019-04-03 14:40:50.619 +03:00 [INF] Request finished in 471.054ms 302 
+2019-04-03 14:40:50.634 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-03 14:40:50.675 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-03 14:40:50.718 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-03 14:40:50.742 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-03 14:40:50.742 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 23.8933ms.
+2019-04-03 14:40:50.774 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-03 14:40:50.940 +03:00 [INF] Executed ViewResult - view Login executed in 194.9848ms.
+2019-04-03 14:40:50.940 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 264.6429ms
+2019-04-03 14:40:50.945 +03:00 [INF] Request finished in 310.8107ms 200 text/html; charset=utf-8
+2019-04-03 14:40:50.972 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/css/bootstrap.min.css  
+2019-04-03 14:40:50.973 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css  
+2019-04-03 14:40:51.003 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css  
+2019-04-03 14:40:51.003 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animate/animate.css  
+2019-04-03 14:40:51.006 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/css-hamburgers/hamburgers.min.css  
+2019-04-03 14:40:51.008 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animsition/css/animsition.min.css  
+2019-04-03 14:40:51.032 +03:00 [INF] Sending file. Request path: '/login/vendor/css-hamburgers/hamburgers.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\css-hamburgers\hamburgers.min.css'
+2019-04-03 14:40:51.032 +03:00 [INF] Sending file. Request path: '/login/vendor/animate/animate.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\animate\animate.css'
+2019-04-03 14:40:51.032 +03:00 [INF] Sending file. Request path: '/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\Linearicons-Free-v1.0.0\icon-font.min.css'
+2019-04-03 14:40:51.034 +03:00 [INF] Request finished in 28.4602ms 200 text/css
+2019-04-03 14:40:51.034 +03:00 [INF] Request finished in 31.7592ms 200 text/css
+2019-04-03 14:40:51.034 +03:00 [INF] Request finished in 31.4604ms 200 text/css
+2019-04-03 14:40:51.035 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/daterangepicker.css  
+2019-04-03 14:40:51.035 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/select2/select2.min.css  
+2019-04-03 14:40:51.036 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/css/util.css  
+2019-04-03 14:40:51.038 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\daterangepicker\daterangepicker.css'
+2019-04-03 14:40:51.038 +03:00 [INF] Request finished in 3.6455ms 200 text/css
+2019-04-03 14:40:51.048 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\css\bootstrap.min.css'
+2019-04-03 14:40:51.049 +03:00 [INF] Sending file. Request path: '/login/vendor/select2/select2.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\select2\select2.min.css'
+2019-04-03 14:40:51.048 +03:00 [INF] Request finished in 76.2407ms 200 text/css
+2019-04-03 14:40:51.049 +03:00 [INF] Request finished in 13.9683ms 200 text/css
+2019-04-03 14:40:51.055 +03:00 [INF] Sending file. Request path: '/login/vendor/animsition/css/animsition.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\animsition\css\animsition.min.css'
+2019-04-03 14:40:51.056 +03:00 [INF] Sending file. Request path: '/login/css/util.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\css\util.css'
+2019-04-03 14:40:51.056 +03:00 [INF] Request finished in 47.7766ms 200 text/css
+2019-04-03 14:40:51.056 +03:00 [INF] Request finished in 19.5771ms 200 text/css
+2019-04-03 14:40:51.056 +03:00 [INF] Sending file. Request path: '/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\font-awesome-4.7.0\css\font-awesome.min.css'
+2019-04-03 14:40:51.056 +03:00 [INF] Request finished in 82.8056ms 200 text/css
+2019-04-03 14:40:51.085 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/css/main.css  
+2019-04-03 14:40:51.086 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js  
+2019-04-03 14:40:51.087 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/bootstrap.min.js  
+2019-04-03 14:40:51.087 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animsition/js/animsition.min.js  
+2019-04-03 14:40:51.086 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/jquery/jquery-3.2.1.min.js  
+2019-04-03 14:40:51.147 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/js/popper.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\js\popper.js'
+2019-04-03 14:40:51.148 +03:00 [INF] Sending file. Request path: '/login/vendor/animsition/js/animsition.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\animsition\js\animsition.min.js'
+2019-04-03 14:40:51.148 +03:00 [INF] Request finished in 61.4764ms 200 application/javascript
+2019-04-03 14:40:51.148 +03:00 [INF] Request finished in 61.9299ms 200 application/javascript
+2019-04-03 14:40:51.148 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/js/bootstrap.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\js\bootstrap.min.js'
+2019-04-03 14:40:51.148 +03:00 [INF] Sending file. Request path: '/login/css/main.css'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\css\main.css'
+2019-04-03 14:40:51.148 +03:00 [INF] Request finished in 61.8224ms 200 application/javascript
+2019-04-03 14:40:51.149 +03:00 [INF] Request finished in 63.8396ms 200 text/css
+2019-04-03 14:40:51.149 +03:00 [INF] Sending file. Request path: '/login/vendor/jquery/jquery-3.2.1.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\jquery\jquery-3.2.1.min.js'
+2019-04-03 14:40:51.149 +03:00 [INF] Request finished in 63.2354ms 200 application/javascript
+2019-04-03 14:40:51.174 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/select2/select2.min.js  
+2019-04-03 14:40:51.234 +03:00 [INF] Sending file. Request path: '/login/vendor/select2/select2.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\select2\select2.min.js'
+2019-04-03 14:40:51.234 +03:00 [INF] Request finished in 60.2669ms 200 application/javascript
+2019-04-03 14:40:51.461 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/moment.min.js  
+2019-04-03 14:40:51.461 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/daterangepicker.js  
+2019-04-03 14:40:51.461 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/countdowntime/countdowntime.js  
+2019-04-03 14:40:51.462 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/js/main.js  
+2019-04-03 14:40:51.495 +03:00 [INF] Sending file. Request path: '/login/vendor/countdowntime/countdowntime.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\countdowntime\countdowntime.js'
+2019-04-03 14:40:51.495 +03:00 [INF] Request finished in 33.9761ms 200 application/javascript
+2019-04-03 14:40:51.497 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/moment.min.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\daterangepicker\moment.min.js'
+2019-04-03 14:40:51.497 +03:00 [INF] Request finished in 36.4313ms 200 application/javascript
+2019-04-03 14:40:51.501 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\daterangepicker\daterangepicker.js'
+2019-04-03 14:40:51.501 +03:00 [INF] Request finished in 39.8816ms 200 application/javascript
+2019-04-03 14:40:51.514 +03:00 [INF] Sending file. Request path: '/login/js/main.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\js\main.js'
+2019-04-03 14:40:51.514 +03:00 [INF] Request finished in 52.3429ms 200 application/javascript
+2019-04-03 14:40:53.283 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-Regular.ttf  
+2019-04-03 14:40:53.286 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-Medium.ttf  
+2019-04-03 14:40:53.286 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-SemiBold.ttf  
+2019-04-03 14:40:53.287 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2019-04-03 14:40:53.329 +03:00 [INF] Sending file. Request path: '/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2'
+2019-04-03 14:40:53.330 +03:00 [INF] Request finished in 42.4688ms 200 font/woff2
+2019-04-03 14:40:53.332 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-Medium.ttf'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\raleway\Raleway-Medium.ttf'
+2019-04-03 14:40:53.332 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-SemiBold.ttf'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\raleway\Raleway-SemiBold.ttf'
+2019-04-03 14:40:53.332 +03:00 [INF] Request finished in 46.3361ms 200 application/x-font-ttf
+2019-04-03 14:40:53.332 +03:00 [INF] Request finished in 46.5715ms 200 application/x-font-ttf
+2019-04-03 14:40:53.333 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-Regular.ttf'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\fonts\raleway\Raleway-Regular.ttf'
+2019-04-03 14:40:53.334 +03:00 [INF] Request finished in 50.793ms 200 application/x-font-ttf
+2019-04-03 14:40:55.106 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/images/icons/favicon.ico  
+2019-04-03 14:40:55.164 +03:00 [INF] Sending file. Request path: '/login/images/icons/favicon.ico'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\images\icons\favicon.ico'
+2019-04-03 14:40:55.164 +03:00 [INF] Request finished in 57.8785ms 200 image/x-icon
+2019-04-03 14:45:17.922 +03:00 [INF] User profile is available. Using 'C:\Users\OCETINTAS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-03 14:45:18.624 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-04-03 14:45:18.694 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-03 14:45:18.959 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-04-03 14:45:21.492 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-04-03 14:45:21.776 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-04-03 14:45:21.806 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-04-03 14:45:21.813 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-03 14:45:21.827 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 9.6513ms.
+2019-04-03 14:45:21.846 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-04-03 14:45:21.852 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 70.973300000000009ms
+2019-04-03 14:45:21.894 +03:00 [INF] Request finished in 404.8198ms 302 
+2019-04-03 14:45:22.902 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-03 14:45:22.935 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-03 14:45:22.960 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-03 14:45:22.971 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-03 14:45:22.972 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.594100000000001ms.
+2019-04-03 14:45:23.001 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-03 14:45:23.135 +03:00 [INF] Executed ViewResult - view Login executed in 158.39620000000002ms.
+2019-04-03 14:45:23.135 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 200.0893ms
+2019-04-03 14:45:23.142 +03:00 [INF] Request finished in 239.8477ms 200 text/html; charset=utf-8
+2019-04-03 14:45:23.245 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login.js  
+2019-04-03 14:45:23.255 +03:00 [INF] Sending file. Request path: '/js/account/login.js'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\js\account\login.js'
+2019-04-03 14:45:23.256 +03:00 [INF] Request finished in 10.6355ms 200 application/javascript
+2019-04-03 14:45:35.651 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-03 14:45:35.656 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-03 14:45:35.737 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-03 14:45:35.749 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 11.6789ms.
+2019-04-03 14:45:35.750 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-03 14:45:35.750 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 93.531500000000008ms
+2019-04-03 14:45:35.750 +03:00 [INF] Request finished in 99.2292ms 302 
+2019-04-03 14:45:35.755 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-03 14:45:35.756 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-03 14:45:35.756 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-03 14:45:35.757 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-03 14:45:35.757 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5492ms.
+2019-04-03 14:45:35.758 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-03 14:45:35.764 +03:00 [INF] Executed ViewResult - view Login executed in 6.3462000000000005ms.
+2019-04-03 14:45:35.764 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 8.2781ms
+2019-04-03 14:45:35.764 +03:00 [INF] Request finished in 9.5934ms 200 text/html; charset=utf-8
+2019-04-03 14:45:35.852 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login.js  
+2019-04-03 14:45:35.860 +03:00 [INF] The file /js/account/login.js was not modified
+2019-04-03 14:45:35.863 +03:00 [INF] Request finished in 10.3039ms 304 application/javascript
+2019-04-03 14:45:38.055 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-03 14:45:38.056 +03:00 [INF] Request finished in 0.9165ms 404 
+2019-04-03 14:45:38.072 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/css/bootstrap.min.css.map  
+2019-04-03 14:45:38.117 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/css/bootstrap.min.css.map'. Physical path: 'C:\Users\OCETINTAS\Desktop\Portal\Web\wwwroot\login\vendor\bootstrap\css\bootstrap.min.css.map'
+2019-04-03 14:45:38.119 +03:00 [INF] Request finished in 47.3001ms 200 text/plain
+2019-04-03 14:45:42.133 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Home/Language application/x-www-form-urlencoded 222
+2019-04-03 14:45:42.134 +03:00 [INF] Route matched with {action = "Language", controller = "Home"}. Executing action Web.Controllers.HomeController.Language (Web)
+2019-04-03 14:45:42.137 +03:00 [INF] Executing action method Web.Controllers.HomeController.Language (Web) with arguments (["en","/Account/Login"]) - Validation state: "Valid"
+2019-04-03 14:45:42.137 +03:00 [INF] Executed action method Web.Controllers.HomeController.Language (Web), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 0.14400000000000002ms.
+2019-04-03 14:45:42.137 +03:00 [INF] Executing LocalRedirectResult, redirecting to /Account/Login.
+2019-04-03 14:45:42.138 +03:00 [INF] Executed action Web.Controllers.HomeController.Language (Web) in 3.4484000000000004ms
+2019-04-03 14:45:42.138 +03:00 [INF] Request finished in 4.9242ms 302 
+2019-04-03 14:45:42.144 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-04-03 14:45:42.145 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-04-03 14:45:42.145 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-04-03 14:45:42.145 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-04-03 14:45:42.145 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1908ms.
+2019-04-03 14:45:42.145 +03:00 [INF] Executing ViewResult, running view Login.
+2019-04-03 14:45:42.147 +03:00 [INF] Executed ViewResult - view Login executed in 1.347ms.
+2019-04-03 14:45:42.147 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 2.2115ms
+2019-04-03 14:45:42.147 +03:00 [INF] Request finished in 3.1346ms 200 text/html; charset=utf-8
+2019-04-03 14:45:42.221 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/account/login.js  
+2019-04-03 14:45:42.222 +03:00 [INF] The file /js/account/login.js was not modified
+2019-04-03 14:45:42.222 +03:00 [INF] Request finished in 0.6341ms 304 application/javascript
+2019-04-03 14:45:42.481 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js.map  
+2019-04-03 14:45:42.481 +03:00 [INF] Request finished in 0.7333ms 404 

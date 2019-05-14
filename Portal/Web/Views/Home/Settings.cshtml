@@ -1,0 +1,227 @@
+﻿@model Web.Models.SettingsViewModel
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+
+
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-gears"></i> Hesap Bilgileri</h2>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div class="row">
+                    <form id="demo-form121" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                        <p class="text-muted">Bu bölümden bilgilerinizi güncelleyebilirsiniz.</p>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                İsim
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="name" value="@Model.CurrentUser.Name" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                E-posta
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="email" id="email" value="@Model.CurrentUser.Email" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                Telefon
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="tel" value="@Model.CurrentUser.Phone" class="form-control col-md-7 col-xs-12" data-inputmask="'mask' : '(999) 999-99-99'">
+                            </div>
+                        </div>
+                        <div class="ln_solid"></div>
+                        <p class="text-muted">Bu bölümden şifrenizi güncelleyebilirsiniz.</p>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                Mevcut Şifre
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="password" id="pass" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                Yeni Şifre
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="password" id="new-pass" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                Yeni Şifre (tekrar)
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="password" id="new-pass-again" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <br />
+                <div class="row text-center">
+                    <button id="btn-save" onclick="updateUser()" class="btn btn-primary"><i class="fa fa-save"></i> Kaydet</button>
+                    <script>
+                        function updateUser() {
+                            var emailRegex = new RegExp(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@('@')[a-zA-Z0-9-]+(@("?:")\.[a-zA-Z0-9-]+)*$/);
+                            var passRegex = new RegExp("^(((?=.*[a-z])(?=.*[A-Z]))|((?=.*[a-z])(?=.*[0-9]))|((?=.*[A-Z])(?=.*[0-9])))(?=.{6,})");
+
+                            var name = $('#name').val();
+                            var email = $('#email').val();
+                            var tel = $('#tel').val();
+                            var pass = $('#pass').val();
+                            var new_pass = $('#new-pass').val();
+                            var pass_again = $('#new-pass-again').val();
+
+                            if (name === "") {
+                                toastr.error("İsim boş bırakılamaz");
+                                return;
+                            }
+
+                            if (email === "") {
+                                toastr.error("E-posta boş bırakılamaz");
+                                return;
+                            }
+
+                            if (tel === "") {
+                                toastr.error("Telefon boş bırakılamaz");
+                                return;
+                            }
+
+                            if (!emailRegex.test(email)) {
+                                toastr.error('Geçersiz e-posta');
+                                return;
+                            }
+
+                            if (pass !== "") {
+                                if (!passRegex.test(new_pass)) {
+                                    toastr.error('Geçersiz şifre');
+                                    return;
+                                }
+
+                               
+                                if (!passRegex.test(pass)) {
+                                    toastr.error('Geçersiz şifre');
+                                    return;
+                                }
+                            }
+
+                            if (new_pass != pass_again) {
+                                toastr.error('Şifreler uyuşmuyor');
+                                return;
+                            }
+
+
+                            var data = new FormData();
+                            data.append('Name', name);
+                            data.append('Phone', tel);
+                            data.append('Email', email);
+                            data.append('Password', email);
+                            data.append('NewPassword', new_pass);
+                            data.append('NewPasswordAgain', pass_again);
+
+                            jQuery.ajax({
+                                url: '@Url.Action("UpdateUser","Home")',
+                                data: data,
+                                cache: false,
+                                contentType: false,
+                                processData: false,
+                                method: 'POST',
+                                type: 'POST', // For jQuery < 1.9
+                                complete: function (xhr) {
+                                    if (xhr.status === 200) {
+                                        toastr.options.onHidden = function () { window.location.reload(); };
+                                        toastr.success(xhr.responseText);
+                                    }
+                                },
+                                error: function (xhr) {
+                                    if (xhr.status === 400) {
+                                        toastr.error(xhr.responseText);
+                                    }
+                                }
+                            });
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.CurrentUserRoles.Contains("Admin") || Model.CurrentUserRoles.Contains("Firm"))
+    {
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2><i class="fa fa-image"></i> <strong>@Model.CurrentUser.Name</strong> Logo</h2>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <p class="text-muted">Bu bölümden logonuzu güncelleyebilirsiniz.</p>
+                    <div class="row text-center">
+                        <img src="@Model.CurrentFirmLogo" style="height:250px;width:250px;" />
+                    </div>
+                    <br />
+                    <div class="row text-center">
+                        <button id="btn-change" class="btn btn-primary"><i class="fa fa-upload"></i> Seç</button>
+                        <input type="file" id="file" name="file" style="display:none" />
+                        <script>
+                        $(document).ready(function () {
+                            $('#btn-change').click(function () {
+                                $('#file').click();
+                            });
+
+                            $('#file').change(function () {
+                                var filename = $(this)[0].files[0].name;
+                                $('#btn-change').html(filename);
+
+                                if (filename === "" || filename === null || typeof filename === "undefined")
+                                {
+                                    toastr.error("Lütfen bir dosya seçiniz.");
+                                    return;
+                                }
+
+                                var image = $('#file')[0].files[0];
+
+                                var data = new FormData();
+                                data.append('file', image);
+
+                                 jQuery.ajax({
+                                    url: '@Url.Action("ChangeLogo","Home")',
+                                    data: data,
+                                    cache: false,
+                                    contentType: false,
+                                    processData: false,
+                                    method: 'POST',
+                                    type: 'POST', // For jQuery < 1.9
+                                    complete: function (xhr) {
+                                        if (xhr.status === 200) {
+                                            toastr.options.onHidden = function () { window.location.reload(); };
+                                            toastr.success(xhr.responseText);
+                                        }
+                                    },
+                                    error: function (xhr) {
+                                        if (xhr.status === 400) {
+                                            toastr.error(xhr.responseText);
+                                        }
+                                    }
+                                });
+                            });
+                        });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

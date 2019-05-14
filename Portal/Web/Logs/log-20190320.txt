@@ -1,0 +1,1626 @@
+2019-03-20 15:58:13.322 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 15:58:14.607 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 15:58:14.751 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 15:58:15.007 +03:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 15:58:20.326 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 15:58:20.598 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 15:58:20.622 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 15:58:20.628 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 15:58:20.641 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 8.288ms.
+2019-03-20 15:58:20.654 +03:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2019-03-20 15:58:20.658 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 56.8588ms
+2019-03-20 15:58:20.684 +03:00 [INF] Request finished in 358.5676ms 302 
+2019-03-20 15:58:20.697 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login  
+2019-03-20 15:58:20.725 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-03-20 15:58:20.747 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments ([""]) - Validation state: "Valid"
+2019-03-20 15:58:20.762 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-03-20 15:58:20.762 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 14.8224ms.
+2019-03-20 15:58:20.793 +03:00 [INF] Executing ViewResult, running view Login.
+2019-03-20 15:58:20.977 +03:00 [INF] Executed ViewResult - view Login executed in 210.24890000000002ms.
+2019-03-20 15:58:20.977 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 251.6194ms
+2019-03-20 15:58:21.018 +03:00 [INF] Request finished in 321.2057ms 200 text/html; charset=utf-8
+2019-03-20 15:58:22.222 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/css/bootstrap.min.css  
+2019-03-20 15:58:22.244 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css  
+2019-03-20 15:58:22.244 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animate/animate.css  
+2019-03-20 15:58:22.247 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css  
+2019-03-20 15:58:22.268 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animsition/css/animsition.min.css  
+2019-03-20 15:58:22.268 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/css-hamburgers/hamburgers.min.css  
+2019-03-20 15:58:22.334 +03:00 [INF] Sending file. Request path: '/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\fonts\Linearicons-Free-v1.0.0\icon-font.min.css'
+2019-03-20 15:58:22.334 +03:00 [INF] Sending file. Request path: '/login/vendor/animsition/css/animsition.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\animsition\css\animsition.min.css'
+2019-03-20 15:58:22.334 +03:00 [INF] Sending file. Request path: '/login/vendor/animate/animate.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\animate\animate.css'
+2019-03-20 15:58:22.336 +03:00 [INF] Request finished in 91.9257ms 200 text/css
+2019-03-20 15:58:22.336 +03:00 [INF] Request finished in 68.8512ms 200 text/css
+2019-03-20 15:58:22.336 +03:00 [INF] Request finished in 91.9244ms 200 text/css
+2019-03-20 15:58:22.337 +03:00 [INF] Sending file. Request path: '/login/vendor/css-hamburgers/hamburgers.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\css-hamburgers\hamburgers.min.css'
+2019-03-20 15:58:22.337 +03:00 [INF] Sending file. Request path: '/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\fonts\font-awesome-4.7.0\css\font-awesome.min.css'
+2019-03-20 15:58:22.337 +03:00 [INF] Request finished in 69.3504ms 200 text/css
+2019-03-20 15:58:22.337 +03:00 [INF] Request finished in 90.3406ms 200 text/css
+2019-03-20 15:58:22.408 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/select2/select2.min.css  
+2019-03-20 15:58:22.410 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/daterangepicker.css  
+2019-03-20 15:58:22.411 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/css/util.css  
+2019-03-20 15:58:22.415 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/css/main.css  
+2019-03-20 15:58:22.416 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/jquery/jquery-3.2.1.min.js  
+2019-03-20 15:58:22.418 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\daterangepicker\daterangepicker.css'
+2019-03-20 15:58:22.418 +03:00 [INF] Request finished in 8.7628ms 200 text/css
+2019-03-20 15:58:22.419 +03:00 [INF] Sending file. Request path: '/login/css/main.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\css\main.css'
+2019-03-20 15:58:22.419 +03:00 [INF] Request finished in 4.2065ms 200 text/css
+2019-03-20 15:58:22.431 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/animsition/js/animsition.min.js  
+2019-03-20 15:58:22.432 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/popper.js  
+2019-03-20 15:58:22.433 +03:00 [INF] Sending file. Request path: '/login/vendor/animsition/js/animsition.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\animsition\js\animsition.min.js'
+2019-03-20 15:58:22.433 +03:00 [INF] Request finished in 1.7382ms 200 application/javascript
+2019-03-20 15:58:22.442 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/bootstrap/js/bootstrap.min.js  
+2019-03-20 15:58:22.461 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\bootstrap\css\bootstrap.min.css'
+2019-03-20 15:58:22.462 +03:00 [INF] Request finished in 239.6825ms 200 text/css
+2019-03-20 15:58:22.462 +03:00 [INF] Sending file. Request path: '/login/css/util.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\css\util.css'
+2019-03-20 15:58:22.462 +03:00 [INF] Request finished in 51.1816ms 200 text/css
+2019-03-20 15:58:22.466 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/select2/select2.min.js  
+2019-03-20 15:58:22.477 +03:00 [INF] Sending file. Request path: '/login/vendor/select2/select2.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\select2\select2.min.css'
+2019-03-20 15:58:22.477 +03:00 [INF] Request finished in 68.5213ms 200 text/css
+2019-03-20 15:58:22.479 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/moment.min.js  
+2019-03-20 15:58:22.484 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/daterangepicker/daterangepicker.js  
+2019-03-20 15:58:22.486 +03:00 [INF] Sending file. Request path: '/login/vendor/select2/select2.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\select2\select2.min.js'
+2019-03-20 15:58:22.487 +03:00 [INF] Request finished in 20.7795ms 200 application/javascript
+2019-03-20 15:58:22.491 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\daterangepicker\daterangepicker.js'
+2019-03-20 15:58:22.491 +03:00 [INF] Request finished in 6.35ms 200 application/javascript
+2019-03-20 15:58:22.491 +03:00 [INF] Sending file. Request path: '/login/vendor/jquery/jquery-3.2.1.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\jquery\jquery-3.2.1.min.js'
+2019-03-20 15:58:22.491 +03:00 [INF] Request finished in 75.069ms 200 application/javascript
+2019-03-20 15:58:22.513 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/js/popper.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\bootstrap\js\popper.js'
+2019-03-20 15:58:22.513 +03:00 [INF] Sending file. Request path: '/login/vendor/bootstrap/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\bootstrap\js\bootstrap.min.js'
+2019-03-20 15:58:22.514 +03:00 [INF] Request finished in 81.6994ms 200 application/javascript
+2019-03-20 15:58:22.514 +03:00 [INF] Request finished in 71.8899ms 200 application/javascript
+2019-03-20 15:58:22.515 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/vendor/countdowntime/countdowntime.js  
+2019-03-20 15:58:22.515 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/js/main.js  
+2019-03-20 15:58:22.518 +03:00 [INF] Sending file. Request path: '/login/vendor/daterangepicker/moment.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\daterangepicker\moment.min.js'
+2019-03-20 15:58:22.518 +03:00 [INF] Request finished in 38.9192ms 200 application/javascript
+2019-03-20 15:58:22.586 +03:00 [INF] Sending file. Request path: '/login/js/main.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\js\main.js'
+2019-03-20 15:58:22.586 +03:00 [INF] Sending file. Request path: '/login/vendor/countdowntime/countdowntime.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\vendor\countdowntime\countdowntime.js'
+2019-03-20 15:58:22.586 +03:00 [INF] Request finished in 71.7239ms 200 application/javascript
+2019-03-20 15:58:22.586 +03:00 [INF] Request finished in 71.7333ms 200 application/javascript
+2019-03-20 15:58:23.495 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-Regular.ttf  
+2019-03-20 15:58:23.495 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-Medium.ttf  
+2019-03-20 15:58:23.495 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/raleway/Raleway-SemiBold.ttf  
+2019-03-20 15:58:23.496 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2019-03-20 15:58:23.543 +03:00 [INF] Sending file. Request path: '/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2'
+2019-03-20 15:58:23.543 +03:00 [INF] Request finished in 46.7204ms 200 font/woff2
+2019-03-20 15:58:23.558 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-Regular.ttf'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\fonts\raleway\Raleway-Regular.ttf'
+2019-03-20 15:58:23.558 +03:00 [INF] Request finished in 63.406ms 200 application/x-font-ttf
+2019-03-20 15:58:23.563 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-SemiBold.ttf'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\fonts\raleway\Raleway-SemiBold.ttf'
+2019-03-20 15:58:23.563 +03:00 [INF] Request finished in 67.8562ms 200 application/x-font-ttf
+2019-03-20 15:58:23.564 +03:00 [INF] Sending file. Request path: '/login/fonts/raleway/Raleway-Medium.ttf'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\fonts\raleway\Raleway-Medium.ttf'
+2019-03-20 15:58:23.564 +03:00 [INF] Request finished in 68.7086ms 200 application/x-font-ttf
+2019-03-20 15:58:27.112 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/login/images/icons/favicon.ico  
+2019-03-20 15:58:27.122 +03:00 [INF] Sending file. Request path: '/login/images/icons/favicon.ico'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\login\images\icons\favicon.ico'
+2019-03-20 15:58:27.122 +03:00 [INF] Request finished in 10.3475ms 200 image/x-icon
+2019-03-20 15:58:31.358 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 245
+2019-03-20 15:58:31.370 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action Web.Controllers.AccountController.Login (Web)
+2019-03-20 15:58:31.414 +03:00 [INF] Executing action method Web.Controllers.AccountController.Login (Web) with arguments (["Web.Models.LoginModel",""]) - Validation state: "Valid"
+2019-03-20 15:58:31.418 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 15:58:31.817 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__model_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName], [i.Branch].[Id], [i.Branch].[CityId], [i.Branch].[DateCreated], [i.Branch].[FirmId], [i.Branch].[IsActive], [i.Branch].[Name], [i.Branch.Firm].[Id], [i.Branch.Firm].[CityId], [i.Branch.Firm].[DateCreated], [i.Branch.Firm].[IsActive], [i.Branch.Firm].[LogoPath], [i.Branch.Firm].[Name], [i.Branch.Firm].[UserId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+LEFT JOIN [Firms] AS [i.Branch.Firm] ON [i.Branch].[FirmId] = [i.Branch.Firm].[Id]
+WHERE ([i].[IsActive] = 1) AND ([i].[Email] = @__model_Email_0)
+2019-03-20 15:58:32.087 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 15:58:32.182 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 15:58:32.433 +03:00 [INF] Executed DbCommand (110ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2019-03-20 15:58:32.521 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 15:58:32.546 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedName_0)
+2019-03-20 15:58:32.573 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2019-03-20 15:58:32.598 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-03-20 15:58:32.604 +03:00 [INF] ankara@ziyafe.com kullanıcısı Onur1841! şifresi ile sisteme giriş yaptı. Tarih: 20.03.2019 15:58:32
+2019-03-20 15:58:32.983 +03:00 [INF] Executed DbCommand (320ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[BranchId], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[Email], [u].[EmailConfirmed], [u].[ImagePath], [u].[IsActive], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[Name], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2019-03-20 15:58:33.113 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserClaims] ([ClaimType], [ClaimValue], [UserId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetUserClaims]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-03-20 15:58:33.165 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p19='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p20='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 4000), @p11='?' (Size = 256), @p12='?' (Size = 256), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [BranchId] = @p1, [ConcurrencyStamp] = @p2, [DateCreated] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [ImagePath] = @p6, [IsActive] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [Name] = @p10, [NormalizedEmail] = @p11, [NormalizedUserName] = @p12, [PasswordHash] = @p13, [PhoneNumber] = @p14, [PhoneNumberConfirmed] = @p15, [SecurityStamp] = @p16, [TwoFactorEnabled] = @p17, [UserName] = @p18
+WHERE [Id] = @p19 AND [ConcurrencyStamp] = @p20;
+SELECT @@ROWCOUNT;
+2019-03-20 15:58:33.184 +03:00 [INF] ankara@ziyafe.com user logged on 20.03.2019 15:58:33
+2019-03-20 15:58:33.195 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 15:58:33.199 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 15:58:33.201 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 15:58:33.204 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 15:58:33.206 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 15:58:33.209 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 15:58:33.219 +03:00 [INF] Executed action method Web.Controllers.AccountController.Login (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1805.2334ms.
+2019-03-20 15:58:33.228 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 15:58:33.232 +03:00 [INF] Executed action Web.Controllers.AccountController.Login (Web) in 1862.0091ms
+2019-03-20 15:58:33.236 +03:00 [INF] Request finished in 1877.8773ms 302 
+2019-03-20 15:58:33.241 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 15:58:33.282 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 15:58:33.296 +03:00 [INF] Authorization was successful.
+2019-03-20 15:58:33.298 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 15:58:33.304 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 15:58:33.314 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 15:58:33.358 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 15:58:33.397 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 15:58:33.417 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 15:58:33.429 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 15:58:33.429 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 15:58:33.457 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 15:58:33.466 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 15:58:33.467 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 15:58:33.473 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 15:58:33.473 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 15:58:33.491 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 15:58:33.496 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 15:58:33.498 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 15:58:33.502 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 15:58:33.517 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 15:58:33.522 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 223.67610000000002ms.
+2019-03-20 15:58:33.528 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 15:58:33.599 +03:00 [INF] Executed ViewResult - view Dashboard executed in 76.2636ms.
+2019-03-20 15:58:33.599 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 316.99580000000003ms
+2019-03-20 15:58:33.599 +03:00 [INF] Request finished in 358.4187ms 200 text/html; charset=utf-8
+2019-03-20 15:58:33.784 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 15:58:33.784 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 15:58:33.787 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 15:58:33.787 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 15:58:33.795 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 15:58:33.795 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 15:58:33.832 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 15:58:33.832 +03:00 [INF] Request finished in 47.7819ms 200 text/css
+2019-03-20 15:58:33.832 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 15:58:33.833 +03:00 [INF] Request finished in 38.0386ms 200 image/jpeg
+2019-03-20 15:58:33.839 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 15:58:33.839 +03:00 [INF] Request finished in 52.1796ms 200 text/css
+2019-03-20 15:58:33.845 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 15:58:33.846 +03:00 [INF] Request finished in 58.9115ms 200 text/css
+2019-03-20 15:58:33.849 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 15:58:33.849 +03:00 [INF] Request finished in 54.7054ms 200 text/css
+2019-03-20 15:58:33.858 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 15:58:33.859 +03:00 [INF] Request finished in 75.2695ms 200 text/css
+2019-03-20 15:58:34.013 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 15:58:34.014 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 15:58:34.016 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 15:58:34.031 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 15:58:34.035 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 15:58:34.036 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 15:58:34.036 +03:00 [INF] Request finished in 20.6963ms 200 application/javascript
+2019-03-20 15:58:34.036 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 15:58:34.042 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 15:58:34.042 +03:00 [INF] Request finished in 28.2875ms 200 application/javascript
+2019-03-20 15:58:34.043 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 15:58:34.043 +03:00 [INF] Request finished in 12.1032ms 200 application/javascript
+2019-03-20 15:58:34.058 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 15:58:34.058 +03:00 [INF] Request finished in 23.7721ms 200 application/javascript
+2019-03-20 15:58:34.065 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 15:58:34.069 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 15:58:34.069 +03:00 [INF] Request finished in 56.672ms 200 application/javascript
+2019-03-20 15:58:34.070 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 15:58:34.070 +03:00 [INF] Request finished in 33.9776ms 200 application/javascript
+2019-03-20 15:58:34.087 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 15:58:34.087 +03:00 [INF] Request finished in 21.8798ms 200 application/javascript
+2019-03-20 15:58:34.243 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 15:58:34.247 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 15:58:34.259 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 15:58:34.259 +03:00 [INF] Request finished in 16.3353ms 200 application/javascript
+2019-03-20 15:58:34.273 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 15:58:34.273 +03:00 [INF] Request finished in 25.5735ms 200 font/woff2
+2019-03-20 15:58:38.821 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-03-20 15:58:38.861 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\favicon.ico'
+2019-03-20 15:58:38.861 +03:00 [INF] Request finished in 40.148ms 200 image/x-icon
+2019-03-20 15:58:46.796 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Branch/TableSummary multipart/form-data; boundary=----WebKitFormBoundaryuGEGBWKAjNl9BBW7 162
+2019-03-20 15:58:46.801 +03:00 [INF] Route matched with {action = "TableSummary", controller = "Branch"}. Executing action Web.Controllers.BranchController.TableSummary (Web)
+2019-03-20 15:58:46.802 +03:00 [INF] Authorization was successful.
+2019-03-20 15:58:46.916 +03:00 [INF] Executing action method Web.Controllers.BranchController.TableSummary (Web) with arguments (["VoPGaxzjKSmNhO/ZvequLQ=="]) - Validation state: "Valid"
+2019-03-20 15:58:46.921 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 15:58:46.925 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 15:58:46.938 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32), @__branchId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE ([i].[Id] = @__tableId_0) AND ([i].[BranchId] = @__branchId_1)
+2019-03-20 15:58:46.997 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[TableCode] = @__tableCode_0
+ORDER BY [i].[Id]
+2019-03-20 15:58:47.017 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Orders].[Id], [i.Orders].[CustomerId], [i.Orders].[DateCreated], [i.Orders].[MenuId], [i.Orders].[Note], [i.Orders].[Status], [i.Orders].[WaiterId], [o.Menu].[Id], [o.Menu].[DateCreated], [o.Menu].[ImagePath], [o.Menu].[MenuTypeId], [o.Menu].[Name], [o.Menu].[Price]
+FROM [Orders] AS [i.Orders]
+INNER JOIN [Menus] AS [o.Menu] ON [i.Orders].[MenuId] = [o.Menu].[Id]
+INNER JOIN (
+    SELECT [i0].[Id]
+    FROM [Customers] AS [i0]
+    WHERE [i0].[TableCode] = @__tableCode_0
+) AS [t] ON [i.Orders].[CustomerId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-03-20 15:58:47.090 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price]
+FROM [Orders] AS [i]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+WHERE [i].[CustomerId] = @__customerId_0
+2019-03-20 15:58:47.103 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price]
+FROM [Orders] AS [i]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+WHERE [i].[CustomerId] = @__customerId_0
+2019-03-20 15:58:47.104 +03:00 [INF] Executed action method Web.Controllers.BranchController.TableSummary (Web), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 187.4905ms.
+2019-03-20 15:58:47.109 +03:00 [INF] Executing PartialViewResult, running view TableSummary.
+2019-03-20 15:58:47.118 +03:00 [INF] Executed PartialViewResult - view null executed in 11.8848ms.
+2019-03-20 15:58:47.118 +03:00 [INF] Executed action Web.Controllers.BranchController.TableSummary (Web) in 316.79060000000004ms
+2019-03-20 15:58:47.118 +03:00 [INF] Request finished in 321.9835ms 200 text/html; charset=utf-8
+2019-03-20 15:58:50.131 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 15:58:50.135 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 15:58:50.135 +03:00 [INF] Authorization was successful.
+2019-03-20 15:58:50.136 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 15:58:50.137 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 15:58:50.138 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:00:15.113 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 16:00:16.060 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 16:00:16.151 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:00:16.300 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 16:00:19.426 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 16:00:19.760 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 16:00:19.782 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 16:00:19.789 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:00:20.033 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-03-20 16:00:20.245 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:00:20.277 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:00:20.283 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:00:20.286 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:00:20.287 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:00:20.290 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:00:20.305 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 518.5041ms.
+2019-03-20 16:00:20.319 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 16:00:20.327 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 563.5741ms
+2019-03-20 16:00:20.348 +03:00 [INF] Request finished in 923.4918ms 302 
+2019-03-20 16:00:20.349 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 16:00:20.357 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 16:00:20.373 +03:00 [INF] Authorization was successful.
+2019-03-20 16:00:20.376 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 16:00:20.382 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:00:20.398 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:00:20.455 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:00:20.483 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 16:00:20.502 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:00:20.513 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:00:20.513 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:00:20.543 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:00:20.553 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:00:20.555 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:00:20.559 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:00:20.560 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:00:20.575 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:00:20.608 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:00:20.618 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:00:20.622 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:00:20.634 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:00:20.651 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 275.421ms.
+2019-03-20 16:00:20.675 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 16:00:20.809 +03:00 [INF] Executed ViewResult - view Dashboard executed in 154.3552ms.
+2019-03-20 16:00:20.809 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 452.12370000000004ms
+2019-03-20 16:00:20.827 +03:00 [INF] Request finished in 478.0851ms 200 text/html; charset=utf-8
+2019-03-20 16:00:20.873 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:00:20.874 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:00:20.895 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:00:20.896 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:00:20.898 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:00:20.898 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:00:20.898 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:00:20.898 +03:00 [INF] Request finished in 1.9857ms 200 image/jpeg
+2019-03-20 16:00:20.898 +03:00 [INF] Request finished in 24.733ms 200 text/css
+2019-03-20 16:00:20.898 +03:00 [INF] Request finished in 3.1172ms 200 text/css
+2019-03-20 16:00:20.899 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:00:20.899 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:00:20.900 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:00:20.900 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:00:20.900 +03:00 [INF] Request finished in 1.146ms 200 text/css
+2019-03-20 16:00:20.900 +03:00 [INF] Request finished in 1.4242ms 200 text/css
+2019-03-20 16:00:20.923 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:00:20.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:00:20.941 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:00:20.941 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:00:20.941 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:00:20.941 +03:00 [INF] Request finished in 18.0689ms 200 application/javascript
+2019-03-20 16:00:20.942 +03:00 [INF] Request finished in 68.5691ms 200 text/css
+2019-03-20 16:00:20.942 +03:00 [INF] Request finished in 3.3378ms 200 application/javascript
+2019-03-20 16:00:20.946 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:00:20.947 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:00:20.947 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:00:20.947 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:00:20.947 +03:00 [INF] Request finished in 0.9898ms 200 application/javascript
+2019-03-20 16:00:20.947 +03:00 [INF] Request finished in 0.5764ms 200 application/javascript
+2019-03-20 16:00:20.948 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:00:20.949 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:00:20.949 +03:00 [INF] Request finished in 5.7463ms 200 application/javascript
+2019-03-20 16:00:20.952 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:00:20.961 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:00:20.961 +03:00 [INF] Request finished in 9.0658ms 200 application/javascript
+2019-03-20 16:00:20.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:00:20.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:00:20.977 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:00:20.977 +03:00 [INF] Request finished in 0.8311ms 200 application/javascript
+2019-03-20 16:00:20.979 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:00:20.980 +03:00 [INF] Request finished in 3.357ms 200 application/javascript
+2019-03-20 16:00:21.283 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:00:21.288 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:00:21.288 +03:00 [INF] Request finished in 5.1852ms 200 font/woff2
+2019-03-20 16:00:28.735 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 16:00:28.746 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 16:00:28.746 +03:00 [INF] Authorization was successful.
+2019-03-20 16:00:28.747 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 16:00:28.748 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:00:28.750 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:00:36.775 +03:00 [WRN] The Include operation for navigation '[i].Waiter' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:00:36.775 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:00:36.826 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[@__start_0='?' (DbType = DateTime2), @__end_1='?' (DbType = DateTime2), @__branchId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM (
+    SELECT DISTINCT [i.Customer].[TableCode]
+    FROM [Orders] AS [i]
+    INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+    LEFT JOIN [AspNetUsers] AS [i.Waiter] ON [i].[WaiterId] = [i.Waiter].[Id]
+    WHERE (([i].[DateCreated] >= @__start_0) AND ([i].[DateCreated] <= @__end_1)) AND ([i.Waiter].[BranchId] = @__branchId_2)
+) AS [t]
+2019-03-20 16:03:30.947 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 16:03:31.875 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 16:03:31.956 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:03:32.110 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 16:03:35.990 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 16:03:36.272 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 16:03:36.296 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 16:03:36.301 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:03:36.538 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-03-20 16:03:36.691 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:03:36.719 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:03:36.725 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:03:36.727 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:03:36.729 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:03:36.731 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:03:36.743 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 444.3844ms.
+2019-03-20 16:03:36.759 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 16:03:36.766 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 491.351ms
+2019-03-20 16:03:36.784 +03:00 [INF] Request finished in 795.473ms 302 
+2019-03-20 16:03:36.785 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 16:03:36.790 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 16:03:36.807 +03:00 [INF] Authorization was successful.
+2019-03-20 16:03:36.809 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 16:03:36.815 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:03:36.835 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:03:36.890 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:03:36.915 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 16:03:36.937 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:03:36.950 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:03:36.950 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:03:36.980 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:03:36.989 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:03:36.990 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:03:36.993 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:03:36.994 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:03:37.012 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:03:37.075 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:03:37.089 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:03:37.094 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:03:37.112 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:03:37.134 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 324.4765ms.
+2019-03-20 16:03:37.151 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 16:03:37.286 +03:00 [INF] Executed ViewResult - view Dashboard executed in 147.69150000000002ms.
+2019-03-20 16:03:37.286 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 495.31170000000003ms
+2019-03-20 16:03:37.293 +03:00 [INF] Request finished in 508.0857ms 200 text/html; charset=utf-8
+2019-03-20 16:03:37.308 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:03:37.318 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:03:37.322 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:03:37.322 +03:00 [INF] Request finished in 4.1224ms 200 text/css
+2019-03-20 16:03:37.332 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:03:37.342 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:03:37.342 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:03:37.342 +03:00 [INF] Request finished in 34.1696ms 200 text/css
+2019-03-20 16:03:37.342 +03:00 [INF] Request finished in 9.8692ms 200 text/css
+2019-03-20 16:03:37.350 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:03:37.351 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:03:37.351 +03:00 [INF] Request finished in 1.364ms 200 text/css
+2019-03-20 16:03:37.357 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:03:37.359 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:03:37.359 +03:00 [INF] Request finished in 1.1959ms 200 text/css
+2019-03-20 16:03:37.550 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:03:37.556 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:03:37.557 +03:00 [INF] Request finished in 6.7136ms 200 application/javascript
+2019-03-20 16:03:37.562 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:03:37.563 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:03:37.563 +03:00 [INF] Request finished in 1.1238ms 200 application/javascript
+2019-03-20 16:03:37.568 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:03:37.569 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:03:37.570 +03:00 [INF] Request finished in 1.2386ms 200 application/javascript
+2019-03-20 16:03:37.575 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:03:37.576 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:03:37.576 +03:00 [INF] Request finished in 1.0248ms 200 application/javascript
+2019-03-20 16:03:37.581 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:03:37.582 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:03:37.582 +03:00 [INF] Request finished in 1.1131ms 200 application/javascript
+2019-03-20 16:03:37.587 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:03:37.589 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:03:37.589 +03:00 [INF] Request finished in 1.7467ms 200 application/javascript
+2019-03-20 16:03:37.790 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:03:37.791 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:03:37.792 +03:00 [INF] Request finished in 1.2795ms 200 application/javascript
+2019-03-20 16:03:37.799 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:03:37.800 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:03:37.800 +03:00 [INF] Request finished in 2.0352ms 200 application/javascript
+2019-03-20 16:03:37.964 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:03:37.965 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:03:37.965 +03:00 [INF] Request finished in 1.0308ms 200 image/jpeg
+2019-03-20 16:03:41.464 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:03:41.466 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:03:41.466 +03:00 [INF] Request finished in 1.7779ms 200 font/woff2
+2019-03-20 16:04:10.184 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 16:04:10.196 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 16:04:10.197 +03:00 [INF] Authorization was successful.
+2019-03-20 16:04:10.197 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 16:04:10.198 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:04:10.206 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:04:51.415 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 16:04:52.385 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 16:04:52.463 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:04:52.618 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 16:04:55.828 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 16:04:56.090 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 16:04:56.107 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 16:04:56.114 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:04:56.346 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-03-20 16:04:56.503 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:04:56.536 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:04:56.544 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:04:56.547 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:04:56.549 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:04:56.553 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:04:56.573 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 460.72270000000003ms.
+2019-03-20 16:04:56.592 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 16:04:56.601 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 507.6211ms
+2019-03-20 16:04:56.623 +03:00 [INF] Request finished in 796.4573ms 302 
+2019-03-20 16:04:56.624 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 16:04:56.632 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 16:04:56.651 +03:00 [INF] Authorization was successful.
+2019-03-20 16:04:56.655 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 16:04:56.661 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:04:56.685 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:04:56.752 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:04:56.788 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 16:04:56.812 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:04:56.825 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:04:56.825 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:04:56.856 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:04:56.864 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:04:56.866 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:04:56.869 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:04:56.870 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:04:56.889 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:04:56.954 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:04:56.966 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:04:56.972 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:04:56.992 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:04:57.015 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 360.0247ms.
+2019-03-20 16:04:57.041 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 16:04:57.213 +03:00 [INF] Executed ViewResult - view Dashboard executed in 193.8641ms.
+2019-03-20 16:04:57.213 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 581.67500000000007ms
+2019-03-20 16:04:57.223 +03:00 [INF] Request finished in 598.7835ms 200 text/html; charset=utf-8
+2019-03-20 16:04:57.284 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:04:57.285 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:04:57.295 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:04:57.295 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:04:57.306 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:04:57.306 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:04:57.306 +03:00 [INF] Request finished in 10.737ms 200 text/css
+2019-03-20 16:04:57.306 +03:00 [INF] Request finished in 20.5875ms 200 text/css
+2019-03-20 16:04:57.306 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:04:57.307 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:04:57.307 +03:00 [INF] Request finished in 0.945ms 200 text/css
+2019-03-20 16:04:57.335 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:04:57.337 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:04:57.339 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:04:57.339 +03:00 [INF] Request finished in 1.3111ms 200 application/javascript
+2019-03-20 16:04:57.339 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:04:57.340 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:04:57.340 +03:00 [INF] Request finished in 1.047ms 200 application/javascript
+2019-03-20 16:04:57.349 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:04:57.350 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:04:57.350 +03:00 [INF] Request finished in 14.2933ms 200 application/javascript
+2019-03-20 16:04:57.350 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:04:57.350 +03:00 [INF] Request finished in 54.7357ms 200 text/css
+2019-03-20 16:04:57.350 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:04:57.350 +03:00 [INF] Request finished in 65.5018ms 200 text/css
+2019-03-20 16:04:57.351 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:04:57.351 +03:00 [INF] Request finished in 1.1916ms 200 application/javascript
+2019-03-20 16:04:57.353 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:04:57.354 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:04:57.354 +03:00 [INF] Request finished in 1.207ms 200 image/jpeg
+2019-03-20 16:04:57.367 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:04:57.368 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:04:57.368 +03:00 [INF] Request finished in 1.117ms 200 application/javascript
+2019-03-20 16:04:57.368 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:04:57.372 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:04:57.372 +03:00 [INF] Request finished in 3.9633ms 200 application/javascript
+2019-03-20 16:04:57.377 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:04:57.386 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:04:57.386 +03:00 [INF] Request finished in 9.2697ms 200 application/javascript
+2019-03-20 16:04:57.387 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:04:57.396 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:04:57.396 +03:00 [INF] Request finished in 9.7958ms 200 application/javascript
+2019-03-20 16:04:58.389 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:04:58.391 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:04:58.391 +03:00 [INF] Request finished in 2.7579ms 200 font/woff2
+2019-03-20 16:05:04.918 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 16:05:04.922 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 16:05:04.923 +03:00 [INF] Authorization was successful.
+2019-03-20 16:05:04.924 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 16:05:04.925 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:05:04.931 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:05:13.106 +03:00 [WRN] The Include operation for navigation '[i].Waiter' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:05:13.106 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:05:13.131 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__start_0='?' (DbType = DateTime2), @__end_1='?' (DbType = DateTime2), @__branchId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM (
+    SELECT DISTINCT [i.Customer].[TableCode]
+    FROM [Orders] AS [i]
+    INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+    LEFT JOIN [AspNetUsers] AS [i.Waiter] ON [i].[WaiterId] = [i.Waiter].[Id]
+    WHERE (([i].[DateCreated] >= @__start_0) AND ([i].[DateCreated] <= @__end_1)) AND ([i.Waiter].[BranchId] = @__branchId_2)
+) AS [t]
+2019-03-20 16:05:15.502 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:05:15.509 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:05:15.511 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:05:15.519 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:05:15.522 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:05:15.525 +03:00 [INF] Executed action method Web.Controllers.BranchController.Stats (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10600.5192ms.
+2019-03-20 16:05:15.535 +03:00 [INF] Executing ViewResult, running view Stats.
+2019-03-20 16:05:15.542 +03:00 [INF] Executed ViewResult - view Stats executed in 17.0146ms.
+2019-03-20 16:05:15.542 +03:00 [INF] Executed action Web.Controllers.BranchController.Stats (Web) in 10619.463600000001ms
+2019-03-20 16:05:15.542 +03:00 [INF] Request finished in 10624.7377ms 200 text/html; charset=utf-8
+2019-03-20 16:05:15.617 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:05:15.617 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:05:15.617 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:05:15.617 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:05:15.619 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:05:15.619 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:05:15.619 +03:00 [INF] Request finished in 2.3398ms 200 text/css
+2019-03-20 16:05:15.619 +03:00 [INF] Request finished in 2.3714ms 200 text/css
+2019-03-20 16:05:15.628 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:05:15.628 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:05:15.632 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:05:15.632 +03:00 [INF] Request finished in 3.837ms 200 image/jpeg
+2019-03-20 16:05:15.632 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:05:15.633 +03:00 [INF] Request finished in 4.2436ms 200 text/css
+2019-03-20 16:05:15.633 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:05:15.633 +03:00 [INF] Request finished in 16.1075ms 200 text/css
+2019-03-20 16:05:15.635 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:05:15.635 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:05:15.635 +03:00 [INF] Request finished in 18.3982ms 200 text/css
+2019-03-20 16:05:15.640 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:05:15.640 +03:00 [INF] Request finished in 5.0973ms 200 application/javascript
+2019-03-20 16:05:15.658 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:05:15.658 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:05:15.659 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:05:15.659 +03:00 [INF] Request finished in 1.5496ms 200 application/javascript
+2019-03-20 16:05:15.659 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:05:15.660 +03:00 [INF] Request finished in 1.7493ms 200 application/javascript
+2019-03-20 16:05:15.662 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:05:15.666 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:05:15.666 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:05:15.667 +03:00 [INF] Request finished in 4.5824ms 200 application/javascript
+2019-03-20 16:05:15.667 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:05:15.667 +03:00 [INF] Request finished in 1.1413ms 200 application/javascript
+2019-03-20 16:05:15.668 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:05:15.680 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:05:15.682 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:05:15.682 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:05:15.682 +03:00 [INF] Request finished in 2.1777ms 200 application/javascript
+2019-03-20 16:05:15.682 +03:00 [INF] Request finished in 14.7144ms 200 application/javascript
+2019-03-20 16:05:15.684 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:05:15.704 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:05:15.704 +03:00 [INF] Request finished in 20.4309ms 200 application/javascript
+2019-03-20 16:05:15.901 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:05:15.905 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:05:15.905 +03:00 [INF] Request finished in 3.7828ms 200 font/woff2
+2019-03-20 16:11:15.155 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 16:11:15.879 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 16:11:15.937 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:11:16.053 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 16:11:21.561 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 16:11:21.792 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 16:11:21.805 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 16:11:21.820 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:11:22.030 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-03-20 16:11:22.148 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:11:22.188 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:11:22.195 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:11:22.198 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:11:22.199 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:11:22.202 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:11:22.215 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 406.036ms.
+2019-03-20 16:11:22.230 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 16:11:22.237 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 442.286ms
+2019-03-20 16:11:22.256 +03:00 [INF] Request finished in 696.0721ms 302 
+2019-03-20 16:11:22.256 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 16:11:22.262 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 16:11:22.274 +03:00 [INF] Authorization was successful.
+2019-03-20 16:11:22.277 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 16:11:22.283 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:11:22.300 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:11:22.402 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:11:22.429 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 16:11:22.447 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:11:22.458 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:11:22.458 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:11:22.482 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:11:22.488 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:11:22.489 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:11:22.492 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:11:22.492 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:11:22.505 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:11:22.535 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:11:22.545 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:11:22.549 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:11:22.563 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:11:22.584 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 307.01050000000004ms.
+2019-03-20 16:11:22.606 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 16:11:22.753 +03:00 [INF] Executed ViewResult - view Dashboard executed in 164.0136ms.
+2019-03-20 16:11:22.753 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 490.30780000000004ms
+2019-03-20 16:11:22.759 +03:00 [INF] Request finished in 502.4435ms 200 text/html; charset=utf-8
+2019-03-20 16:11:22.823 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:11:22.827 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:11:22.830 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:11:22.831 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:11:22.840 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:11:22.840 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:11:22.840 +03:00 [INF] Request finished in 12.7782ms 200 text/css
+2019-03-20 16:11:22.840 +03:00 [INF] Request finished in 9.515ms 200 text/css
+2019-03-20 16:11:22.840 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:11:22.841 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:11:22.842 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:11:22.842 +03:00 [INF] Request finished in 1.966ms 200 text/css
+2019-03-20 16:11:22.853 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:11:22.853 +03:00 [INF] Request finished in 22.4989ms 200 image/jpeg
+2019-03-20 16:11:22.853 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:11:22.854 +03:00 [INF] Request finished in 11.8088ms 200 text/css
+2019-03-20 16:11:22.875 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:11:22.876 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:11:22.877 +03:00 [INF] Request finished in 1.8376ms 200 application/javascript
+2019-03-20 16:11:22.877 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:11:22.878 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:11:22.879 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:11:22.879 +03:00 [INF] Request finished in 1.3209ms 200 application/javascript
+2019-03-20 16:11:22.883 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:11:22.893 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:11:22.893 +03:00 [INF] Request finished in 9.8828ms 200 application/javascript
+2019-03-20 16:11:22.893 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:11:22.897 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:11:22.897 +03:00 [INF] Request finished in 4.4718ms 200 application/javascript
+2019-03-20 16:11:22.904 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:11:22.904 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:11:22.904 +03:00 [INF] Request finished in 27.3514ms 200 application/javascript
+2019-03-20 16:11:22.904 +03:00 [INF] Request finished in 81.006ms 200 text/css
+2019-03-20 16:11:22.907 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:11:22.907 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:11:22.911 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:11:22.911 +03:00 [INF] Request finished in 4.125ms 200 application/javascript
+2019-03-20 16:11:22.914 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:11:22.914 +03:00 [INF] Request finished in 7.296ms 200 application/javascript
+2019-03-20 16:11:22.927 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:11:22.930 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:11:22.930 +03:00 [INF] Request finished in 3.2409ms 200 application/javascript
+2019-03-20 16:11:23.087 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:11:23.089 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:11:23.090 +03:00 [INF] Request finished in 2.9751ms 200 font/woff2
+2019-03-20 16:11:32.139 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 16:11:32.142 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 16:11:32.142 +03:00 [INF] Authorization was successful.
+2019-03-20 16:11:32.143 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 16:11:32.144 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:11:32.149 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:11:32.164 +03:00 [WRN] The Include operation for navigation '[i].Waiter' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:11:32.164 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:11:32.183 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__start_0='?' (DbType = DateTime2), @__end_1='?' (DbType = DateTime2), @__branchId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM (
+    SELECT DISTINCT [i.Customer].[TableCode]
+    FROM [Orders] AS [i]
+    INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+    LEFT JOIN [AspNetUsers] AS [i.Waiter] ON [i].[WaiterId] = [i.Waiter].[Id]
+    WHERE (([i].[DateCreated] >= @__start_0) AND ([i].[DateCreated] <= @__end_1)) AND ([i.Waiter].[BranchId] = @__branchId_2)
+) AS [t]
+2019-03-20 16:11:32.186 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:14:47.636 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 16:14:48.744 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 16:14:48.819 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:14:48.946 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 16:14:52.363 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 16:14:52.677 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 16:14:52.695 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 16:14:52.700 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:14:52.924 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-03-20 16:14:53.084 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:14:53.116 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:14:53.123 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:14:53.126 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:14:53.128 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:14:53.130 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:14:53.146 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 446.67560000000003ms.
+2019-03-20 16:14:53.165 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 16:14:53.176 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 494.7114ms
+2019-03-20 16:14:53.199 +03:00 [INF] Request finished in 837.1451ms 302 
+2019-03-20 16:14:53.200 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 16:14:53.205 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 16:14:53.222 +03:00 [INF] Authorization was successful.
+2019-03-20 16:14:53.225 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 16:14:53.231 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:14:53.255 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:14:53.344 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:14:53.380 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 16:14:53.403 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:14:53.413 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:14:53.413 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:14:53.442 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:14:53.449 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:14:53.450 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:14:53.453 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:14:53.454 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:14:53.467 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:14:53.507 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:14:53.518 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:14:53.524 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:14:53.541 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:14:53.560 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 334.1422ms.
+2019-03-20 16:14:53.581 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 16:14:53.783 +03:00 [INF] Executed ViewResult - view Dashboard executed in 219.7004ms.
+2019-03-20 16:14:53.783 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 577.78640000000007ms
+2019-03-20 16:14:53.796 +03:00 [INF] Request finished in 596.1267ms 200 text/html; charset=utf-8
+2019-03-20 16:14:53.848 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:14:53.860 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:14:53.870 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:14:53.870 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:14:53.874 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:14:53.874 +03:00 [INF] Request finished in 4.5469ms 200 text/css
+2019-03-20 16:14:53.878 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:14:53.883 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:14:53.883 +03:00 [INF] Request finished in 5.908ms 200 text/css
+2019-03-20 16:14:53.885 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:14:53.886 +03:00 [INF] Request finished in 26.2545ms 200 text/css
+2019-03-20 16:14:53.886 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:14:53.886 +03:00 [INF] Request finished in 15.7149ms 200 text/css
+2019-03-20 16:14:53.889 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:14:53.890 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:14:53.890 +03:00 [INF] Request finished in 0.8977ms 200 image/jpeg
+2019-03-20 16:14:53.901 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:14:53.910 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:14:53.911 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:14:53.911 +03:00 [INF] Request finished in 1.3384ms 200 application/javascript
+2019-03-20 16:14:53.929 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:14:53.929 +03:00 [INF] Request finished in 80.5226ms 200 text/css
+2019-03-20 16:14:53.929 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:14:53.929 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:14:53.929 +03:00 [INF] Request finished in 28.3323ms 200 application/javascript
+2019-03-20 16:14:53.936 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:14:53.940 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:14:53.940 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:14:53.940 +03:00 [INF] Request finished in 9.8884ms 200 application/javascript
+2019-03-20 16:14:53.940 +03:00 [INF] Request finished in 11.0003ms 200 application/javascript
+2019-03-20 16:14:53.940 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:14:53.942 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:14:53.942 +03:00 [INF] Request finished in 1.6418ms 200 application/javascript
+2019-03-20 16:14:53.966 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:14:53.968 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:14:53.969 +03:00 [INF] Request finished in 2.8283ms 200 application/javascript
+2019-03-20 16:14:54.017 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:14:54.017 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:14:54.020 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:14:54.020 +03:00 [INF] Request finished in 3.3318ms 200 application/javascript
+2019-03-20 16:14:54.020 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:14:54.020 +03:00 [INF] Request finished in 3.7883ms 200 application/javascript
+2019-03-20 16:14:54.056 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:14:54.058 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:14:54.059 +03:00 [INF] Request finished in 2.5689ms 200 font/woff2
+2019-03-20 16:15:01.795 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 16:15:01.800 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 16:15:01.801 +03:00 [INF] Authorization was successful.
+2019-03-20 16:15:01.801 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 16:15:01.802 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:15:01.808 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:15:01.825 +03:00 [WRN] The Include operation for navigation '[i].Waiter' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:15:01.825 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:15:01.844 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__start_0='?' (DbType = DateTime2), @__end_1='?' (DbType = DateTime2), @__branchId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM (
+    SELECT DISTINCT [i.Customer].[TableCode]
+    FROM [Orders] AS [i]
+    INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+    LEFT JOIN [AspNetUsers] AS [i.Waiter] ON [i].[WaiterId] = [i.Waiter].[Id]
+    WHERE (([i].[DateCreated] >= @__start_0) AND ([i].[DateCreated] <= @__end_1)) AND ([i.Waiter].[BranchId] = @__branchId_2)
+) AS [t]
+2019-03-20 16:15:01.847 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:16:32.261 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-20 16:16:33.250 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-20 16:16:33.331 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:16:33.474 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-03-20 16:16:37.133 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-03-20 16:16:37.416 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Web.Controllers.HomeController.Index (Web)
+2019-03-20 16:16:37.434 +03:00 [INF] Executing action method Web.Controllers.HomeController.Index (Web) - Validation state: "Valid"
+2019-03-20 16:16:37.440 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:16:37.651 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[BranchId], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[Email], [e].[EmailConfirmed], [e].[ImagePath], [e].[IsActive], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-03-20 16:16:37.817 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:16:37.849 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:16:37.855 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:16:37.858 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:16:37.859 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Discriminator], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE ([r].[Discriminator] = N'ApplicationRole') AND ([r].[NormalizedName] = @__normalizedRoleName_0)
+2019-03-20 16:16:37.862 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2019-03-20 16:16:37.879 +03:00 [INF] Executed action method Web.Controllers.HomeController.Index (Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 440.82300000000004ms.
+2019-03-20 16:16:37.896 +03:00 [INF] Executing RedirectResult, redirecting to /Branch/Dashboard.
+2019-03-20 16:16:37.906 +03:00 [INF] Executed action Web.Controllers.HomeController.Index (Web) in 485.47790000000003ms
+2019-03-20 16:16:37.935 +03:00 [INF] Request finished in 802.7558ms 302 
+2019-03-20 16:16:37.936 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Dashboard  
+2019-03-20 16:16:37.951 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Branch"}. Executing action Web.Controllers.BranchController.Dashboard (Web)
+2019-03-20 16:16:37.967 +03:00 [INF] Authorization was successful.
+2019-03-20 16:16:37.969 +03:00 [INF] Executing action method Web.Controllers.BranchController.Dashboard (Web) - Validation state: "Valid"
+2019-03-20 16:16:37.976 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:16:38.003 +03:00 [WRN] The Include operation for navigation '[i].Branch' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:16:38.074 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:16:38.107 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-20 16:16:38.129 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:16:38.141 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:16:38.141 +03:00 [WRN] The Include operation for navigation '[i].Menu' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:16:38.174 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:16:38.182 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:16:38.183 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:16:38.188 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-20 16:16:38.189 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT SUM([i.Menu].[Price])
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-20 16:16:38.207 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:16:38.248 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-20 16:16:38.259 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:16:38.265 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:16:38.278 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__firmId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[Id] = @__firmId_0
+2019-03-20 16:16:38.299 +03:00 [INF] Executed action method Web.Controllers.BranchController.Dashboard (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 329.3034ms.
+2019-03-20 16:16:38.316 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2019-03-20 16:16:38.483 +03:00 [INF] Executed ViewResult - view Dashboard executed in 181.1818ms.
+2019-03-20 16:16:38.483 +03:00 [INF] Executed action Web.Controllers.BranchController.Dashboard (Web) in 532.32080000000008ms
+2019-03-20 16:16:38.493 +03:00 [INF] Request finished in 556.8089ms 200 text/html; charset=utf-8
+2019-03-20 16:16:38.557 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/css/font-awesome.min.css  
+2019-03-20 16:16:38.561 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css  
+2019-03-20 16:16:38.562 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/skins/flat/green.css  
+2019-03-20 16:16:38.563 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/css/custom.min.css  
+2019-03-20 16:16:38.565 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg  
+2019-03-20 16:16:38.586 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\css\font-awesome.min.css'
+2019-03-20 16:16:38.586 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/skins/flat/green.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\skins\flat\green.css'
+2019-03-20 16:16:38.586 +03:00 [INF] Sending file. Request path: '/gentelella/build/css/custom.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\css\custom.min.css'
+2019-03-20 16:16:38.586 +03:00 [INF] Request finished in 28.6199ms 200 text/css
+2019-03-20 16:16:38.586 +03:00 [INF] Request finished in 23.6573ms 200 text/css
+2019-03-20 16:16:38.586 +03:00 [INF] Request finished in 22.7537ms 200 text/css
+2019-03-20 16:16:38.586 +03:00 [INF] Sending file. Request path: '/files/firms/96bbd267-7086-4d30-966e-99627d6c2b89/39a76708-2695-44c2-91e7-228b2746bbe6.jpg'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\files\firms\96bbd267-7086-4d30-966e-99627d6c2b89\39a76708-2695-44c2-91e7-228b2746bbe6.jpg'
+2019-03-20 16:16:38.587 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.css  
+2019-03-20 16:16:38.587 +03:00 [INF] Request finished in 22.449ms 200 image/jpeg
+2019-03-20 16:16:38.588 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.css'
+2019-03-20 16:16:38.588 +03:00 [INF] Request finished in 1.6012ms 200 text/css
+2019-03-20 16:16:38.619 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery/dist/jquery.min.js  
+2019-03-20 16:16:38.627 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery/dist/jquery.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery\dist\jquery.min.js'
+2019-03-20 16:16:38.627 +03:00 [INF] Request finished in 7.7772ms 200 application/javascript
+2019-03-20 16:16:38.642 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/fastclick/lib/fastclick.js  
+2019-03-20 16:16:38.646 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js  
+2019-03-20 16:16:38.647 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\css\bootstrap.min.css'
+2019-03-20 16:16:38.647 +03:00 [INF] Request finished in 86.2886ms 200 text/css
+2019-03-20 16:16:38.647 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\bootstrap\dist\js\bootstrap.min.js'
+2019-03-20 16:16:38.647 +03:00 [INF] Request finished in 1.1946ms 200 application/javascript
+2019-03-20 16:16:38.648 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/iCheck/icheck.min.js  
+2019-03-20 16:16:38.648 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/fastclick/lib/fastclick.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\fastclick\lib\fastclick.js'
+2019-03-20 16:16:38.648 +03:00 [INF] Request finished in 5.4429ms 200 application/javascript
+2019-03-20 16:16:38.648 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/nprogress/nprogress.js  
+2019-03-20 16:16:38.649 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/iCheck/icheck.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\iCheck\icheck.min.js'
+2019-03-20 16:16:38.649 +03:00 [INF] Request finished in 1.3764ms 200 application/javascript
+2019-03-20 16:16:38.649 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/nprogress/nprogress.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\nprogress\nprogress.js'
+2019-03-20 16:16:38.649 +03:00 [INF] Request finished in 1.2228ms 200 application/javascript
+2019-03-20 16:16:38.681 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/build/js/custom.min.js  
+2019-03-20 16:16:38.688 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js  
+2019-03-20 16:16:38.692 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jQuery-Smart-Wizard\js\jquery.smartWizard.js'
+2019-03-20 16:16:38.693 +03:00 [INF] Request finished in 4.4253ms 200 application/javascript
+2019-03-20 16:16:38.695 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js  
+2019-03-20 16:16:38.701 +03:00 [INF] Sending file. Request path: '/gentelella/build/js/custom.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\build\js\custom.min.js'
+2019-03-20 16:16:38.701 +03:00 [INF] Request finished in 20.7884ms 200 application/javascript
+2019-03-20 16:16:38.702 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\jquery.inputmask\dist\min\jquery.inputmask.bundle.min.js'
+2019-03-20 16:16:38.702 +03:00 [INF] Request finished in 6.7272ms 200 application/javascript
+2019-03-20 16:16:38.725 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-03-20 16:16:38.729 +03:00 [INF] Sending file. Request path: '/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\StartupProject\Portal\Web\wwwroot\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-20 16:16:38.729 +03:00 [INF] Request finished in 4.8942ms 200 font/woff2
+2019-03-20 16:16:45.033 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Branch/Stats  
+2019-03-20 16:16:45.038 +03:00 [INF] Route matched with {action = "Stats", controller = "Branch"}. Executing action Web.Controllers.BranchController.Stats (Web)
+2019-03-20 16:16:45.039 +03:00 [INF] Authorization was successful.
+2019-03-20 16:16:45.040 +03:00 [INF] Executing action method Web.Controllers.BranchController.Stats (Web) - Validation state: "Valid"
+2019-03-20 16:16:45.041 +03:00 [INF] Entity Framework Core 2.1.8-servicing-32085 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-20 16:16:45.043 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0
+2019-03-20 16:16:45.056 +03:00 [WRN] The Include operation for navigation '[i].Waiter' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:16:45.056 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-20 16:16:45.077 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__start_0='?' (DbType = DateTime2), @__end_1='?' (DbType = DateTime2), @__branchId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM (
+    SELECT DISTINCT [i.Customer].[TableCode]
+    FROM [Orders] AS [i]
+    INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+    LEFT JOIN [AspNetUsers] AS [i.Waiter] ON [i].[WaiterId] = [i.Waiter].[Id]
+    WHERE (([i].[DateCreated] >= @__start_0) AND ([i].[DateCreated] <= @__end_1)) AND ([i.Waiter].[BranchId] = @__branchId_2)
+) AS [t]
+2019-03-20 16:16:45.080 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id] AS [_Id], [i].[Name], [i].[ImagePath], COALESCE([i].[BranchId], 0) AS [BranchId], [i].[Email], [i].[IsActive], [i].[PhoneNumber] AS [Phone], CASE
+    WHEN [i].[BranchId] IS NULL
+    THEN 0 ELSE [i.Branch].[FirmId]
+END AS [FirmId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+WHERE [i].[Id] = @__userId_0

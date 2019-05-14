@@ -1,0 +1,445 @@
+﻿@model Web.Models.FirmDashboardViewModel
+
+<div class="row">
+
+    @Html.Partial("~/Views/Shared/_PaginationFormPartial.cshtml", new Web.Models.PaginationPartialModel { Pagination = Model.Pagination, Url = Url.Action("Branches", "Firm") })
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-th-large"></i> Şube Kullanıcıları<small>@DateTime.Now.ToLongDateString()</small></h2>
+                <div class="nav navbar-right panel_toolbox">
+                    <button onclick="GetCountries(); GetCities('92Lg5/al5TX5AkrfML7fYw==');"
+                            data-toggle="modal"
+                            data-target="#modal-create-branch"
+                            class="btn btn-sm btn-primary">
+                        <i class="fa fa-plus"></i> Ekle
+                    </button>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div id="datatable-responsive_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dataTables_length" id="datatable-responsive_length">
+                                @Html.Partial("~/Views/Shared/_ShownDataCountPartial.cshtml", Model.Pagination.Top)
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="col-sm-6">
+                                <div id="datatable-responsive_filter" class="dataTables_filter">
+                                    @Html.Partial("~/Views/Shared/_SearchAreaPartial.cshtml", "Şube adı")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="datatable-responsive_info" style="width: 100%;">
+                                <thead>
+                                    <tr role="row">
+                                        @Html.Partial("~/Views/Shared/_SortPartial.cshtml", new Web.Models.SortPartialModel { Action = "Branches", Controller = "Firm", ColumnName = "Şube", Pagination = Model.Pagination })
+                                        <th class="text-center">E-posta</th>
+                                        <th class="text-center">Telefon</th>
+                                        <th class="text-center">Erişim</th>
+                                        <th class="text-center">Sil</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @Html.Partial("~/Views/Shared/_NoDataFoundPartial.cshtml", new int[] { Model.BranchUsers.Count, 5 })
+
+                                    @{ int k = 0;}
+
+                                    @foreach (var branch in Model.BranchUsers)
+                                    {
+                                        <tr id="row_@k" role="row" class="@(k % 2 == 0 ? "even" : "odd") text-center">
+
+                                            <td>@branch.Name</td>
+                                            <td>@branch.Email</td>
+                                            <td>@branch.Phone</td>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label class="">
+                                                        <div onclick="changeAccess('@branch.Id')"
+                                                             class="icheckbox_flat-green checked"
+                                                             style="position: relative;">
+                                                            <input type="checkbox"
+                                                                   class="flat"
+                                                                   style="position: absolute; opacity: 0;" @(branch.IsActive ? "checked" : "")>
+                                                            <ins class="iCheck-helper"
+                                                                 style="position: absolute; top: 0%; left: 0%; display: block;
+                                                            width: 100%; height: 100%; margin: 0px;
+                                                            padding: 0px; background: rgb(255, 255, 255);
+                                                            border: 0px; opacity: 0;">
+                                                            </ins>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <button onclick="$('#delete-id').val('@branch.Id'); $('#row-id').val('@k')"
+                                                        data-toggle="modal" data-target="#modal-delete-confirm"
+                                                        type="button" class="btn btn-danger btn-xs">
+                                                    <i class="fa fa-trash"></i> Sil
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        k++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        @Html.Partial("~/Views/Shared/_PaginationPartial.cshtml", Model.Pagination)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals -->
+<div class="modal fade" id="modal-create-branch" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2><i class="fa fa-th-large"></i> Şube Oluştur</h2>
+                                <div class="nav navbar-right panel_toolbox">
+                                    <a href="@Url.Action("Download","Firm", new { id = 2})" class="btn btn-sm btn-primary"><i class="fa fa-download"></i> İndir</a>
+                                    <button id="btn-select-file" class="btn btn-sm btn-success"><i class="fa fa-upload"></i> Yükle</button>
+                                    <input onchange="createBranches()" type="file" style="display:none;" name="file" id="file" />
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br>
+                                <form id="demo-form772" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="branch-name">
+                                            Şube adı
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="branch-name" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="branch-email">
+                                            Şube e-posta
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="email" id="branch-email" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="branch-tel">
+                                            Şube telefon
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="branch-tel" required="required" class="form-control col-md-7 col-xs-12" data-inputmask="'mask' : '(999) 999-99-99'">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="branch-password">
+                                            Şube şifre
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="password" id="branch-password" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="branch-password-confirm">
+                                            Şube şifre (t)
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="password" id="branch-password-confirm" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-country">
+                                            Ülke
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="country-list" class="selectpicker form-control"> </select>
+                                            <script>
+                                                function GetCountries() {
+                                                    $.ajax({
+                                                        type: "GET",
+                                                        url: "@Url.Action("GetCountries","Firm")",
+                                                        contentType: "application/json; charset=utf-8",
+                                                        dataType: "json",
+                                                        success: function (data) {
+                                                            $.each(data, function () {
+                                                                var options = "<option " + "value='" + this.ID + "'>" + this.NAME + "</option>";
+                                                                $("#country-list").append(options);
+                                                            });
+                                                            $('#country-list').selectpicker('refresh');
+                                                        },
+                                                        failure: function () {
+                                                            toastr.error('Ülkeler çekilemedi');
+                                                        }
+                                                    });
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <!-- Scripts -->
+                                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                                            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+                                            crossorigin="anonymous"></script>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-city">
+                                            Eyalet/Şehir
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="city-list" name="City" class="selectpicker form-control"> </select>
+                                            <script>
+                                                $('#country-list').change(function () {
+                                                    $('#city-list').empty();
+                                                    GetCities($(this).val());
+                                                });
+
+                                                function GetCities(countryId) {
+                                                    $.ajax({
+                                                        data: {countryId},
+                                                        type: "GET",
+                                                        url: "@Url.Action("GetCities", "Firm")",
+                                                        contentType: "application/json; charset=utf-8",
+                                                        dataType: "json",
+                                                        success: function (data) {
+                                                            $.each(data, function () {
+                                                                var options = "<option " + "value='" + this.ID + "'>" + this.NAME + "</option>";
+                                                                $('#city-list').append(options);
+                                                            });
+                                                            $('#city-list').selectpicker('refresh');
+                                                        },
+                                                        failure: function () {
+                                                            toastr.error('Şehirler/Eyaletler çekilemedi');
+                                                        }
+                                                    });
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i> Kapat</button>
+                                            <button onclick="createBranch()" type="button" class="btn btn-primary"><i class="fa fa-save"></i> Kaydet</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Partial("~/Views/Shared/_DeleteConfirmPartial.cshtml", Url.Action("DeleteBranchUser", "Firm"))
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#btn-select-file").click(function () {
+            $("#file").click();
+        });
+
+        $('#modal-create-branch').on('hidden.bs.modal', function () {
+            $('#country-list').empty();
+            $('#city-list').empty();
+        });
+
+    });
+    function changePage(p) {
+        $('#p').val(p);
+        $('#search-paging-form').submit();
+    }
+
+    function changeTop(t) {
+        $('#t').val(t);
+        $('#search-paging-form').submit();
+    }
+
+     function createBranches() {
+         var file = $("#file")[0].files[0];
+
+        if (file === null || typeof file === "undefined") {
+            toastr.error('Geçersiz dosya');
+            return;
+        }
+
+        var data = new FormData();
+        data.append('file', file);
+
+        jQuery.ajax({
+            url: '@Url.Action("CreateBranches","Firm")',
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            type: 'POST', // For jQuery < 1.9
+            complete: function (xhr) {
+                if (xhr.status === 200) {
+                    toastr.options.onHidden = function () { window.location.reload(); };
+                    $('#modal-create-branch').modal('toggle');
+                    toastr.success(xhr.responseText);
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 400) {
+                    toastr.error(xhr.responseText);
+                }
+            }
+        });
+    }
+
+
+     function createBranch() {
+        var emailRegex = new RegExp(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@('@')[a-zA-Z0-9-]+(@("?:")\.[a-zA-Z0-9-]+)*$/);
+        var passRegex = new RegExp("^(((?=.*[a-z])(?=.*[A-Z]))|((?=.*[a-z])(?=.*[0-9]))|((?=.*[A-Z])(?=.*[0-9])))(?=.{6,})");
+
+        var Name = $('#branch-name').val();
+        var PhoneNumber = $('#branch-tel').val();
+        var Email = $('#branch-email').val();
+        var Password = $('#branch-password').val();
+        var PasswordConfirm = $('#branch-password-confirm').val();
+         var City = $('#city-list').val();
+
+        if (Name === "") {
+            toastr.error('Şube adı boş bırakılamaz');
+            return;
+         }
+
+         if (City === null) {
+             toastr.error('Şehir/Eyalet boş bırakılamaz');
+             return;
+         }
+
+
+        if (Email === "") {
+            toastr.error('Şube e-posta boş bırakılamaz');
+            return;
+        }
+
+
+        if (Password === "") {
+            toastr.error('Şube boş bırakılamaz');
+            return;
+        }
+
+
+        if (PasswordConfirm !== Password) {
+            toastr.error('Şifreler uyuşmuyor');
+            return;
+        }
+
+        if (PhoneNumber === "") {
+            toastr.error('Telefon boş bırakılamaz');
+            return;
+        }
+
+        if (!emailRegex.test(Email)) {
+            toastr.error('Geçersiz e-posta');
+            return;
+        }
+
+        if (!passRegex.test(Password)) {
+            toastr.error('Geçersiz şifre');
+            return;
+        }
+
+        var data = new FormData();
+        data.append('Name', Name);
+        data.append('PhoneNumber', PhoneNumber);
+        data.append('Email', Email);
+        data.append('Password', Password);
+        data.append('PasswordConfirm', PasswordConfirm);
+         data.append('City', City);
+
+        jQuery.ajax({
+            url: '@Url.Action("CreateBranch","Firm")',
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            type: 'POST', // For jQuery < 1.9
+            complete: function (xhr) {
+                if (xhr.status === 200) {
+                    toastr.options.onHidden = function () { window.location.reload(); };
+                    $('#modal-create-branch').modal('toggle');
+                    toastr.success(xhr.responseText);
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 400) {
+                    toastr.error(xhr.responseText);
+                }
+            }
+        });
+    }
+
+    function deleteBranch() {
+        var userId = $('#delete-id').val();
+
+        if (userId === "" || userId === null || typeof userId === "undefined")
+           {
+               toastr.error('Geçersiz kimlik');
+               return;
+           }
+
+        $.post({
+            url: '@Url.Action("DeleteBranch", "Firm")',
+            data: { userId },
+            complete: function (xhr) {
+                if (xhr.status === 200) {
+                    toastr.options.onHidden = function () { window.location.reload(); };
+                    toastr.success(xhr.responseText);
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 400) { toastr.error(xhr.responseText); }
+            }
+        });
+    }
+
+
+    function changeAccess(userId) {
+        if (userId === "" || userId === null || typeof userId === "undefined") {
+            toastr.error('Geçersiz kimlik');
+            return;
+        }
+
+        $.post({
+            url: '@Url.Action("ChangeAccess", "Firm")',
+            data: { userId },
+            complete: function (xhr) {
+                if (xhr.status === 200) {
+                    //toastr.options.onHidden = function () { window.location.reload(); };
+                    toastr.success(xhr.responseText);
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 400) { toastr.error(xhr.responseText); }
+            }
+        });
+    }
+</script>

@@ -1,0 +1,25 @@
+﻿@model Web.Models.SortPartialModel
+
+<th class="text-center">
+    @if (Model.Pagination.SortBy == "desc")
+    {
+        <a href="@Url.Action(Model.Action, Model.Controller, new { kw = Model.Pagination.Keyword, s = "asc", t = Model.Pagination.Top, p = Model.Pagination.Page  })">
+            <i class="fa fa-sort-alpha-desc"></i>&nbsp;
+            @Model.ColumnName
+        </a>
+    }
+    else if (Model.Pagination.SortBy == "asc")
+    {
+        <a href="@Url.Action(Model.Action, Model.Controller, new { kw = Model.Pagination.Keyword, s = "desc", t = Model.Pagination.Top, p = Model.Pagination.Page })">
+            <i class="fa fa-sort-alpha-asc"></i>&nbsp;
+            @Model.ColumnName
+        </a>
+    }
+    else
+    {
+        <a href="@Url.Action(Model.Action, Model.Controller, new { kw = Model.Pagination.Keyword, s = "asc", t = Model.Pagination.Top, p = Model.Pagination.Page  })">
+            <i class="fa fa-sort"></i>&nbsp;
+            @Model.ColumnName
+        </a>
+    }
+</th>

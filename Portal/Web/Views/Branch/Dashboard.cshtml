@@ -1,0 +1,144 @@
+﻿@model Web.Models.BranchDashboardViewModel
+
+<div class="row">
+    <div class="col-md-10 col-sm-10 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-dashboard"></i> Panel <small>@DateTime.Now.ToLongDateString()</small></h2>
+                <div class="nav navbar-right panel_toolbox">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Masa</th>
+                            <th>Kod</th>
+                            <th>Durum</th>
+                            <th>Tutar</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @Html.Partial("~/Views/Shared/_NoDataFoundPartial.cshtml", new int[] { Model.Tables.Count, 5 })
+                        @foreach (var item in Model.Tables)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Code</td>
+                                <td><p><span class="label label-@(item.IsClosed ? "danger":"success")">@(item.IsClosed ? "Dolu" : "Boş")</span></p></td>
+                                <td><i class="fa fa-try"></i> <a onclick="tableSummary('@item.Id')" data-toggle="modal" data-target="#modal-table-summary" href="#">@item.Total</a></td>
+                                <td>
+                                    <button @(item.IsClosed ? "" : "disabled") onclick="releaseTable('@item.Id')" class="btn btn-xs btn-success"><i class="fa fa-check-circle"></i> Onayla</button>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals -->
+
+<div class="modal fade" id="modal-table-summary" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Adisyon</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="table-summary" class="x_content">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i> Kapat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+
+
+<script>
+
+
+    function releaseTable(tableId)
+    {
+        if (tableId === "" || tableId === null || typeof tableId === "undefined") {
+            toastr.error('Geçersiz kimlik');
+            return;
+        }
+
+        var data = new FormData();
+        data.append('tableId', tableId);
+
+        jQuery.ajax({
+            url: '@Url.Action("ReleaseTable","Branch")',
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            type: 'POST', // For jQuery < 1.9
+            complete: function (xhr) {
+                if (xhr.status === 200) {
+                    toastr.options.onHidden = function () { window.location.reload(); };
+                    toastr.success(xhr.responseText);
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 400) {
+                    toastr.error(xhr.responseText);
+                }
+            }
+        });
+
+    }
+
+    function tableSummary(tableId)
+    {
+        if (tableId === "" || tableId === null || typeof tableId === "undefined") {
+            toastr.error('Geçersiz kimlik');
+            return;
+        }
+
+        var data = new FormData();
+        data.append('tableId', tableId);
+
+        jQuery.ajax({
+            url: '@Url.Action("TableSummary","Branch")',
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            type: 'POST', // For jQuery < 1.9
+            complete: function (xhr) {
+                if (xhr.status === 200) {
+                    $('#table-summary').html(xhr.responseText);
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 400) {
+                    toastr.error('Bir hata meydana geldi');
+                }
+            }
+        });
+
+    }
+</script>

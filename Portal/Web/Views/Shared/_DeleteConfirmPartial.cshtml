@@ -1,0 +1,52 @@
+﻿@model string
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<div id="modal-delete-confirm" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header text-danger">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4><i class="fa fa-exclamation-triangle"></i> @Localizer["DeleteConfirm"]</h4>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="delete-id" />
+                <input type="hidden" id="row-id" />
+                <p class="text-danger">@Localizer["DeleteWarning"]</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i> @Localizer["Cancel"]</button>
+                <button onclick="deleteItem('@Model.ToString()')" type="submit" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-trash"></i> @Localizer["Delete"]</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //function deleteItem(url) {
+    //    var id = $('#delete-id').val();
+    //    var row = $('#row-id').val();
+
+    //    if (id === "" || id === null || typeof id === "undefined") {
+    //        toastr.error('Geçersiz kimlik');
+    //        return;
+    //    }
+
+    //    $.post({
+    //        url: url,
+    //        data: { id },
+    //        complete: function (xhr) {
+    //            if (xhr.status === 200) {
+    //                //toastr.options.onHidden = function () { window.location.reload(); };
+    //                $("#row_" + row).remove();
+    //                toastr.success(xhr.responseText);
+    //            }
+    //        },
+    //        error: function (xhr) {
+    //            if (xhr.status === 400) { toastr.error(xhr.responseText); }
+    //        }
+    //    });
+    //}
+</script>

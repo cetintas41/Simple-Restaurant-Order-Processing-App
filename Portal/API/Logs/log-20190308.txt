@@ -1,0 +1,1442 @@
+2019-03-08 09:13:03.447 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 09:13:06.489 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 09:13:06.560 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 09:13:06.726 +03:00 [INF] Request finished in 239.1714ms 200 
+2019-03-08 09:13:07.307 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 09:13:08.030 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 09:13:08.039 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6075ms.
+2019-03-08 09:13:08.049 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 09:13:08.072 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 761.8214ms
+2019-03-08 09:13:08.081 +03:00 [INF] Request finished in 1593.8931ms 200 text/plain; charset=utf-8
+2019-03-08 09:13:08.299 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 09:13:08.300 +03:00 [INF] Request finished in 1.428ms 404 
+2019-03-08 09:13:13.763 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:13:13.871 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 09:13:13.871 +03:00 [INF] Request finished in 0.8371ms 301 
+2019-03-08 09:13:13.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:13:14.549 +03:00 [INF] Request finished in 671.3267ms 200 text/html
+2019-03-08 09:13:14.549 +03:00 [INF] Request finished in 786.592ms 200 text/html
+2019-03-08 09:13:14.824 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 09:13:14.824 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 09:13:14.826 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 09:13:14.944 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 09:13:14.953 +03:00 [INF] Request finished in 128.7266ms 200 text/css
+2019-03-08 09:13:15.024 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 09:13:15.024 +03:00 [INF] Request finished in 198.062ms 200 application/javascript
+2019-03-08 09:13:15.066 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 09:13:15.067 +03:00 [INF] Request finished in 242.5762ms 200 application/javascript
+2019-03-08 09:13:15.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 09:13:16.472 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 09:13:16.472 +03:00 [INF] Request finished in 699.7576ms 200 text/plain
+2019-03-08 09:13:17.603 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 09:13:17.676 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 09:13:17.677 +03:00 [INF] Request finished in 73.632ms 200 text/plain
+2019-03-08 09:13:18.341 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 09:13:18.740 +03:00 [INF] Request finished in 398.1734ms 200 application/json;charset=utf-8
+2019-03-08 09:13:40.047 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/waitingtables application/json-patch+json 65
+2019-03-08 09:13:40.070 +03:00 [INF] Route matched with {action = "WaitingTables", controller = "Waiter"}. Executing action API.Controllers.WaiterController.WaitingTables (API)
+2019-03-08 09:13:40.135 +03:00 [INF] Authorization failed.
+2019-03-08 09:13:40.140 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-03-08 09:13:40.149 +03:00 [INF] Executing ChallengeResult with authentication schemes (["Bearer"]).
+2019-03-08 09:13:40.159 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-03-08 09:13:40.159 +03:00 [INF] Executed action API.Controllers.WaiterController.WaitingTables (API) in 88.4889ms
+2019-03-08 09:13:40.159 +03:00 [INF] Request finished in 111.5191ms 401 
+2019-03-08 09:13:40.179 +03:00 [INF] Connection id "0HLL3HKGGLETT", Request id "0HLL3HKGGLETT:00000007": the application completed without reading the entire request body.
+2019-03-08 09:16:24.707 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 09:16:25.555 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 09:16:25.555 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 09:16:25.620 +03:00 [INF] Request finished in 67.3032ms 200 
+2019-03-08 09:16:25.927 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 09:16:26.155 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 09:16:26.166 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.7863ms.
+2019-03-08 09:16:26.180 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 09:16:26.196 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 265.5325ms
+2019-03-08 09:16:26.209 +03:00 [INF] Request finished in 658.6653ms 200 text/plain; charset=utf-8
+2019-03-08 09:16:26.280 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 09:16:26.281 +03:00 [INF] Request finished in 1.2544ms 404 
+2019-03-08 09:16:32.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:16:32.791 +03:00 [INF] Request finished in 119.0182ms 200 text/html
+2019-03-08 09:16:33.615 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 09:16:33.616 +03:00 [INF] Request finished in 1.0487ms 301 
+2019-03-08 09:16:33.625 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:16:33.627 +03:00 [INF] Request finished in 1.6477ms 200 text/html
+2019-03-08 09:16:33.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 09:16:33.656 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 09:16:33.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 09:16:33.712 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 09:16:33.713 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 09:16:33.738 +03:00 [INF] Request finished in 76.0597ms 200 application/javascript
+2019-03-08 09:16:33.738 +03:00 [INF] Request finished in 82.5501ms 200 text/css
+2019-03-08 09:16:33.754 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 09:16:33.754 +03:00 [INF] Request finished in 98.6052ms 200 application/javascript
+2019-03-08 09:16:34.233 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 09:16:34.468 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 09:16:34.468 +03:00 [INF] Request finished in 234.9013ms 200 text/plain
+2019-03-08 09:16:35.514 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 09:16:35.547 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 09:16:35.547 +03:00 [INF] Request finished in 33.7309ms 200 text/plain
+2019-03-08 09:16:35.946 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 09:16:36.225 +03:00 [INF] Request finished in 278.9841ms 200 application/json;charset=utf-8
+2019-03-08 09:17:04.521 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/auth/login application/json-patch+json 61
+2019-03-08 09:17:04.548 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action API.Controllers.AccountController.Login (API)
+2019-03-08 09:17:04.654 +03:00 [INF] Executing action method API.Controllers.AccountController.Login (API) with arguments (["API.Models.LoginModel"]) - Validation state: "Valid"
+2019-03-08 09:17:10.388 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 09:17:10.514 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:17:11.498 +03:00 [INF] Executed DbCommand (116ms) [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName], [i.Branch].[Id], [i.Branch].[CityId], [i.Branch].[DateCreated], [i.Branch].[FirmId], [i.Branch].[IsActive], [i.Branch].[Name], [i.Branch.Firm].[Id], [i.Branch.Firm].[CityId], [i.Branch.Firm].[DateCreated], [i.Branch.Firm].[IsActive], [i.Branch.Firm].[LogoPath], [i.Branch.Firm].[Name], [i.Branch.Firm].[UserId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+LEFT JOIN [Firms] AS [i.Branch.Firm] ON [i.Branch].[FirmId] = [i.Branch.Firm].[Id]
+WHERE [i].[Email] = @__email_0
+2019-03-08 09:17:17.681 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-08 09:17:17.876 +03:00 [INF] Executed DbCommand (72ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-08 09:17:23.353 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-08 09:17:23.356 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-08 09:17:29.652 +03:00 [INF] bircan@ziyafe.com kullanıcısı doğrulandı. [Tarih:8 Mart 2019 Cuma]
+2019-03-08 09:17:33.885 +03:00 [INF] Executed action method API.Controllers.AccountController.Login (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29229.600000000002ms.
+2019-03-08 09:17:33.886 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`9[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 09:17:33.896 +03:00 [INF] Executed action API.Controllers.AccountController.Login (API) in 29347.8852ms
+2019-03-08 09:17:33.897 +03:00 [INF] Request finished in 29376.244ms 200 application/json; charset=utf-8
+2019-03-08 09:18:31.117 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/waitingtables application/json-patch+json 94
+2019-03-08 09:18:31.120 +03:00 [INF] Route matched with {action = "WaitingTables", controller = "Waiter"}. Executing action API.Controllers.WaiterController.WaitingTables (API)
+2019-03-08 09:18:31.171 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:18:31.180 +03:00 [INF] Authorization was successful.
+2019-03-08 09:18:31.185 +03:00 [INF] Executing action method API.Controllers.WaiterController.WaitingTables (API) with arguments (["API.Models.WaitingTablesModel"]) - Validation state: "Valid"
+2019-03-08 09:18:40.030 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:18:40.110 +03:00 [INF] Executed DbCommand (68ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE ([i].[BranchId] = @__branchId_0) AND ([i].[IsClosed] = 0)
+2019-03-08 09:18:40.119 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-08 09:18:40.163 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] IN (N'MSA9UR', N'VXRC2U')
+2019-03-08 09:18:40.176 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE ([i].[Code] IN (N'MSA9UR', N'MSA9UR') AND ([i].[IsClosed] = 0)) AND ([i].[BranchId] = @__branchId_1)
+2019-03-08 09:18:44.628 +03:00 [INF] MAC: stasaring
+IP: aa
+URL:  api/waiter/waitingtable
+2019-03-08 09:18:45.845 +03:00 [INF] Executed action method API.Controllers.WaiterController.WaitingTables (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14659.063400000001ms.
+2019-03-08 09:18:45.845 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType13`1[[System.Collections.Generic.List`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 09:18:45.853 +03:00 [INF] Executed action API.Controllers.WaiterController.WaitingTables (API) in 14731.9889ms
+2019-03-08 09:18:45.853 +03:00 [INF] Request finished in 14735.5861ms 200 application/json; charset=utf-8
+2019-03-08 09:19:53.543 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/closetable application/json-patch+json 97
+2019-03-08 09:19:53.564 +03:00 [INF] Route matched with {action = "CloseTable", controller = "Waiter"}. Executing action API.Controllers.WaiterController.CloseTable (API)
+2019-03-08 09:19:53.565 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:19:53.565 +03:00 [INF] Authorization was successful.
+2019-03-08 09:19:53.569 +03:00 [INF] Executing action method API.Controllers.WaiterController.CloseTable (API) with arguments (["API.Models.CloseTableModel"]) - Validation state: "Valid"
+2019-03-08 09:20:03.302 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:20:03.313 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Id] = @__tableId_0
+2019-03-08 09:20:03.379 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__table_Code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__table_Code_0
+2019-03-08 09:20:03.584 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [DateCreated] = @p1, [MenuId] = @p2, [Note] = @p3, [Status] = @p4, [WaiterId] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+2019-03-08 09:20:03.592 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [DateCreated] = @p1, [MenuId] = @p2, [Note] = @p3, [Status] = @p4, [WaiterId] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+2019-03-08 09:20:03.599 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Tables] SET [BranchId] = @p0, [Code] = @p1, [DateCreated] = @p2, [IsClosed] = @p3, [Name] = @p4
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;
+2019-03-08 09:20:04.577 +03:00 [ERR] 1 ID'li masa ee1db241-ab91-434e-b48d-08b2edc28dc1 ID'li garson tarafından kapatıldı. Tarih: 8.03.2019 09:20:04
+2019-03-08 09:20:08.288 +03:00 [INF] Executed action method API.Controllers.WaiterController.CloseTable (API), returned result Microsoft.AspNetCore.Mvc.OkResult in 14719.388500000001ms.
+2019-03-08 09:20:08.295 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-03-08 09:20:08.297 +03:00 [INF] Executed action API.Controllers.WaiterController.CloseTable (API) in 14732.764500000001ms
+2019-03-08 09:20:08.301 +03:00 [INF] Request finished in 14758.3923ms 200 
+2019-03-08 09:20:58.107 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/orders application/json-patch+json 98
+2019-03-08 09:20:58.113 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Waiter"}. Executing action API.Controllers.WaiterController.GetOrders (API)
+2019-03-08 09:20:58.114 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:20:58.114 +03:00 [INF] Authorization was successful.
+2019-03-08 09:20:58.123 +03:00 [INF] Executing action method API.Controllers.WaiterController.GetOrders (API) with arguments (["API.Models.GetOrdersModel"]) - Validation state: "Valid"
+2019-03-08 09:21:04.359 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:21:04.369 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-08 09:21:04.402 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__waiterId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE ([i].[WaiterId] = @__waiterId_0) AND [i.Customer].[TableCode] IN (N'MSA9UR', N'VXRC2U')
+2019-03-08 09:21:07.391 +03:00 [INF] ee1db241-ab91-434e-b48d-08b2edc28dc1 ID'li garsonun sorumlu olduğu siparişler getirildi. Tarih: 8.03.2019 09:21:07
+2019-03-08 09:21:08.641 +03:00 [INF] Executed action method API.Controllers.WaiterController.GetOrders (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10517.5304ms.
+2019-03-08 09:21:08.641 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType12`1[[System.Collections.Generic.List`1[[<>f__AnonymousType14`6[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 09:21:08.653 +03:00 [INF] Executed action API.Controllers.WaiterController.GetOrders (API) in 10539.7845ms
+2019-03-08 09:21:08.653 +03:00 [INF] Request finished in 10546.199ms 200 application/json; charset=utf-8
+2019-03-08 09:28:33.736 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 09:28:34.728 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 09:28:34.728 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 09:28:34.830 +03:00 [INF] Request finished in 104.7232ms 200 
+2019-03-08 09:28:35.111 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 09:28:35.373 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 09:28:35.383 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.8328ms.
+2019-03-08 09:28:35.398 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 09:28:35.415 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 299.9948ms
+2019-03-08 09:28:35.422 +03:00 [INF] Request finished in 697.0931ms 200 text/plain; charset=utf-8
+2019-03-08 09:28:35.557 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 09:28:35.559 +03:00 [INF] Request finished in 1.4523ms 404 
+2019-03-08 09:28:43.192 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/  
+2019-03-08 09:28:43.193 +03:00 [INF] Request finished in 0.3729ms 404 
+2019-03-08 09:28:49.181 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:28:49.322 +03:00 [INF] Request finished in 141.0231ms 200 text/html
+2019-03-08 09:28:49.715 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 09:28:49.716 +03:00 [INF] Request finished in 1.0713ms 301 
+2019-03-08 09:28:49.730 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:28:49.731 +03:00 [INF] Request finished in 0.9685ms 200 text/html
+2019-03-08 09:28:49.835 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 09:28:49.836 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 09:28:49.837 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 09:28:49.895 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 09:28:49.912 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 09:28:49.922 +03:00 [INF] Request finished in 86.6914ms 200 text/css
+2019-03-08 09:28:49.922 +03:00 [INF] Request finished in 84.7782ms 200 application/javascript
+2019-03-08 09:28:49.942 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 09:28:49.943 +03:00 [INF] Request finished in 106.7524ms 200 application/javascript
+2019-03-08 09:28:50.737 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 09:28:50.967 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 09:28:50.967 +03:00 [INF] Request finished in 229.6716ms 200 text/plain
+2019-03-08 09:28:51.845 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 09:28:51.859 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 09:28:51.859 +03:00 [INF] Request finished in 14.2451ms 200 text/plain
+2019-03-08 09:28:52.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 09:28:52.612 +03:00 [INF] Request finished in 249.4165ms 200 application/json;charset=utf-8
+2019-03-08 09:32:25.609 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/orders application/json-patch+json 106
+2019-03-08 09:32:25.627 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Waiter"}. Executing action API.Controllers.WaiterController.GetOrders (API)
+2019-03-08 09:32:25.650 +03:00 [INF] Authorization failed.
+2019-03-08 09:32:25.653 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-03-08 09:32:25.659 +03:00 [INF] Executing ChallengeResult with authentication schemes (["Bearer"]).
+2019-03-08 09:32:25.667 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-03-08 09:32:25.667 +03:00 [INF] Executed action API.Controllers.WaiterController.GetOrders (API) in 39.4598ms
+2019-03-08 09:32:25.667 +03:00 [INF] Request finished in 58.2161ms 401 
+2019-03-08 09:32:25.683 +03:00 [INF] Connection id "0HLL3HT58MPRR", Request id "0HLL3HT58MPRR:00000001": the application completed without reading the entire request body.
+2019-03-08 09:32:48.443 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/orders application/json-patch+json 106
+2019-03-08 09:32:48.443 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Waiter"}. Executing action API.Controllers.WaiterController.GetOrders (API)
+2019-03-08 09:32:48.460 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:32:48.462 +03:00 [INF] Authorization was successful.
+2019-03-08 09:32:48.503 +03:00 [INF] Executing action method API.Controllers.WaiterController.GetOrders (API) with arguments (["API.Models.GetOrdersModel"]) - Validation state: "Valid"
+2019-03-08 09:32:58.692 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 09:32:58.750 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:32:58.891 +03:00 [WRN] The Include operation for navigation '[i].City.Country' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-08 09:32:59.223 +03:00 [INF] Executed DbCommand (135ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i.City.Country].[Id], [i.City.Country].[Currency], [i.City.Country].[DateCreated]
+FROM [Branches] AS [i]
+INNER JOIN [Cities] AS [i.City] ON [i].[CityId] = [i.City].[Id]
+INNER JOIN [Countries] AS [i.City.Country] ON [i.City].[CountryId] = [i.City.Country].[Id]
+WHERE [i].[Id] = @__branchId_0
+2019-03-08 09:33:00.588 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-08 09:33:00.649 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__waiterId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE ([i].[WaiterId] = @__waiterId_0) AND [i.Customer].[TableCode] IN (N'MSA9UR', N'VXRC2U')
+2019-03-08 09:34:11.858 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i.City.Country].[Id], [i.City.Country].[Currency], [i.City.Country].[DateCreated]
+FROM [Branches] AS [i]
+INNER JOIN [Cities] AS [i.City] ON [i].[CityId] = [i.City].[Id]
+INNER JOIN [Countries] AS [i.City.Country] ON [i.City].[CountryId] = [i.City.Country].[Id]
+WHERE [i].[Id] = @__branchId_0
+2019-03-08 09:34:14.310 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-08 09:34:14.311 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__waiterId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE ([i].[WaiterId] = @__waiterId_0) AND [i.Customer].[TableCode] IN (N'MSA9UR', N'VXRC2U')
+2019-03-08 09:34:18.096 +03:00 [INF] ee1db241-ab91-434e-b48d-08b2edc28dc1 ID'li garsonun sorumlu olduğu siparişler getirildi. Tarih: 8.03.2019 09:34:18
+2019-03-08 09:34:19.294 +03:00 [INF] Executed action method API.Controllers.WaiterController.GetOrders (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 90790.541600000011ms.
+2019-03-08 09:34:19.302 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType12`1[[System.Collections.Generic.List`1[[<>f__AnonymousType14`6[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 09:34:19.312 +03:00 [INF] Executed action API.Controllers.WaiterController.GetOrders (API) in 90869.012ms
+2019-03-08 09:34:19.313 +03:00 [INF] Request finished in 90870.1939ms 200 application/json; charset=utf-8
+2019-03-08 09:36:08.505 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 09:36:09.137 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 09:36:09.137 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 09:36:09.183 +03:00 [INF] Request finished in 49.652ms 200 
+2019-03-08 09:36:09.414 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 09:36:09.599 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 09:36:09.606 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5824ms.
+2019-03-08 09:36:09.615 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 09:36:09.628 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 209.4557ms
+2019-03-08 09:36:09.643 +03:00 [INF] Request finished in 509.9507ms 200 text/plain; charset=utf-8
+2019-03-08 09:36:09.745 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 09:36:09.746 +03:00 [INF] Request finished in 1.4784ms 404 
+2019-03-08 09:36:14.448 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:36:14.580 +03:00 [INF] Request finished in 132.25ms 200 text/html
+2019-03-08 09:36:14.930 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 09:36:14.931 +03:00 [INF] Request finished in 1.1485ms 301 
+2019-03-08 09:36:14.950 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 09:36:14.950 +03:00 [INF] Request finished in 0.7889ms 200 text/html
+2019-03-08 09:36:14.989 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 09:36:14.989 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 09:36:14.990 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 09:36:15.045 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 09:36:15.059 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 09:36:15.064 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 09:36:15.065 +03:00 [INF] Request finished in 76.075ms 200 text/css
+2019-03-08 09:36:15.065 +03:00 [INF] Request finished in 75.0323ms 200 application/javascript
+2019-03-08 09:36:15.065 +03:00 [INF] Request finished in 76.317ms 200 application/javascript
+2019-03-08 09:36:15.602 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 09:36:15.798 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 09:36:15.798 +03:00 [INF] Request finished in 196.2688ms 200 text/plain
+2019-03-08 09:36:16.785 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 09:36:16.865 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 09:36:16.865 +03:00 [INF] Request finished in 79.9453ms 200 text/plain
+2019-03-08 09:36:17.474 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 09:36:17.698 +03:00 [INF] Request finished in 224.5384ms 200 application/json;charset=utf-8
+2019-03-08 09:37:13.789 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/setnext application/json-patch+json 58
+2019-03-08 09:37:13.814 +03:00 [INF] Route matched with {action = "SetNext", controller = "Waiter"}. Executing action API.Controllers.WaiterController.SetNext (API)
+2019-03-08 09:37:13.835 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:37:13.846 +03:00 [INF] Authorization was successful.
+2019-03-08 09:37:13.896 +03:00 [INF] Executing action method API.Controllers.WaiterController.SetNext (API) with arguments (["System.Collections.Generic.List`1[System.String]"]) - Validation state: "Valid"
+2019-03-08 09:37:23.279 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 09:37:23.339 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:37:23.568 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId]
+FROM [Orders] AS [i]
+WHERE [i].[Id] IN (4, 6) AND ([i].[Status] <> 2)
+2019-03-08 09:37:23.607 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId]
+FROM [Orders] AS [i]
+WHERE [i].[Id] IN (4, 6) AND ([i].[Status] <> 2)
+2019-03-08 09:37:23.705 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [DateCreated] = @p1, [MenuId] = @p2, [Note] = @p3, [Status] = @p4, [WaiterId] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+2019-03-08 09:37:23.722 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [DateCreated] = @p1, [MenuId] = @p2, [Note] = @p3, [Status] = @p4, [WaiterId] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+2019-03-08 09:37:24.679 +03:00 [INF] 2 adet siparişin durumu güncellendi. Tarih: 8.03.2019 09:37:24
+2019-03-08 09:37:26.018 +03:00 [INF] Executed action method API.Controllers.WaiterController.SetNext (API), returned result Microsoft.AspNetCore.Mvc.OkResult in 12121.0107ms.
+2019-03-08 09:37:26.022 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-03-08 09:37:26.023 +03:00 [INF] Executed action API.Controllers.WaiterController.SetNext (API) in 12208.535ms
+2019-03-08 09:37:26.023 +03:00 [INF] Request finished in 12234.3633ms 200 
+2019-03-08 09:37:57.808 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/orders application/json-patch+json 118
+2019-03-08 09:37:57.822 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Waiter"}. Executing action API.Controllers.WaiterController.GetOrders (API)
+2019-03-08 09:37:57.823 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:37:57.824 +03:00 [INF] Authorization was successful.
+2019-03-08 09:37:57.867 +03:00 [INF] Executing action method API.Controllers.WaiterController.GetOrders (API) with arguments (["API.Models.GetOrdersModel"]) - Validation state: "Valid"
+2019-03-08 09:37:57.876 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:37:57.893 +03:00 [WRN] The Include operation for navigation '[i].City.Country' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-08 09:37:57.944 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i.City.Country].[Id], [i.City.Country].[Currency], [i.City.Country].[DateCreated]
+FROM [Branches] AS [i]
+INNER JOIN [Cities] AS [i.City] ON [i].[CityId] = [i.City].[Id]
+INNER JOIN [Countries] AS [i.City.Country] ON [i.City].[CountryId] = [i.City.Country].[Id]
+WHERE [i].[Id] = @__branchId_0
+2019-03-08 09:37:57.969 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-08 09:37:58.009 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__waiterId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE ([i].[WaiterId] = @__waiterId_0) AND [i.Customer].[TableCode] IN (N'MSA9UR', N'VXRC2U')
+2019-03-08 09:37:58.053 +03:00 [INF] ee1db241-ab91-434e-b48d-08b2edc28dc1 ID'li garsonun sorumlu olduğu siparişler getirildi. Tarih: 8.03.2019 09:37:58
+2019-03-08 09:37:58.053 +03:00 [INF] Executed action method API.Controllers.WaiterController.GetOrders (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 185.8466ms.
+2019-03-08 09:37:58.055 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType12`1[[System.Collections.Generic.List`1[[<>f__AnonymousType14`6[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 09:37:58.064 +03:00 [INF] Executed action API.Controllers.WaiterController.GetOrders (API) in 241.90630000000002ms
+2019-03-08 09:37:58.065 +03:00 [INF] Request finished in 256.5422ms 200 application/json; charset=utf-8
+2019-03-08 09:38:12.372 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/setnext application/json-patch+json 31
+2019-03-08 09:38:12.373 +03:00 [INF] Route matched with {action = "SetNext", controller = "Waiter"}. Executing action API.Controllers.WaiterController.SetNext (API)
+2019-03-08 09:38:12.373 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:38:12.373 +03:00 [INF] Authorization was successful.
+2019-03-08 09:38:12.374 +03:00 [INF] Executing action method API.Controllers.WaiterController.SetNext (API) with arguments (["System.Collections.Generic.List`1[System.String]"]) - Validation state: "Valid"
+2019-03-08 09:38:16.085 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:38:16.087 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId]
+FROM [Orders] AS [i]
+WHERE [i].[Id] IN (4) AND ([i].[Status] <> 2)
+2019-03-08 09:38:16.089 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId]
+FROM [Orders] AS [i]
+WHERE [i].[Id] IN (4) AND ([i].[Status] <> 2)
+2019-03-08 09:38:16.091 +03:00 [INF] 1 adet siparişin durumu güncellendi. Tarih: 8.03.2019 09:38:16
+2019-03-08 09:38:16.092 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [DateCreated] = @p1, [MenuId] = @p2, [Note] = @p3, [Status] = @p4, [WaiterId] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+2019-03-08 09:38:16.092 +03:00 [INF] Executed action method API.Controllers.WaiterController.SetNext (API), returned result Microsoft.AspNetCore.Mvc.OkResult in 3717.6576ms.
+2019-03-08 09:38:16.092 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-03-08 09:38:16.092 +03:00 [INF] Executed action API.Controllers.WaiterController.SetNext (API) in 3719.0135ms
+2019-03-08 09:38:31.189 +03:00 [ERR] Connection id "0HLL3I1CMGKN7", Request id "0HLL3I1CMGKN7:00000008": An unhandled exception was thrown by the application.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (258): Bekleme işlem zamanı aşıldı
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.DrainData(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlInternalTransaction.Rollback()
+   at System.Data.SqlClient.SqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.ClearTransactions()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.EntityFrameworkCore.DbContext.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Http.HttpResponse.<>c.<.cctor>b__30_1(Object disposable)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FireOnCompletedAwaited(Stack`1 onCompleted)
+ClientConnectionId:4f952c3c-d505-47d6-aafd-ea26d846e218
+Error Number:-2,State:0,Class:11
+2019-03-08 09:38:31.501 +03:00 [INF] Request finished in 19128.8571ms 200 
+2019-03-08 09:38:31.501 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/orders application/json-patch+json 118
+2019-03-08 09:38:31.501 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Waiter"}. Executing action API.Controllers.WaiterController.GetOrders (API)
+2019-03-08 09:38:31.502 +03:00 [INF] Successfully validated the token.
+2019-03-08 09:38:31.502 +03:00 [INF] Authorization was successful.
+2019-03-08 09:38:31.503 +03:00 [INF] Executing action method API.Controllers.WaiterController.GetOrders (API) with arguments (["API.Models.GetOrdersModel"]) - Validation state: "Valid"
+2019-03-08 09:38:31.505 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 09:38:31.511 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i.City.Country].[Id], [i.City.Country].[Currency], [i.City.Country].[DateCreated]
+FROM [Branches] AS [i]
+INNER JOIN [Cities] AS [i.City] ON [i].[CityId] = [i.City].[Id]
+INNER JOIN [Countries] AS [i.City.Country] ON [i.City].[CountryId] = [i.City.Country].[Id]
+WHERE [i].[Id] = @__branchId_0
+2019-03-08 09:38:31.512 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+2019-03-08 09:38:31.513 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__waiterId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE ([i].[WaiterId] = @__waiterId_0) AND [i.Customer].[TableCode] IN (N'MSA9UR', N'VXRC2U')
+2019-03-08 09:38:31.518 +03:00 [INF] ee1db241-ab91-434e-b48d-08b2edc28dc1 ID'li garsonun sorumlu olduğu siparişler getirildi. Tarih: 8.03.2019 09:38:31
+2019-03-08 09:38:31.518 +03:00 [INF] Executed action method API.Controllers.WaiterController.GetOrders (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.2132ms.
+2019-03-08 09:38:31.518 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType12`1[[System.Collections.Generic.List`1[[<>f__AnonymousType14`6[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 09:38:31.519 +03:00 [INF] Executed action API.Controllers.WaiterController.GetOrders (API) in 17.0504ms
+2019-03-08 09:38:31.519 +03:00 [INF] Request finished in 17.6657ms 200 application/json; charset=utf-8
+2019-03-08 17:32:48.200 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 17:32:49.274 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 17:32:49.274 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 17:32:49.354 +03:00 [INF] Request finished in 82.749ms 200 
+2019-03-08 17:32:49.703 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 17:32:50.015 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 17:32:50.025 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.8558ms.
+2019-03-08 17:32:50.038 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 17:32:50.054 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 346.29580000000004ms
+2019-03-08 17:32:50.062 +03:00 [INF] Request finished in 791.2947ms 200 text/plain; charset=utf-8
+2019-03-08 17:32:50.340 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 17:32:50.342 +03:00 [INF] Request finished in 1.3376ms 404 
+2019-03-08 17:33:02.199 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 17:33:02.201 +03:00 [INF] Request finished in 2.0881ms 301 
+2019-03-08 17:33:02.213 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:33:02.337 +03:00 [INF] Request finished in 124.5303ms 200 text/html
+2019-03-08 17:33:02.488 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 17:33:02.488 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 17:33:02.490 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 17:33:02.680 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 17:33:02.690 +03:00 [INF] Request finished in 201.9626ms 200 text/css
+2019-03-08 17:33:02.712 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 17:33:02.712 +03:00 [INF] Request finished in 222.5928ms 200 application/javascript
+2019-03-08 17:33:02.887 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 17:33:02.887 +03:00 [INF] Request finished in 399.1321ms 200 application/javascript
+2019-03-08 17:33:03.156 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 17:33:03.485 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 17:33:03.485 +03:00 [INF] Request finished in 328.8921ms 200 text/plain
+2019-03-08 17:33:04.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 17:33:04.290 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 17:33:04.291 +03:00 [INF] Request finished in 54.0518ms 200 text/plain
+2019-03-08 17:33:04.625 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 17:33:04.659 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/favicon-32x32.png  
+2019-03-08 17:33:04.670 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-03-08 17:33:04.670 +03:00 [INF] Request finished in 11.5784ms 200 image/png
+2019-03-08 17:33:04.885 +03:00 [INF] Request finished in 260.0507ms 200 application/json;charset=utf-8
+2019-03-08 17:34:10.303 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/auth/login application/json-patch+json 61
+2019-03-08 17:34:10.323 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action API.Controllers.AccountController.Login (API)
+2019-03-08 17:34:10.441 +03:00 [INF] Executing action method API.Controllers.AccountController.Login (API) with arguments (["API.Models.LoginModel"]) - Validation state: "Valid"
+2019-03-08 17:34:12.677 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 17:34:12.742 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:34:13.069 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName], [i.Branch].[Id], [i.Branch].[CityId], [i.Branch].[DateCreated], [i.Branch].[FirmId], [i.Branch].[IsActive], [i.Branch].[Name], [i.Branch.Firm].[Id], [i.Branch.Firm].[CityId], [i.Branch.Firm].[DateCreated], [i.Branch.Firm].[IsActive], [i.Branch.Firm].[LogoPath], [i.Branch.Firm].[Name], [i.Branch.Firm].[UserId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+LEFT JOIN [Firms] AS [i.Branch.Firm] ON [i.Branch].[FirmId] = [i.Branch.Firm].[Id]
+WHERE [i].[Email] = @__email_0
+2019-03-08 17:34:13.207 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-08 17:34:13.300 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-08 17:34:13.325 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-08 17:34:13.334 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-08 17:34:13.335 +03:00 [INF] bircan@ziyafe.com kullanıcısı doğrulandı. [Tarih:8 Mart 2019 Cuma]
+2019-03-08 17:34:13.374 +03:00 [INF] Executed action method API.Controllers.AccountController.Login (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2932.1412ms.
+2019-03-08 17:34:13.375 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`9[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 17:34:13.387 +03:00 [INF] Executed action API.Controllers.AccountController.Login (API) in 3064.0507000000002ms
+2019-03-08 17:34:13.387 +03:00 [INF] Request finished in 3085.0013ms 200 application/json; charset=utf-8
+2019-03-08 17:36:28.034 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/location application/json-patch+json 85
+2019-03-08 17:36:28.037 +03:00 [INF] Route matched with {action = "Location", controller = "Customer"}. Executing action API.Controllers.CustomerController.Location (API)
+2019-03-08 17:36:28.042 +03:00 [INF] Executing action method API.Controllers.CustomerController.Location (API) with arguments (["API.Models.LocationModel"]) - Validation state: "Valid"
+2019-03-08 17:36:28.071 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:36:28.081 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__lang_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[Code], [i].[DateCreated]
+FROM [Languages] AS [i]
+WHERE [i].[Code] = @__lang_0
+2019-03-08 17:36:28.143 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Currency], [i].[DateCreated]
+FROM [Countries] AS [i]
+WHERE (
+    SELECT COUNT(*)
+    FROM [Cities] AS [c]
+    WHERE [i].[Id] = [c].[CountryId]
+) > 0
+ORDER BY [i].[Id]
+2019-03-08 17:36:28.160 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Translations].[Id], [i.Translations].[CountryId], [i.Translations].[DateCreated], [i.Translations].[LanguageId], [i.Translations].[Name]
+FROM [CountryTranslations] AS [i.Translations]
+INNER JOIN (
+    SELECT [i0].[Id]
+    FROM [Countries] AS [i0]
+    WHERE (
+        SELECT COUNT(*)
+        FROM [Cities] AS [c0]
+        WHERE [i0].[Id] = [c0].[CountryId]
+    ) > 0
+) AS [t] ON [i.Translations].[CountryId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-03-08 17:36:28.228 +03:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Cities].[Id], [i.Cities].[CountryId], [i.Cities].[DateCreated], [i.Cities].[Name]
+FROM [Cities] AS [i.Cities]
+INNER JOIN (
+    SELECT [i1].[Id]
+    FROM [Countries] AS [i1]
+    WHERE (
+        SELECT COUNT(*)
+        FROM [Cities] AS [c1]
+        WHERE [i1].[Id] = [c1].[CountryId]
+    ) > 0
+) AS [t0] ON [i.Cities].[CountryId] = [t0].[Id]
+ORDER BY [t0].[Id]
+2019-03-08 17:36:28.237 +03:00 [INF] MAC: 22.1AV.223
+IP: 192.111.111.11
+URL: api/customer/location
+2019-03-08 17:36:28.237 +03:00 [INF] Executed action method API.Controllers.CustomerController.Location (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 194.9179ms.
+2019-03-08 17:36:28.237 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 17:36:28.260 +03:00 [INF] Executed action API.Controllers.CustomerController.Location (API) in 222.196ms
+2019-03-08 17:36:28.260 +03:00 [INF] Request finished in 232.544ms 200 application/json; charset=utf-8
+2019-03-08 17:41:35.506 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 98
+2019-03-08 17:41:35.511 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:41:35.535 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:41:35.552 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:41:40.559 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 5047.054ms
+2019-03-08 17:41:40.562 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The Include property lambda expression 'i => {from Branch x in i.Branches where ([x].IsActive AndAlso ([x].CityId == __cityId_0)) select [x]}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.ResultOperators.Internal.IncludeExpressionNode.CreateResultOperator(ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.ResultOperatorExpressionNodeBase.ApplyNodeSpecificSemantics(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.MethodCallExpressionNodeBase.Apply(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.GetParsedQuery(Expression expressionTreeRoot)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator.ParseQuery(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.IncludableQueryable`2.GetEnumerator()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Services.Implementations.FirmService.GetActiveFirmsOfCity(Int32 cityId) in D:\StartupProject\Portal\Services\Implementations\FirmService.cs:line 75
+   at API.Controllers.CustomerController.Firms(FirmsModel model) in D:\StartupProject\Portal\API\Controllers\CustomerController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2019-03-08 17:41:40.775 +03:00 [INF] Request finished in 5268.8264ms 500 application/json
+2019-03-08 17:41:51.397 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 98
+2019-03-08 17:41:51.398 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:41:51.399 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:41:54.292 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 2893.3004ms
+2019-03-08 17:41:54.293 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.
+   at Internal.Cryptography.UniversalCryptoDecryptor.DepadBlock(Byte[] block, Int32 offset, Int32 count)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Services.Extensions.Decrypt(String value) in D:\StartupProject\Portal\Services\Extensions.cs:line 62
+   at API.Controllers.CustomerController.Firms(FirmsModel model) in D:\StartupProject\Portal\API\Controllers\CustomerController.cs:line 81
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2019-03-08 17:41:54.350 +03:00 [INF] Request finished in 2952.5226ms 500 application/json
+2019-03-08 17:41:58.515 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 98
+2019-03-08 17:41:58.516 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:41:58.521 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:42:23.619 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 25098.693900000002ms
+2019-03-08 17:42:23.620 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.
+   at Internal.Cryptography.UniversalCryptoDecryptor.DepadBlock(Byte[] block, Int32 offset, Int32 count)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Services.Extensions.Decrypt(String value) in D:\StartupProject\Portal\Services\Extensions.cs:line 62
+   at API.Controllers.CustomerController.Firms(FirmsModel model) in D:\StartupProject\Portal\API\Controllers\CustomerController.cs:line 81
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2019-03-08 17:42:23.621 +03:00 [INF] Request finished in 25106.2114ms 500 application/json
+2019-03-08 17:42:32.380 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 98
+2019-03-08 17:42:32.380 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:42:32.381 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:42:32.386 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:42:50.698 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 18317.9908ms
+2019-03-08 17:42:50.700 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The Include property lambda expression 'i => {from Branch x in i.Branches where ([x].IsActive AndAlso ([x].CityId == __cityId_0)) select [x]}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.ResultOperators.Internal.IncludeExpressionNode.CreateResultOperator(ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.ResultOperatorExpressionNodeBase.ApplyNodeSpecificSemantics(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.MethodCallExpressionNodeBase.Apply(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.GetParsedQuery(Expression expressionTreeRoot)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator.ParseQuery(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.IncludableQueryable`2.GetEnumerator()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Services.Implementations.FirmService.GetActiveFirmsOfCity(Int32 cityId) in D:\StartupProject\Portal\Services\Implementations\FirmService.cs:line 75
+   at API.Controllers.CustomerController.Firms(FirmsModel model) in D:\StartupProject\Portal\API\Controllers\CustomerController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2019-03-08 17:42:50.701 +03:00 [INF] Request finished in 18321.7109ms 500 application/json
+2019-03-08 17:43:51.721 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 98
+2019-03-08 17:43:51.722 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:43:51.730 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:43:51.735 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:43:54.896 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 3166.9486ms
+2019-03-08 17:43:54.897 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The Include property lambda expression 'i => {from Branch x in i.Branches where ([x].IsActive AndAlso ([x].CityId == __cityId_0)) select [x]}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.ResultOperators.Internal.IncludeExpressionNode.CreateResultOperator(ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.ResultOperatorExpressionNodeBase.ApplyNodeSpecificSemantics(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.MethodCallExpressionNodeBase.Apply(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.GetParsedQuery(Expression expressionTreeRoot)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator.ParseQuery(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.IncludableQueryable`2.GetEnumerator()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Services.Implementations.FirmService.GetActiveFirmsOfCity(Int32 cityId) in D:\StartupProject\Portal\Services\Implementations\FirmService.cs:line 75
+   at API.Controllers.CustomerController.Firms(FirmsModel model) in D:\StartupProject\Portal\API\Controllers\CustomerController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2019-03-08 17:43:54.900 +03:00 [INF] Request finished in 3178.5574ms 500 application/json
+2019-03-08 17:45:04.696 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 98
+2019-03-08 17:45:04.697 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:45:04.698 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:45:24.815 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:46:45.710 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 17:46:46.016 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 17:46:46.183 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 17:46:46.277 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 17:46:46.284 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4864ms.
+2019-03-08 17:46:46.293 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 17:46:46.304 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 117.4912ms
+2019-03-08 17:46:46.310 +03:00 [INF] Request finished in 295.802ms 200 text/plain; charset=utf-8
+2019-03-08 17:47:00.277 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 17:47:00.933 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 17:47:00.933 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 17:47:00.980 +03:00 [INF] Request finished in 48.657ms 200 
+2019-03-08 17:47:01.243 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 17:47:01.477 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 17:47:01.489 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6195ms.
+2019-03-08 17:47:01.503 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 17:47:01.516 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 268.7308ms
+2019-03-08 17:47:01.527 +03:00 [INF] Request finished in 596.6506ms 200 text/plain; charset=utf-8
+2019-03-08 17:47:01.592 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 17:47:01.594 +03:00 [INF] Request finished in 2.6278ms 404 
+2019-03-08 17:47:28.067 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:47:28.202 +03:00 [INF] Request finished in 135.4423ms 200 text/html
+2019-03-08 17:47:28.690 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 17:47:28.697 +03:00 [INF] Request finished in 7.0037ms 301 
+2019-03-08 17:47:28.711 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:47:28.711 +03:00 [INF] Request finished in 0.8008ms 200 text/html
+2019-03-08 17:47:28.742 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 17:47:28.742 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 17:47:28.744 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 17:47:28.843 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 17:47:28.843 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 17:47:28.855 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 17:47:28.858 +03:00 [INF] Request finished in 116.5056ms 200 text/css
+2019-03-08 17:47:28.858 +03:00 [INF] Request finished in 116.0213ms 200 application/javascript
+2019-03-08 17:47:28.858 +03:00 [INF] Request finished in 114.5164ms 200 application/javascript
+2019-03-08 17:47:29.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 17:47:29.770 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 17:47:29.770 +03:00 [INF] Request finished in 230.17ms 200 text/plain
+2019-03-08 17:47:30.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 17:47:30.926 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 17:47:30.926 +03:00 [INF] Request finished in 28.6741ms 200 text/plain
+2019-03-08 17:47:31.398 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 17:47:31.693 +03:00 [INF] Request finished in 294.5514ms 200 application/json;charset=utf-8
+2019-03-08 17:47:52.047 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 90
+2019-03-08 17:47:52.078 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:47:52.143 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:47:54.323 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 17:47:54.380 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:49:58.994 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 17:49:59.669 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 17:49:59.669 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 17:49:59.719 +03:00 [INF] Request finished in 52.5922ms 200 
+2019-03-08 17:49:59.987 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 17:50:00.313 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 17:50:00.324 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.88830000000000009ms.
+2019-03-08 17:50:00.334 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 17:50:00.350 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 357.95410000000004ms
+2019-03-08 17:50:00.364 +03:00 [INF] Request finished in 698.2263ms 200 text/plain; charset=utf-8
+2019-03-08 17:50:00.426 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 17:50:00.429 +03:00 [INF] Request finished in 2.5134ms 404 
+2019-03-08 17:50:05.938 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:50:06.077 +03:00 [INF] Request finished in 138.685ms 200 text/html
+2019-03-08 17:50:06.243 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 17:50:06.245 +03:00 [INF] Request finished in 1.1281ms 301 
+2019-03-08 17:50:06.257 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:50:06.258 +03:00 [INF] Request finished in 0.9203ms 200 text/html
+2019-03-08 17:50:06.293 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 17:50:06.294 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 17:50:06.294 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 17:50:06.380 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 17:50:06.380 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 17:50:06.435 +03:00 [INF] Request finished in 142.0322ms 200 application/javascript
+2019-03-08 17:50:06.435 +03:00 [INF] Request finished in 141.1153ms 200 text/css
+2019-03-08 17:50:06.439 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 17:50:06.440 +03:00 [INF] Request finished in 145.3644ms 200 application/javascript
+2019-03-08 17:50:06.864 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 17:50:07.252 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 17:50:07.253 +03:00 [INF] Request finished in 389.0624ms 200 text/plain
+2019-03-08 17:50:08.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 17:50:08.395 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 17:50:08.395 +03:00 [INF] Request finished in 32.0145ms 200 text/plain
+2019-03-08 17:50:09.054 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 17:50:09.295 +03:00 [INF] Request finished in 240.4386ms 200 application/json;charset=utf-8
+2019-03-08 17:50:33.288 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 89
+2019-03-08 17:50:33.308 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:50:33.375 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:50:37.951 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 17:50:38.009 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 17:58:52.212 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 17:58:53.084 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 17:58:53.084 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 17:58:53.137 +03:00 [INF] Request finished in 55.7521ms 200 
+2019-03-08 17:58:53.389 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 17:58:53.581 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 17:58:53.589 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9928ms.
+2019-03-08 17:58:53.598 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 17:58:53.610 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 217.3691ms
+2019-03-08 17:58:53.620 +03:00 [INF] Request finished in 538.8014ms 200 text/plain; charset=utf-8
+2019-03-08 17:58:53.690 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 17:58:53.692 +03:00 [INF] Request finished in 2.1222ms 404 
+2019-03-08 17:59:06.233 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:59:06.379 +03:00 [INF] Request finished in 146.8194ms 200 text/html
+2019-03-08 17:59:06.975 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 17:59:06.976 +03:00 [INF] Request finished in 1.1511ms 301 
+2019-03-08 17:59:06.982 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 17:59:06.983 +03:00 [INF] Request finished in 0.7603ms 200 text/html
+2019-03-08 17:59:07.028 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 17:59:07.028 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 17:59:07.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 17:59:07.074 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 17:59:07.078 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 17:59:07.115 +03:00 [INF] Request finished in 85.4988ms 200 application/javascript
+2019-03-08 17:59:07.115 +03:00 [INF] Request finished in 87.0958ms 200 text/css
+2019-03-08 17:59:07.119 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 17:59:07.120 +03:00 [INF] Request finished in 92.4074ms 200 application/javascript
+2019-03-08 17:59:07.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 17:59:07.691 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 17:59:07.691 +03:00 [INF] Request finished in 207.2541ms 200 text/plain
+2019-03-08 17:59:08.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 17:59:08.599 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 17:59:08.599 +03:00 [INF] Request finished in 38.1273ms 200 text/plain
+2019-03-08 17:59:09.050 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 17:59:09.253 +03:00 [INF] Request finished in 203.3924ms 200 application/json;charset=utf-8
+2019-03-08 17:59:25.132 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 87
+2019-03-08 17:59:25.152 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 17:59:25.209 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 17:59:27.908 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 17:59:27.990 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:00:27.316 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 62163.5255ms
+2019-03-08 18:00:27.323 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The Include property lambda expression 'i => {from Branch x in i.Branches select (([x].CityId == __cityId_0) AndAlso [x].IsActive)}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.ResultOperators.Internal.IncludeExpressionNode.CreateResultOperator(ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.ResultOperatorExpressionNodeBase.ApplyNodeSpecificSemantics(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.MethodCallExpressionNodeBase.Apply(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.GetParsedQuery(Expression expressionTreeRoot)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator.ParseQuery(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.IncludableQueryable`2.GetEnumerator()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Services.Implementations.FirmService.GetActiveFirmsOfCity(Int32 cityId) in D:\StartupProject\Portal\Services\Implementations\FirmService.cs:line 75
+   at API.Controllers.CustomerController.Firms(FirmsModel model) in D:\StartupProject\Portal\API\Controllers\CustomerController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2019-03-08 18:00:27.404 +03:00 [INF] Request finished in 62271.9317ms 500 application/json
+2019-03-08 18:00:49.362 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:00:50.332 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:00:50.332 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:00:50.407 +03:00 [INF] Request finished in 77.824ms 200 
+2019-03-08 18:00:50.732 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:00:50.975 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:00:50.988 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9314ms.
+2019-03-08 18:00:51.002 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:00:51.015 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 279.889ms
+2019-03-08 18:00:51.028 +03:00 [INF] Request finished in 698.9085ms 200 text/plain; charset=utf-8
+2019-03-08 18:00:51.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:00:51.178 +03:00 [INF] Request finished in 1.2326ms 404 
+2019-03-08 18:00:56.003 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:00:56.139 +03:00 [INF] Request finished in 136.5448ms 200 text/html
+2019-03-08 18:00:56.467 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 18:00:56.470 +03:00 [INF] Request finished in 2.6402ms 301 
+2019-03-08 18:00:56.481 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:00:56.482 +03:00 [INF] Request finished in 0.8366ms 200 text/html
+2019-03-08 18:00:56.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 18:00:56.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 18:00:56.530 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 18:00:56.671 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 18:00:56.671 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 18:00:56.672 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 18:00:56.680 +03:00 [INF] Request finished in 151.712ms 200 application/javascript
+2019-03-08 18:00:56.680 +03:00 [INF] Request finished in 155.051ms 200 application/javascript
+2019-03-08 18:00:56.680 +03:00 [INF] Request finished in 155.1778ms 200 text/css
+2019-03-08 18:00:57.111 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 18:00:57.315 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 18:00:57.315 +03:00 [INF] Request finished in 203.4944ms 200 text/plain
+2019-03-08 18:00:58.489 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 18:00:58.539 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 18:00:58.539 +03:00 [INF] Request finished in 49.9473ms 200 text/plain
+2019-03-08 18:00:59.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 18:00:59.424 +03:00 [INF] Request finished in 251.2243ms 200 application/json;charset=utf-8
+2019-03-08 18:01:10.160 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 93
+2019-03-08 18:01:10.178 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 18:01:10.230 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 18:01:13.430 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 18:01:13.494 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:01:40.454 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:01:41.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:01:41.180 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:01:41.225 +03:00 [INF] Request finished in 46.5484ms 200 
+2019-03-08 18:01:41.534 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:01:41.788 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:01:41.797 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9860000000000001ms.
+2019-03-08 18:01:41.805 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:01:41.816 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 278.1836ms
+2019-03-08 18:01:41.827 +03:00 [INF] Request finished in 650.8215ms 200 text/plain; charset=utf-8
+2019-03-08 18:01:41.945 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:01:41.947 +03:00 [INF] Request finished in 2.9145ms 404 
+2019-03-08 18:02:26.110 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:02:26.999 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:02:26.999 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:02:27.056 +03:00 [INF] Request finished in 58.7733ms 200 
+2019-03-08 18:02:27.313 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:02:27.505 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:02:27.515 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.4903000000000002ms.
+2019-03-08 18:02:27.529 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:02:27.545 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 227.0327ms
+2019-03-08 18:02:27.556 +03:00 [INF] Request finished in 559.9671ms 200 text/plain; charset=utf-8
+2019-03-08 18:02:27.627 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:02:27.629 +03:00 [INF] Request finished in 1.6469ms 404 
+2019-03-08 18:02:32.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:02:32.292 +03:00 [INF] Request finished in 179.217ms 200 text/html
+2019-03-08 18:02:32.944 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 18:02:32.946 +03:00 [INF] Request finished in 2.6816ms 301 
+2019-03-08 18:02:32.966 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:02:32.967 +03:00 [INF] Request finished in 6.4034ms 200 text/html
+2019-03-08 18:02:33.012 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 18:02:33.020 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 18:02:33.036 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 18:02:33.138 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 18:02:33.156 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 18:02:33.162 +03:00 [INF] Request finished in 126.3586ms 200 application/javascript
+2019-03-08 18:02:33.163 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 18:02:33.163 +03:00 [INF] Request finished in 151.424ms 200 text/css
+2019-03-08 18:02:33.184 +03:00 [INF] Request finished in 163.2546ms 200 application/javascript
+2019-03-08 18:02:33.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 18:02:33.904 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 18:02:33.904 +03:00 [INF] Request finished in 281.6081ms 200 text/plain
+2019-03-08 18:02:34.993 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 18:02:35.019 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 18:02:35.019 +03:00 [INF] Request finished in 26.4593ms 200 text/plain
+2019-03-08 18:02:35.633 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 18:02:35.879 +03:00 [INF] Request finished in 246.1952ms 200 application/json;charset=utf-8
+2019-03-08 18:02:42.789 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 93
+2019-03-08 18:02:42.816 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 18:02:42.881 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 18:02:46.065 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 18:02:46.152 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:02:56.588 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[CityId], [f].[DateCreated], [f].[IsActive], [f].[LogoPath], [f].[Name], [f].[UserId]
+FROM [Firms] AS [f]
+2019-03-08 18:03:17.077 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:03:17.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:03:17.955 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:03:18.014 +03:00 [INF] Request finished in 62.5715ms 200 
+2019-03-08 18:03:18.304 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:03:18.533 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:03:18.544 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.8597ms.
+2019-03-08 18:03:18.559 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:03:18.577 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 269.3516ms
+2019-03-08 18:03:18.583 +03:00 [INF] Request finished in 631.9547ms 200 text/plain; charset=utf-8
+2019-03-08 18:03:18.723 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:03:18.724 +03:00 [INF] Request finished in 1.5321ms 404 
+2019-03-08 18:03:22.435 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:03:22.574 +03:00 [INF] Request finished in 138.3018ms 200 text/html
+2019-03-08 18:03:22.738 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 18:03:22.739 +03:00 [INF] Request finished in 1.3004ms 301 
+2019-03-08 18:03:22.753 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:03:22.760 +03:00 [INF] Request finished in 7.3241ms 200 text/html
+2019-03-08 18:03:22.794 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 18:03:22.794 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 18:03:22.796 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 18:03:22.858 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 18:03:22.858 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 18:03:22.902 +03:00 [INF] Request finished in 105.7557ms 200 text/css
+2019-03-08 18:03:22.902 +03:00 [INF] Request finished in 107.7585ms 200 application/javascript
+2019-03-08 18:03:22.932 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 18:03:22.932 +03:00 [INF] Request finished in 138.2105ms 200 application/javascript
+2019-03-08 18:03:23.385 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 18:03:23.833 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 18:03:23.833 +03:00 [INF] Request finished in 448.5009ms 200 text/plain
+2019-03-08 18:03:25.041 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 18:03:25.093 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 18:03:25.094 +03:00 [INF] Request finished in 53.1558ms 200 text/plain
+2019-03-08 18:03:25.725 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 18:03:25.981 +03:00 [INF] Request finished in 256.0977ms 200 application/json;charset=utf-8
+2019-03-08 18:03:38.429 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 93
+2019-03-08 18:03:38.450 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 18:03:38.541 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 18:03:41.739 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 18:03:41.801 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:03:49.526 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[CityId], [f].[DateCreated], [f].[IsActive], [f].[LogoPath], [f].[Name], [f].[UserId]
+FROM [Firms] AS [f]
+2019-03-08 18:04:32.048 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:04:32.912 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:04:32.912 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:04:32.962 +03:00 [INF] Request finished in 49.0312ms 200 
+2019-03-08 18:04:33.293 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:04:33.560 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:04:33.572 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6976ms.
+2019-03-08 18:04:33.588 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:04:33.603 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 304.27430000000004ms
+2019-03-08 18:04:33.615 +03:00 [INF] Request finished in 706.0475ms 200 text/plain; charset=utf-8
+2019-03-08 18:04:33.679 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:04:33.681 +03:00 [INF] Request finished in 1.451ms 404 
+2019-03-08 18:04:37.229 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:04:37.371 +03:00 [INF] Request finished in 141.7463ms 200 text/html
+2019-03-08 18:04:38.239 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 18:04:38.240 +03:00 [INF] Request finished in 1.1106ms 301 
+2019-03-08 18:04:38.252 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:04:38.255 +03:00 [INF] Request finished in 3.4449ms 200 text/html
+2019-03-08 18:04:38.288 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 18:04:38.288 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 18:04:38.296 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 18:04:38.354 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 18:04:38.375 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 18:04:38.379 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 18:04:38.381 +03:00 [INF] Request finished in 85.2966ms 200 application/javascript
+2019-03-08 18:04:38.386 +03:00 [INF] Request finished in 98.0876ms 200 text/css
+2019-03-08 18:04:38.390 +03:00 [INF] Request finished in 101.3563ms 200 application/javascript
+2019-03-08 18:04:38.755 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 18:04:38.961 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 18:04:38.962 +03:00 [INF] Request finished in 206.7093ms 200 text/plain
+2019-03-08 18:04:40.093 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 18:04:40.122 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 18:04:40.122 +03:00 [INF] Request finished in 29.0764ms 200 text/plain
+2019-03-08 18:04:40.735 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 18:04:40.984 +03:00 [INF] Request finished in 248.7654ms 200 application/json;charset=utf-8
+2019-03-08 18:04:56.267 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 93
+2019-03-08 18:04:56.287 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 18:04:56.344 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 18:04:58.788 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 18:04:58.850 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:05:46.366 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:05:47.372 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:05:47.372 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:05:47.428 +03:00 [INF] Request finished in 59.3719ms 200 
+2019-03-08 18:05:47.686 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:05:47.945 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:05:47.957 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1421000000000001ms.
+2019-03-08 18:05:47.971 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:05:47.990 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 294.8829ms
+2019-03-08 18:05:47.999 +03:00 [INF] Request finished in 630.6453ms 200 text/plain; charset=utf-8
+2019-03-08 18:05:48.087 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:05:48.088 +03:00 [INF] Request finished in 1.2893ms 404 
+2019-03-08 18:05:50.457 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:05:50.656 +03:00 [INF] Request finished in 199.1859ms 200 text/html
+2019-03-08 18:05:51.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 18:05:51.199 +03:00 [INF] Request finished in 1.201ms 301 
+2019-03-08 18:05:51.211 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:05:51.211 +03:00 [INF] Request finished in 0.8614ms 200 text/html
+2019-03-08 18:05:51.256 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 18:05:51.256 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 18:05:51.263 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 18:05:51.326 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 18:05:51.326 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 18:05:51.350 +03:00 [INF] Request finished in 86.6385ms 200 application/javascript
+2019-03-08 18:05:51.350 +03:00 [INF] Request finished in 93.9733ms 200 text/css
+2019-03-08 18:05:51.397 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 18:05:51.397 +03:00 [INF] Request finished in 141.2185ms 200 application/javascript
+2019-03-08 18:05:51.791 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 18:05:52.107 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 18:05:52.107 +03:00 [INF] Request finished in 316.2969ms 200 text/plain
+2019-03-08 18:05:53.236 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 18:05:53.318 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 18:05:53.319 +03:00 [INF] Request finished in 82.7182ms 200 text/plain
+2019-03-08 18:05:53.949 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 18:05:54.203 +03:00 [INF] Request finished in 254.781ms 200 application/json;charset=utf-8
+2019-03-08 18:06:05.340 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 93
+2019-03-08 18:06:05.362 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 18:06:05.443 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 18:06:07.706 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 18:06:07.759 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:06:08.132 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE [i].[IsActive] = 1
+ORDER BY [i].[Id]
+2019-03-08 18:06:08.257 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Branches].[Id], [i.Branches].[CityId], [i.Branches].[DateCreated], [i.Branches].[FirmId], [i.Branches].[IsActive], [i.Branches].[Name]
+FROM [Branches] AS [i.Branches]
+INNER JOIN (
+    SELECT [i0].[Id]
+    FROM [Firms] AS [i0]
+    WHERE [i0].[IsActive] = 1
+) AS [t] ON [i.Branches].[FirmId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-03-08 18:07:12.844 +03:00 [INF] User profile is available. Using 'C:\Users\Onur Cetintas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 18:07:13.784 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:65244/  0
+2019-03-08 18:07:13.784 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/api/auth/index  
+2019-03-08 18:07:13.832 +03:00 [INF] Request finished in 50.484ms 200 
+2019-03-08 18:07:14.122 +03:00 [INF] Route matched with {action = "Index", controller = "Account"}. Executing action API.Controllers.AccountController.Index (API)
+2019-03-08 18:07:14.352 +03:00 [INF] Executing action method API.Controllers.AccountController.Index (API) - Validation state: "Valid"
+2019-03-08 18:07:14.363 +03:00 [INF] Executed action method API.Controllers.AccountController.Index (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9553ms.
+2019-03-08 18:07:14.381 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 18:07:14.398 +03:00 [INF] Executed action API.Controllers.AccountController.Index (API) in 271.0587ms
+2019-03-08 18:07:14.411 +03:00 [INF] Request finished in 629.9942ms 200 text/plain; charset=utf-8
+2019-03-08 18:07:14.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/favicon.ico  
+2019-03-08 18:07:14.484 +03:00 [INF] Request finished in 1.2795ms 404 
+2019-03-08 18:07:18.453 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:07:18.591 +03:00 [INF] Request finished in 138.6274ms 200 text/html
+2019-03-08 18:07:18.713 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger  
+2019-03-08 18:07:18.714 +03:00 [INF] Request finished in 1.1353ms 301 
+2019-03-08 18:07:18.722 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/index.html  
+2019-03-08 18:07:18.723 +03:00 [INF] Request finished in 0.8716ms 200 text/html
+2019-03-08 18:07:18.765 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js  
+2019-03-08 18:07:18.765 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js  
+2019-03-08 18:07:18.767 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui.css  
+2019-03-08 18:07:18.847 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-03-08 18:07:18.847 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-03-08 18:07:18.873 +03:00 [INF] Request finished in 106.1162ms 200 text/css
+2019-03-08 18:07:18.873 +03:00 [INF] Request finished in 107.6313ms 200 application/javascript
+2019-03-08 18:07:18.913 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-03-08 18:07:18.914 +03:00 [INF] Request finished in 148.2466ms 200 application/javascript
+2019-03-08 18:07:19.282 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-bundle.js.map  
+2019-03-08 18:07:19.542 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-03-08 18:07:19.542 +03:00 [INF] Request finished in 260.1207ms 200 text/plain
+2019-03-08 18:07:20.506 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/swagger-ui-standalone-preset.js.map  
+2019-03-08 18:07:20.555 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-03-08 18:07:20.555 +03:00 [INF] Request finished in 48.7372ms 200 text/plain
+2019-03-08 18:07:21.060 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44319/swagger/v1/swagger.json  
+2019-03-08 18:07:21.293 +03:00 [INF] Request finished in 232.3976ms 200 application/json;charset=utf-8
+2019-03-08 18:07:32.699 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/firms application/json-patch+json 93
+2019-03-08 18:07:32.723 +03:00 [INF] Route matched with {action = "Firms", controller = "Customer"}. Executing action API.Controllers.CustomerController.Firms (API)
+2019-03-08 18:07:32.781 +03:00 [INF] Executing action method API.Controllers.CustomerController.Firms (API) with arguments (["API.Models.FirmsModel"]) - Validation state: "Valid"
+2019-03-08 18:07:35.611 +03:00 [WRN] No type was specified for the decimal column 'Price' on entity type 'Menu'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-03-08 18:07:35.675 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:07:36.021 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CityId], [i].[DateCreated], [i].[IsActive], [i].[LogoPath], [i].[Name], [i].[UserId]
+FROM [Firms] AS [i]
+WHERE ([i].[IsActive] = 1) AND EXISTS (
+    SELECT 1
+    FROM [Branches] AS [x]
+    WHERE (([x].[IsActive] = 1) AND ([x].[CityId] = @__cityId_0)) AND ([i].[Id] = [x].[FirmId]))
+ORDER BY [i].[Id]
+2019-03-08 18:07:36.161 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Branches].[Id], [i.Branches].[CityId], [i.Branches].[DateCreated], [i.Branches].[FirmId], [i.Branches].[IsActive], [i.Branches].[Name]
+FROM [Branches] AS [i.Branches]
+INNER JOIN (
+    SELECT [i0].[Id]
+    FROM [Firms] AS [i0]
+    WHERE ([i0].[IsActive] = 1) AND EXISTS (
+        SELECT 1
+        FROM [Branches] AS [x0]
+        WHERE (([x0].[IsActive] = 1) AND ([x0].[CityId] = @__cityId_0)) AND ([i0].[Id] = [x0].[FirmId]))
+) AS [t] ON [i.Branches].[FirmId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-03-08 18:07:44.216 +03:00 [INF] MAC: string
+IP: string
+URL: api/customer/firms
+2019-03-08 18:07:44.217 +03:00 [INF] Executed action method API.Controllers.CustomerController.Firms (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11434.944000000001ms.
+2019-03-08 18:07:44.218 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.Collections.Generic.List`1[[<>f__AnonymousType4`4[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 18:07:44.236 +03:00 [INF] Executed action API.Controllers.CustomerController.Firms (API) in 11513.3346ms
+2019-03-08 18:07:44.237 +03:00 [INF] Request finished in 11538.1248ms 200 application/json; charset=utf-8
+2019-03-08 18:11:24.293 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/connect application/json-patch+json 125
+2019-03-08 18:11:24.301 +03:00 [INF] Route matched with {action = "Connect", controller = "Customer"}. Executing action API.Controllers.CustomerController.Connect (API)
+2019-03-08 18:11:24.347 +03:00 [INF] Executing action method API.Controllers.CustomerController.Connect (API) with arguments (["API.Models.ConnectModel"]) - Validation state: "Valid"
+2019-03-08 18:11:29.020 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:11:29.034 +03:00 [WRN] The Include operation for navigation '[i].City.Country' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-08 18:11:29.100 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i.City.Country].[Id], [i.City.Country].[Currency], [i.City.Country].[DateCreated]
+FROM [Branches] AS [i]
+INNER JOIN [Cities] AS [i.City] ON [i].[CityId] = [i.City].[Id]
+INNER JOIN [Countries] AS [i.City.Country] ON [i.City].[CountryId] = [i.City.Country].[Id]
+WHERE [i].[Id] = @__branchId_0
+2019-03-08 18:11:29.125 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__tableCode_0='?' (Size = 4000), @__branchId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE ([i].[Code] = @__tableCode_0) AND ([i].[BranchId] = @__branchId_1)
+2019-03-08 18:11:29.166 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[DateCreated], [i].[Name]
+FROM [MenuTypes] AS [i]
+WHERE [i].[BranchId] = @__branchId_0
+ORDER BY [i].[Id]
+2019-03-08 18:11:29.189 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Menus].[Id], [i.Menus].[DateCreated], [i.Menus].[ImagePath], [i.Menus].[MenuTypeId], [i.Menus].[Name], [i.Menus].[Price]
+FROM [Menus] AS [i.Menus]
+INNER JOIN (
+    SELECT [i0].[Id]
+    FROM [MenuTypes] AS [i0]
+    WHERE [i0].[BranchId] = @__branchId_0
+) AS [t] ON [i.Menus].[MenuTypeId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-03-08 18:11:29.295 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[TableCode] = @__tableCode_0
+ORDER BY [i].[Id]
+2019-03-08 18:11:29.311 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Orders].[Id], [i.Orders].[CustomerId], [i.Orders].[DateCreated], [i.Orders].[MenuId], [i.Orders].[Note], [i.Orders].[Status], [i.Orders].[WaiterId], [o.Menu].[Id], [o.Menu].[DateCreated], [o.Menu].[ImagePath], [o.Menu].[MenuTypeId], [o.Menu].[Name], [o.Menu].[Price]
+FROM [Orders] AS [i.Orders]
+INNER JOIN [Menus] AS [o.Menu] ON [i.Orders].[MenuId] = [o.Menu].[Id]
+INNER JOIN (
+    SELECT [i0].[Id]
+    FROM [Customers] AS [i0]
+    WHERE [i0].[TableCode] = @__tableCode_0
+) AS [t] ON [i.Orders].[CustomerId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-03-08 18:11:29.350 +03:00 [INF] MAC: asda
+IP: asd
+URL: api/customer/connect
+2019-03-08 18:11:29.350 +03:00 [INF] Executed action method API.Controllers.CustomerController.Connect (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5003.4602ms.
+2019-03-08 18:11:29.351 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType10`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType8`4[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType9`4[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType6`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType7`4[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 18:11:29.382 +03:00 [INF] Executed action API.Controllers.CustomerController.Connect (API) in 5081.3819ms
+2019-03-08 18:11:29.382 +03:00 [INF] Request finished in 5089.3546ms 200 application/json; charset=utf-8
+2019-03-08 18:15:03.381 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/new application/json-patch+json 243
+2019-03-08 18:15:03.401 +03:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing action API.Controllers.CustomerController.Create (API)
+2019-03-08 18:15:03.432 +03:00 [INF] Executing action method API.Controllers.CustomerController.Create (API) with arguments (["API.Models.CreateNewModel"]) - Validation state: "Valid"
+2019-03-08 18:15:03.444 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:15:03.455 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__customerName_0='?' (Size = 4000), @__tableCode_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE ([i].[Name] = @__customerName_0) AND ([i].[TableCode] = @__tableCode_1)
+2019-03-08 18:15:03.589 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [DateCreated], [MenuId], [Note], [Status], [WaiterId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-03-08 18:15:03.612 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [DateCreated], [MenuId], [Note], [Status], [WaiterId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-03-08 18:15:03.647 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE [i].[Code] = @__tableCode_0
+2019-03-08 18:15:03.651 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i.City.Country].[Id], [i.City.Country].[Currency], [i.City.Country].[DateCreated]
+FROM [Branches] AS [i]
+INNER JOIN [Cities] AS [i.City] ON [i].[CityId] = [i.City].[Id]
+INNER JOIN [Countries] AS [i.City.Country] ON [i.City].[CountryId] = [i.City.Country].[Id]
+WHERE [i].[Id] = @__branchId_0
+2019-03-08 18:15:03.687 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__tableCode_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId], [i.Menu].[Id], [i.Menu].[DateCreated], [i.Menu].[ImagePath], [i.Menu].[MenuTypeId], [i.Menu].[Name], [i.Menu].[Price], [i.Menu.MenuType].[Id], [i.Menu.MenuType].[BranchId], [i.Menu.MenuType].[DateCreated], [i.Menu.MenuType].[Name], [i.Customer].[Id], [i.Customer].[DateCreated], [i.Customer].[Name], [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Menus] AS [i.Menu] ON [i].[MenuId] = [i.Menu].[Id]
+INNER JOIN [MenuTypes] AS [i.Menu.MenuType] ON [i.Menu].[MenuTypeId] = [i.Menu.MenuType].[Id]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE [i.Customer].[TableCode] = @__tableCode_0
+2019-03-08 18:15:03.709 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[Id] = @__customerId_0
+2019-03-08 18:15:03.714 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[Id] = @__customerId_0
+2019-03-08 18:15:03.719 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[Id] = @__customerId_0
+2019-03-08 18:15:03.724 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[Id] = @__customerId_0
+2019-03-08 18:15:03.729 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__customerId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[Name], [i].[TableCode]
+FROM [Customers] AS [i]
+WHERE [i].[Id] = @__customerId_0
+2019-03-08 18:15:03.732 +03:00 [INF] MAC: ddsds
+IP: as
+URL: api/customer/new
+2019-03-08 18:15:03.734 +03:00 [INF] Executed action method API.Controllers.CustomerController.Create (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 302.3863ms.
+2019-03-08 18:15:03.738 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType12`1[[System.Collections.Generic.List`1[[<>f__AnonymousType11`9[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 18:15:03.749 +03:00 [INF] Executed action API.Controllers.CustomerController.Create (API) in 347.6748ms
+2019-03-08 18:15:03.752 +03:00 [INF] Request finished in 370.9691ms 200 application/json; charset=utf-8
+2019-03-08 18:17:36.641 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/customer/cancel application/json-patch+json 95
+2019-03-08 18:17:36.648 +03:00 [INF] Route matched with {action = "DeleteOrder", controller = "Customer"}. Executing action API.Controllers.CustomerController.DeleteOrder (API)
+2019-03-08 18:17:36.653 +03:00 [INF] Executing action method API.Controllers.CustomerController.DeleteOrder (API) with arguments (["API.Models.DeleteOrderModel"]) - Validation state: "Valid"
+2019-03-08 18:17:36.666 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:17:36.733 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CustomerId], [i].[DateCreated], [i].[MenuId], [i].[Note], [i].[Status], [i].[WaiterId]
+FROM [Orders] AS [i]
+WHERE [i].[Id] IN (60) AND ([i].[Status] = 0)
+2019-03-08 18:17:36.751 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2019-03-08 18:17:36.758 +03:00 [INF] MAC: aa
+IP: aa
+URL: api/customer/cancel
+2019-03-08 18:17:36.758 +03:00 [INF] Executed action method API.Controllers.CustomerController.DeleteOrder (API), returned result Microsoft.AspNetCore.Mvc.OkResult in 105.6055ms.
+2019-03-08 18:17:36.762 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-03-08 18:17:36.762 +03:00 [INF] Executed action API.Controllers.CustomerController.DeleteOrder (API) in 113.30980000000001ms
+2019-03-08 18:17:36.762 +03:00 [INF] Request finished in 121.0897ms 200 
+2019-03-08 18:19:17.711 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/auth/login application/json-patch+json 61
+2019-03-08 18:19:17.714 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action API.Controllers.AccountController.Login (API)
+2019-03-08 18:19:17.720 +03:00 [INF] Executing action method API.Controllers.AccountController.Login (API) with arguments (["API.Models.LoginModel"]) - Validation state: "Valid"
+2019-03-08 18:19:20.200 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:19:20.266 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName], [i.Branch].[Id], [i.Branch].[CityId], [i.Branch].[DateCreated], [i.Branch].[FirmId], [i.Branch].[IsActive], [i.Branch].[Name], [i.Branch.Firm].[Id], [i.Branch.Firm].[CityId], [i.Branch.Firm].[DateCreated], [i.Branch.Firm].[IsActive], [i.Branch.Firm].[LogoPath], [i.Branch.Firm].[Name], [i.Branch.Firm].[UserId]
+FROM [AspNetUsers] AS [i]
+LEFT JOIN [Branches] AS [i.Branch] ON [i].[BranchId] = [i.Branch].[Id]
+LEFT JOIN [Firms] AS [i.Branch.Firm] ON [i.Branch].[FirmId] = [i.Branch.Firm].[Id]
+WHERE [i].[Email] = @__email_0
+2019-03-08 18:19:20.311 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-08 18:19:20.378 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-08 18:19:20.401 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[AccessFailedCount], [i].[BranchId], [i].[ConcurrencyStamp], [i].[DateCreated], [i].[Email], [i].[EmailConfirmed], [i].[ImagePath], [i].[IsActive], [i].[LockoutEnabled], [i].[LockoutEnd], [i].[Name], [i].[NormalizedEmail], [i].[NormalizedUserName], [i].[PasswordHash], [i].[PhoneNumber], [i].[PhoneNumberConfirmed], [i].[SecurityStamp], [i].[TwoFactorEnabled], [i].[UserName]
+FROM [AspNetUsers] AS [i]
+WHERE [i].[Id] = @__userId_0
+2019-03-08 18:19:20.412 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+2019-03-08 18:19:20.413 +03:00 [INF] bircan@ziyafe.com kullanıcısı doğrulandı. [Tarih:8 Mart 2019 Cuma]
+2019-03-08 18:19:20.426 +03:00 [INF] Executed action method API.Controllers.AccountController.Login (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2705.6418000000003ms.
+2019-03-08 18:19:20.426 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`9[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 18:19:20.435 +03:00 [INF] Executed action API.Controllers.AccountController.Login (API) in 2721.2872ms
+2019-03-08 18:19:20.436 +03:00 [INF] Request finished in 2724.4202ms 200 application/json; charset=utf-8
+2019-03-08 18:24:04.399 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44319/api/waiter/waitingtables application/json-patch+json 87
+2019-03-08 18:24:04.415 +03:00 [INF] Route matched with {action = "WaitingTables", controller = "Waiter"}. Executing action API.Controllers.WaiterController.WaitingTables (API)
+2019-03-08 18:24:04.487 +03:00 [INF] Successfully validated the token.
+2019-03-08 18:24:04.503 +03:00 [INF] Authorization was successful.
+2019-03-08 18:24:04.507 +03:00 [INF] Executing action method API.Controllers.WaiterController.WaitingTables (API) with arguments (["API.Models.WaitingTablesModel"]) - Validation state: "Valid"
+2019-03-08 18:24:04.512 +03:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-03-08 18:24:04.525 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__branchId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Code]
+FROM [Tables] AS [i]
+WHERE ([i].[BranchId] = @__branchId_0) AND ([i].[IsClosed] = 0)
+2019-03-08 18:24:04.527 +03:00 [WRN] The Include operation for navigation '[i].Customer' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2019-03-08 18:24:04.557 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i.Customer].[TableCode]
+FROM [Orders] AS [i]
+INNER JOIN [Customers] AS [i.Customer] ON [i].[CustomerId] = [i.Customer].[Id]
+WHERE 0 = 1
+2019-03-08 18:24:04.565 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[BranchId], [i].[Code], [i].[DateCreated], [i].[IsClosed], [i].[Name]
+FROM [Tables] AS [i]
+WHERE 0 = 1
+2019-03-08 18:24:04.566 +03:00 [INF] MAC: aa
+IP: aa
+URL:  api/waiter/waitingtables
+2019-03-08 18:24:04.566 +03:00 [INF] Executed action method API.Controllers.WaiterController.WaitingTables (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 58.932ms.
+2019-03-08 18:24:04.566 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType13`1[[System.Collections.Generic.List`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-03-08 18:24:04.567 +03:00 [INF] Executed action API.Controllers.WaiterController.WaitingTables (API) in 152.6801ms
+2019-03-08 18:24:04.569 +03:00 [INF] Request finished in 169.0611ms 200 application/json; charset=utf-8

@@ -1,0 +1,12 @@
+﻿@model int[]
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@if (Model[0] == 0)
+{
+    <tr>
+        <td class="bg-warning text-center fa-2x" colspan="@Model[1]">
+            <i class="fa fa-exclamation-circle"></i> @Localizer["NoDataFound"]
+        </td>
+    </tr>
+}

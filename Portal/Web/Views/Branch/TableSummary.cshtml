@@ -1,0 +1,29 @@
+﻿@model Web.Models.TableSummaryViewModel
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_content">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Müşteri</th>
+                        <th>Siparişler</th>
+                        <th>Tutar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("~/Views/Shared/_NoDataFoundPartial.cshtml", new int[] { Model.Summary.Count, 3 })
+                    @foreach (var item in Model.Summary)
+                    {
+                        <tr>
+                            <td>@item.CustomerName</td>
+                            <td>@item.Orders</td>
+                            <td><i class="fa fa-try"></i> @item.CustomerTotal</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <p>Genel Toplam: <i class="fa fa-try"></i> @Model.Total</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+﻿@model int
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+<label>
+    @Localizer["ShownPerPage"]
+    <select id="select-top-records"
+            onchange="changeTop(this.value)"
+            name="datatable-responsive_length"
+            aria-controls="datatable-responsive"
+            class="form-control input-sm">
+        <option value="25" selected="@(Model == 25)">25</option>
+        <option value="50" selected="@(Model == 50)">50</option>
+        <option value="100" selected="@(Model == 100)">100</option>
+    </select>
+</label>
+
+<script>
+    //function changeTop(t) {
+    //    $('#t').val(t);
+    //    $('#search-paging-form').submit();
+    //}
+</script>

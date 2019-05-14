@@ -1,0 +1,70 @@
+﻿@model Web.Models.WaiterStatsViewModel
+<!-- Chart JS CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+
+<canvas id="myChart" width="400" height="175"></canvas>
+<script>
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: @Html.Raw(Json.Serialize(@Model.TableStats.Keys)),
+            datasets: [{
+                showLine: false, // disable for a single dataset
+                label: ' Masa sayısı (adet)',
+                data: @Html.Raw(Json.Serialize(@Model.TableStats.Values)),
+                backgroundColor: @Html.Raw(Json.Serialize(@Model.Colors.Keys)),
+                borderColor: @Html.Raw(Json.Serialize(@Model.Colors.Values)),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            //elements: {
+              //  line: {
+                //    tension: 0, // hatlar arasındaki geçişi keskinleştirir. - line chart için
+                //}
+            //},
+            title: {
+                display: true,
+                text: 'Bakılan Masa Verileri (adet) - @Model.WaiterName'
+            },
+            tooltips: {
+                mode: 'index',
+                axis: 'y'
+            },
+            scales: {
+                yAxes: [{
+                    stacked: true,
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+</script>
+
+<br /><hr />
+
+<canvas id="line-chart" width="400" height="175"></canvas>
+<script>
+    //http://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/
+    new Chart(document.getElementById("line-chart"), {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(Json.Serialize(@Model.IncomeStats.Keys)),
+            datasets: [{
+                data: @Html.Raw(Json.Serialize(@Model.IncomeStats.Values)),
+                label: " Kazanç (TL)",
+                borderColor: @Html.Raw(Json.Serialize(@Model.Colors.Values.ElementAt(0))),
+                fill: true
+            }]
+        },
+        options: {
+            title: {
+                display: true,
+                text: 'Kazandırılan Gelir (TL) - @Model.WaiterName'
+            }
+        }
+    });
+</script>

@@ -1,0 +1,196 @@
+﻿@model Web.Models.AdminFirmsViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+<div class="row">
+
+    @Html.Partial("~/Views/Shared/_PaginationFormPartial.cshtml", new Web.Models.PaginationPartialModel { Pagination = Model.Pagination, Url = Url.Action("Firms", "Admin") })
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-briefcase"></i> @Localizer["FirmUsers"] <small>@DateTime.Now.ToLongDateString()</small></h2>
+                <div class="nav navbar-right panel_toolbox">
+                    <button data-toggle="modal"
+                            data-target="#modal-create-firm"
+                            class="btn btn-sm btn-primary">
+                        <i class="fa fa-plus-circle"></i> @Localizer["Insert"]
+                    </button>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div id="datatable-responsive_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dataTables_length" id="datatable-responsive_length">
+                                @Html.Partial("~/Views/Shared/_ShownDataCountPartial.cshtml", Model.Pagination.Top)
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="col-sm-6">
+                                <div id="datatable-responsive_filter" class="dataTables_filter">
+                                    @Html.Partial("~/Views/Shared/_SearchAreaPartial.cshtml", Localizer["FirmName"].Value)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="datatable-responsive_info" style="width: 100%;">
+                                <thead>
+                                    <tr role="row">
+                                        @Html.Partial("~/Views/Shared/_SortPartial.cshtml", new Web.Models.SortPartialModel { Action = "Firms", Controller = "Admin", ColumnName = Localizer["Firm"].Value, Pagination = Model.Pagination })
+                                        <th class="text-center">@Localizer["Email"]</th>
+                                        <th class="text-center">@Localizer["Phone"]</th>
+                                        <th class="text-center">@Localizer["Access"]</th>
+                                        <th class="text-center">@Localizer["Delete"]</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @Html.Partial("~/Views/Shared/_NoDataFoundPartial.cshtml", new int[] { Model.FirmUsers.Count, 5 })
+
+                                    @{ int k = 0;}
+                                    @foreach (var firm in Model.FirmUsers)
+                                    {
+                                        <tr id="row_@k" role="row" class="@(k % 2 == 0 ? "even" : "odd") text-center">
+
+                                            <td>@firm.Name</td>
+                                            <td>@firm.Email</td>
+                                            <td>@firm.Phone</td>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label class="">
+                                                        <div onclick="changeAccess('@firm.Id')"
+                                                             class="icheckbox_flat-green checked"
+                                                             style="position: relative;">
+                                                            <input type="checkbox"
+                                                                   class="flat"
+                                                                   style="position: absolute; opacity: 0;" @(firm.IsActive ? "checked" : "")>
+                                                            <ins class="iCheck-helper"
+                                                                 style="position: absolute; top: 0%; left: 0%; display: block;
+                                                            width: 100%; height: 100%; margin: 0px;
+                                                            padding: 0px; background: rgb(255, 255, 255);
+                                                            border: 0px; opacity: 0;">
+                                                            </ins>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <button onclick="$('#delete-id').val('@firm.Id'); $('#row-id').val('@k')"
+                                                        data-toggle="modal" data-target="#modal-delete-confirm"
+                                                        type="button" class="btn btn-danger btn-xs">
+                                                    <i class="fa fa-trash"></i> @Localizer["Delete"]
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        k++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        @Html.Partial("~/Views/Shared/_PaginationPartial.cshtml", Model.Pagination)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modals -->
+<div class="modal fade" id="modal-create-firm" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2><i class="fa fa-briefcase"></i>@Localizer["CreateFirm"]</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br>
+                                <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="logo">
+                                            @Localizer["FirmLogo"]
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <button type="button" id="btn-logo" class="btn btn-sm btn-primary">
+                                                @Localizer["SelectLogo"]
+                                            </button>
+                                        </div>
+                                        <input type="file" style="display:none;" name="logo" id="logo" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-name">
+                                            @Localizer["FirmName"]
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="firm-name" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-email">
+                                           @Localizer["FirmEmail"]
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="email" id="firm-email" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-tel">
+                                            @Localizer["FirmPhone"]
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="tel" id="firm-tel" required="required" class="form-control col-md-7 col-xs-12" data-inputmask="'mask' : '(999) 999-99-99'">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-password">
+                                           @Localizer["FirmPassword"]
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="password" id="firm-password" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firm-password-confirm">
+                                          @Localizer["FirmPasswordAgain"]
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="password" id="firm-password-confirm" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i> @Localizer["Close"]</button>
+                                            <button onclick="createFirm()" type="button" class="btn btn-primary"><i class="fa fa-save"></i> @Localizer["Save"]</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Partial("~/Views/Shared/_DeleteConfirmPartial.cshtml", Url.Action("DeleteFirmUser", "Admin"))
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="~/js/admin/@Localizer["JsPath"]"></script>
+

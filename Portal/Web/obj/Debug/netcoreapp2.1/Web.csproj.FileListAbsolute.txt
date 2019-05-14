@@ -1,0 +1,183 @@
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.deps.json
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.json
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.dev.json
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.csprojAssemblyReference.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CoreCompileInputs.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfoInputs.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfo.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.input.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.output.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorCoreGenerate.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cache
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cs
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.pdb
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.pdb
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Onur Cetintas\source\repos\Portal\Web\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.Views.pdb
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CopyComplete
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.dll
+C:\Users\Onur Cetintas\source\repos\Portal\Web\obj\Debug\netcoreapp2.1\Web.pdb
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.deps.json
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.json
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.dev.json
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.dll
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.pdb
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.dll
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.pdb
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Entities.dll
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Services.dll
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Services.pdb
+D:\StartupProject\Portal\Web\bin\Debug\netcoreapp2.1\Entities.pdb
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.csprojAssemblyReference.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CoreCompileInputs.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfoInputs.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfo.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.input.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.output.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorCoreGenerate.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cache
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.Views.pdb
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CopyComplete
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.dll
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Web.pdb
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Dashboard.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\TableSummary.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Waiters.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Menus.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\MenuTypes.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.deps.json
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.json
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.dev.json
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.dll
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.pdb
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.dll
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.pdb
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Onur\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csprojAssemblyReference.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfo.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.input.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.output.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorCoreGenerate.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Dashboard.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Dashboard.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Menus.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\MenuTypes.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\TableSummary.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Waiters.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Firm\Dashboard.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cache
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cs
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.Views.pdb
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CopyComplete
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.dll
+C:\Users\Onur\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.pdb
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Tables.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\WaiterStats.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DeleteConfirmPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ShownDataCountPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_PaginationPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_PaginationFormPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SearchAreaPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SortPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NoDataFoundPartial.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Firms.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Settings.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Firm\Branches.g.cshtml.cs
+D:\StartupProject\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Stats.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.deps.json
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.json
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.runtimeconfig.dev.json
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Web.Views.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csprojAssemblyReference.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CoreCompileInputs.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfoInputs.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfo.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.input.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.TagHelpers.output.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorCoreGenerate.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Firms.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Dashboard.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Menus.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\MenuTypes.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Stats.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Tables.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\TableSummary.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\Waiters.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Branch\WaiterStats.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Firm\Branches.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Settings.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DeleteConfirmPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NoDataFoundPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_PaginationFormPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_PaginationPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SearchAreaPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ShownDataCountPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SortPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cs
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.Views.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.CopyComplete
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.pdb
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\en\Web.resources.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\bin\Debug\netcoreapp2.1\tr\Web.resources.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.Resources.Views.Account.Login.en.resources
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.Resources.Views.Account.Login.tr.resources
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.csproj.GenerateResource.cache
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\en\Web.resources.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\tr\Web.resources.dll
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.Resources.Views.Admin.Firms.en.resources
+C:\Users\OCETINTAS\Desktop\Portal\Web\obj\Debug\netcoreapp2.1\Web.Resources.Views.Admin.Firms.tr.resources
