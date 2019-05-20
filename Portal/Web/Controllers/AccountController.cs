@@ -286,7 +286,7 @@ namespace Web.Controllers
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
                 Host = "smtp.gmail.com",
-                Credentials = new NetworkCredential("emugraduation@gmail.com", "EastMedUniv1979"),
+                Credentials = new NetworkCredential("*****", "*****"),
                 Timeout = 10000,
                 EnableSsl = true
             };
